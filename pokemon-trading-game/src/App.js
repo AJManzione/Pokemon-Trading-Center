@@ -1,8 +1,8 @@
 import React from 'react';
-import Pokemon from './components/Pokemon';
+import Home from './components/Home';
 
 function App() {
-  return <Pokemon />;
+  return <Home />;
 }
 
 export default App;
