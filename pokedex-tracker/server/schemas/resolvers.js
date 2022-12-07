@@ -19,11 +19,43 @@ const resolvers = {
   },
 
   Mutation: {
-    addPokemon: async (parent, { pokemon, type, sprite }) => {
-      const pokemonV = await Pokemon.create({ pokemon, type, sprite });
-      return pokemonV;
+    addUser: async (parent, args) => {
+      User.create(
+        {username: args.username,
+          email: args.email,
+          password: args.password
+        })
     },
+    removeUser: async (parent, args) => {
+      const user = await User.findOne(
+        {username: args.username}
+      );
+      user.delete({})
+    },
+    catchPokemon: async (parent, args) => {
+      const pokemon = await Pokemon.findOne({entry: args.entry})
+      User.findOneAndUpdate(
+        {username: args.username},
+        { $addToSet: {pokemonCaught: pokemon}},
+        {new: true}
+      )
+      .then((user) => {
+        console.log(user)
+      })
+    },
+    unCatchPokemon: async (parent, args) => {
+      const pokemon = await Pokemon.findOne({entry: args.entry})
+      User.findOneAndUpdate(
+        {username: args.username},
+        { $pull: {pokemonCaught: {entry: args.entry}}},
+        {new: true}
+      )
+      .then((user) => {
+        console.log(user)
+      })
+    }
   },
+
 };
 
 module.exports = resolvers;

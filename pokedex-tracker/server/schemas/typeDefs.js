@@ -11,22 +11,24 @@ const typeDefs = gql`
 
   type Pokemon {
     _id: ID
-    pokemon: String
+    name: String
     type: String
     sprite: String
-    entry: String
+    entry: Int
   }
 
   type Query {
     user(username: String!): User
     users: [User]
     pokemons: [Pokemon]
-    pokemon(_id: ID!): Pokemon
+    pokemon(name: String!): [Pokemon]
   }
 
   type Mutation {
-    addPokemon(pokemon: String!, type: String!, sprite: String!): Pokemon
     addUser(username: String!, email: String!, password: String!): User
+    removeUser(username: String!): User
+    catchPokemon(username: String!, entry: Int!): User
+    unCatchPokemon(username: String!, entry: Int!): User
   }
 `;
 module.exports = typeDefs;
