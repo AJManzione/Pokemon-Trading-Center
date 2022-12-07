@@ -1,0 +1,578 @@
+[
+    {
+       "entry":"906",
+       "name":"Grookey",
+       "type":"Grass ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/906.png"
+    },
+    {
+       "entry":"907",
+       "name":"Thwackey",
+       "type":"Grass ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/907.png"
+    },
+    {
+       "entry":"908",
+       "name":"Rillaboom",
+       "type":"Grass ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/908.png"
+    },
+    {
+       "entry":"909",
+       "name":"Scorbunny",
+       "type":"Fire ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/909.png"
+    },
+    {
+       "entry":"910",
+       "name":"Raboot",
+       "type":"Fire ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/910.png"
+    },
+    {
+       "entry":"911",
+       "name":"Cinderace",
+       "type":"Fire ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/911.png"
+    },
+    {
+       "entry":"912",
+       "name":"Sobble",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/912.png"
+    },
+    {
+       "entry":"913",
+       "name":"Drizzile",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/913.png"
+    },
+    {
+       "entry":"914",
+       "name":"Inteleon",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/914.png"
+    },
+    {
+       "entry":"915",
+       "name":"Skwovet",
+       "type":"Normal ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/915.png"
+    },
+    {
+       "entry":"916",
+       "name":"Greedent",
+       "type":"Normal ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/916.png"
+    },
+    {
+       "entry":"917",
+       "name":"Rookidee",
+       "type":"Flying ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/917.png"
+    },
+    {
+       "entry":"918",
+       "name":"Corvisquire",
+       "type":"Flying ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/918.png"
+    },
+    {
+       "entry":"919",
+       "name":"Corviknight",
+       "type":"Flying Steel",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/919.png"
+    },
+    {
+       "entry":"920",
+       "name":"Blipbug",
+       "type":"Bug ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/920.png"
+    },
+    {
+       "entry":"921",
+       "name":"Dottler",
+       "type":"Bug Psychic",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/921.png"
+    },
+    {
+       "entry":"922",
+       "name":"Orbeetle",
+       "type":"Bug Psychic",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/922.png"
+    },
+    {
+       "entry":"923",
+       "name":"Nickit",
+       "type":"Dark ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/923.png"
+    },
+    {
+       "entry":"924",
+       "name":"Thievul",
+       "type":"Dark ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/924.png"
+    },
+    {
+       "entry":"925",
+       "name":"Gossifleur",
+       "type":"Grass ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/925.png"
+    },
+    {
+       "entry":"926",
+       "name":"Eldegoss",
+       "type":"Grass ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/926.png"
+    },
+    {
+       "entry":"927",
+       "name":"Wooloo",
+       "type":"Normal ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/927.png"
+    },
+    {
+       "entry":"928",
+       "name":"Dubwool",
+       "type":"Normal ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/928.png"
+    },
+    {
+       "entry":"929",
+       "name":"Chewtle",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/929.png"
+    },
+    {
+       "entry":"930",
+       "name":"Drednaw",
+       "type":"Water Rock",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/930.png"
+    },
+    {
+       "entry":"931",
+       "name":"Yamper",
+       "type":"Electric ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/931.png"
+    },
+    {
+       "entry":"932",
+       "name":"Boltund",
+       "type":"Electric ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/932.png"
+    },
+    {
+       "entry":"933",
+       "name":"Rolycoly",
+       "type":"Rock ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/933.png"
+    },
+    {
+       "entry":"934",
+       "name":"Carkol",
+       "type":"Rock Fire",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/934.png"
+    },
+    {
+       "entry":"935",
+       "name":"Coalossal",
+       "type":"Rock Fire",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/935.png"
+    },
+    {
+       "entry":"936",
+       "name":"Applin",
+       "type":"Grass Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/936.png"
+    },
+    {
+       "entry":"937",
+       "name":"Flapple",
+       "type":"Grass Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/937.png"
+    },
+    {
+       "entry":"938",
+       "name":"Appletun",
+       "type":"Grass Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/938.png"
+    },
+    {
+       "entry":"939",
+       "name":"Silicobra",
+       "type":"Ground ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/939.png"
+    },
+    {
+       "entry":"940",
+       "name":"Sandaconda",
+       "type":"Ground ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/940.png"
+    },
+    {
+       "entry":"941",
+       "name":"Cramorant",
+       "type":"Flying Water",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/941.png"
+    },
+    {
+       "entry":"942",
+       "name":"Arrokuda",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/942.png"
+    },
+    {
+       "entry":"943",
+       "name":"Barraskewda",
+       "type":"Water ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/943.png"
+    },
+    {
+       "entry":"944",
+       "name":"Toxel",
+       "type":"Electric Poison",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/944.png"
+    },
+    {
+       "entry":"945",
+       "name":"ToxtricityAmped Form",
+       "type":"Electric Poison",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/945.png"
+    },
+    {
+       "entry":"946",
+       "name":"Sizzlipede",
+       "type":"Fire Bug",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/946.png"
+    },
+    {
+       "entry":"947",
+       "name":"Centiskorch",
+       "type":"Fire Bug",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/947.png"
+    },
+    {
+       "entry":"948",
+       "name":"Clobbopus",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/948.png"
+    },
+    {
+       "entry":"949",
+       "name":"Grapploct",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/949.png"
+    },
+    {
+       "entry":"950",
+       "name":"Sinistea",
+       "type":"Ghost ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/950.png"
+    },
+    {
+       "entry":"951",
+       "name":"Polteageist",
+       "type":"Ghost ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/951.png"
+    },
+    {
+       "entry":"952",
+       "name":"Hatenna",
+       "type":"Psychic ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/952.png"
+    },
+    {
+       "entry":"953",
+       "name":"Hattrem",
+       "type":"Psychic ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/953.png"
+    },
+    {
+       "entry":"954",
+       "name":"Hatterene",
+       "type":"Psychic Fairy",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/954.png"
+    },
+    {
+       "entry":"955",
+       "name":"Impidimp",
+       "type":"Dark Fairy",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/955.png"
+    },
+    {
+       "entry":"956",
+       "name":"Morgrem",
+       "type":"Dark Fairy",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/956.png"
+    },
+    {
+       "entry":"957",
+       "name":"Grimmsnarl",
+       "type":"Dark Fairy",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/957.png"
+    },
+    {
+       "entry":"958",
+       "name":"Obstagoon",
+       "type":"Dark Normal",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/958.png"
+    },
+    {
+       "entry":"959",
+       "name":"Perrserker",
+       "type":"Steel ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/959.png"
+    },
+    {
+       "entry":"960",
+       "name":"Cursola",
+       "type":"Ghost ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/960.png"
+    },
+    {
+       "entry":"961",
+       "name":"Sirfetch'd",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/961.png"
+    },
+    {
+       "entry":"962",
+       "name":"Mr. Rime",
+       "type":"Ice Psychic",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/962.png"
+    },
+    {
+       "entry":"963",
+       "name":"Runerigus",
+       "type":"Ground Ghost",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/963.png"
+    },
+    {
+       "entry":"964",
+       "name":"Milcery",
+       "type":"Fairy ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/964.png"
+    },
+    {
+       "entry":"965",
+       "name":"AlcremieVanilla Cream",
+       "type":"Fairy ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/965.png"
+    },
+    {
+       "entry":"966",
+       "name":"Falinks",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/966.png"
+    },
+    {
+       "entry":"967",
+       "name":"Pincurchin",
+       "type":"Electric ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/967.png"
+    },
+    {
+       "entry":"968",
+       "name":"Snom",
+       "type":"Ice Bug",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/968.png"
+    },
+    {
+       "entry":"969",
+       "name":"Frosmoth",
+       "type":"Ice Bug",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/969.png"
+    },
+    {
+       "entry":"970",
+       "name":"Stonjourner",
+       "type":"Rock ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/970.png"
+    },
+    {
+       "entry":"971",
+       "name":"EiscueIce Face",
+       "type":"Ice ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/971.png"
+    },
+    {
+       "entry":"972",
+       "name":"IndeedeeMale",
+       "type":"Psychic Normal",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/972.png"
+    },
+    {
+       "entry":"973",
+       "name":"MorpekoFull Belly Mode",
+       "type":"Electric Dark",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/973.png"
+    },
+    {
+       "entry":"974",
+       "name":"Cufant",
+       "type":"Steel ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/974.png"
+    },
+    {
+       "entry":"975",
+       "name":"Copperajah",
+       "type":"Steel ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/975.png"
+    },
+    {
+       "entry":"976",
+       "name":"Dracozolt",
+       "type":"Electric Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/976.png"
+    },
+    {
+       "entry":"977",
+       "name":"Arctozolt",
+       "type":"Electric Ice",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/977.png"
+    },
+    {
+       "entry":"978",
+       "name":"Dracovish",
+       "type":"Water Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/978.png"
+    },
+    {
+       "entry":"979",
+       "name":"Arctovish",
+       "type":"Water Ice",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/979.png"
+    },
+    {
+       "entry":"980",
+       "name":"Duraludon",
+       "type":"Steel Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/980.png"
+    },
+    {
+       "entry":"981",
+       "name":"Dreepy",
+       "type":"Dragon Ghost",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/981.png"
+    },
+    {
+       "entry":"982",
+       "name":"Drakloak",
+       "type":"Dragon Ghost",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/982.png"
+    },
+    {
+       "entry":"983",
+       "name":"Dragapult",
+       "type":"Dragon Ghost",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/983.png"
+    },
+    {
+       "entry":"984",
+       "name":"ZacianHero of Many Battles",
+       "type":"Fairy ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/984.png"
+    },
+    {
+       "entry":"985",
+       "name":"ZamazentaHero of Many Battles",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/985.png"
+    },
+    {
+       "entry":"986",
+       "name":"Eternatus",
+       "type":"Poison Dragon",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/986.png"
+    },
+    {
+       "entry":"987",
+       "name":"Kubfu",
+       "type":"Fighting ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/987.png"
+    },
+    {
+       "entry":"988",
+       "name":"UrshifuSingle Strike Style",
+       "type":"Fighting Dark",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/988.png"
+    },
+    {
+       "entry":"989",
+       "name":"Zarude",
+       "type":"Dark Grass",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/989.png"
+    },
+    {
+       "entry":"990",
+       "name":"Regieleki",
+       "type":"Electric ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/990.png"
+    },
+    {
+       "entry":"991",
+       "name":"Regidrago",
+       "type":"Dragon ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/991.png"
+    },
+    {
+       "entry":"992",
+       "name":"Glastrier",
+       "type":"Ice ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/992.png"
+    },
+    {
+       "entry":"993",
+       "name":"Spectrier",
+       "type":"Ghost ",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/993.png"
+    },
+    {
+       "entry":"994",
+       "name":"Calyrex",
+       "type":"Psychic Grass",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/994.png"
+    },
+    {
+       "entry":"995",
+       "name":"Wyrdeer",
+       "type":"Normal Psychic",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/995.png"
+    },
+    {
+       "entry":"996",
+       "name":"Kleavor",
+       "type":"Bug Rock",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/996.png"
+    },
+    {
+       "entry":"997",
+       "name":"Ursaluna",
+       "type":"Ground Normal",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/997.png"
+    },
+    {
+       "entry":"998",
+       "name":"BasculegionMale",
+       "type":"Water Ghost",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/998.png"
+    },
+    {
+       "entry":"999",
+       "name":"Sneasler",
+       "type":"Fighting Poison",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/999.png"
+    },
+    {
+       "entry":"1000",
+       "name":"Overqwil",
+       "type":"Dark Poison",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/1000.png"
+    },
+    {
+       "entry":"1001",
+       "name":"EnamorusIncarnate Forme",
+       "type":"Fairy Flying",
+       "sprite":"https://cdn.traction.one/pokedex/pokemon/1001.png"
+    }
+ ]
