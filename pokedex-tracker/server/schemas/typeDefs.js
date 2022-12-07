@@ -6,6 +6,7 @@ const typeDefs = gql`
     username: String
     createdAt: String
     sprite: String
+    pokemonCaught: [Pokemon]
   }
 
   type Pokemon {
@@ -13,13 +14,14 @@ const typeDefs = gql`
     pokemon: String
     type: String
     sprite: String
+    entry: String
   }
 
   type Query {
-    user(userId: ID!): User
+    user(username: String!): User
     users: [User]
-    pokemons(pokemon: String): Pokemon
-    pokemon(pokemonId: ID!): Pokemon
+    pokemons: [Pokemon]
+    pokemon(_id: ID!): Pokemon
   }
 
   type Mutation {

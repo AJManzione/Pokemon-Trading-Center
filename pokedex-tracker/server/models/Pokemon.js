@@ -4,7 +4,7 @@ const pokemonSchema = new Schema({
   //Matt
   pokemon: {
     type: String,
-    require: true,
+    required: true,
     trim: true,
   },
   type: {
@@ -14,9 +14,14 @@ const pokemonSchema = new Schema({
   },
   sprite: {
     type: String,
-    require: true,
+    required: true,
     trim: true,
   },
+  entry: {
+    type: String,
+    required: true,
+    trim: true
+  }
 //   user: [
 //     {
 //       type: Schema.Types.ObjectId,
