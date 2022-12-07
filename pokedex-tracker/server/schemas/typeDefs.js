@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server-express');
 
-//TODO: add pokemonCaught
+
 const typeDefs = gql`
   type User {
     _id: ID
@@ -25,6 +25,7 @@ const typeDefs = gql`
 
   type Mutation {
     addPokemon(pokemon: String!, type: String!, sprite: String!): Pokemon
+
   }
 `
 module.exports = typeDefs;

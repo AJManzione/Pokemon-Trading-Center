@@ -1,6 +1,8 @@
 // import user > pokemon > etc..
 const { User, Pokemon } = require("../models");
 
+const { User } = require("../models/User");
+
 const resolvers = {
   Query: {
     user: async (parent, { userId }) => {
@@ -20,3 +22,4 @@ const resolvers = {
 };
 
 module.exports = resolvers;
+
