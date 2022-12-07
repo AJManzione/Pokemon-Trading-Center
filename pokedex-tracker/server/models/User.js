@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 
+
 const validateEmail = function(email) {
     var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     return re.test(email)
@@ -12,6 +13,37 @@ const checkPassword = function(input) {
     return false;
   }
 
+  const pokemonSchema = new Schema({
+    //Matt
+    pokemon: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    type: {
+      type: String,
+      require: true,
+      trim: true,
+    },
+    sprite: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    entry: {
+      type: String,
+      required: true,
+      trim: true
+    }
+  //   user: [
+  //     {
+  //       type: Schema.Types.ObjectId,
+  //       ref: "User",
+  //     },
+  //   ],
+  });
+
+  
 const userSchema = new Schema({
     username: {
         type: String,
@@ -41,12 +73,7 @@ const userSchema = new Schema({
     sprite:{
         type: String
     },
-    pokemonCaught: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: 'Pokemon'
-        }
-    ]
+    pokemonCaught:[pokemonSchema]
 
 
 })

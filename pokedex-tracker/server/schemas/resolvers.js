@@ -23,7 +23,19 @@ const resolvers = {
       const pokemonV = await Pokemon.create({ pokemon, type, sprite });
       return pokemonV;
     },
+    catchPokemon: async (parent, args) => {
+      const pokemon = await Pokemon.findOne({entry: args.entry})
+      User.findOneAndUpdate(
+        {username: args.username},
+        { $addToSet: {pokemonCaught: pokemon}},
+        {new: true}
+      )
+      .then((user) => {
+        console.log(user)
+      })
+    }
   },
+
 };
 
 module.exports = resolvers;
