@@ -4,15 +4,18 @@ const { User, Pokemon } = require("../models");
 
 const resolvers = {
   Query: {
-    user: async (parent, { userId }) => {
-      return User.findOne({ _id: userId });
+    user: async (parent, args) => {
+      return User.findOne({ username: args.username });
     },
-    user: async() => {
+    users: async() => {
       return User.find({})
     },
-    pokemon: async (parent) => {
+    pokemons: async (parent) => {
       return await Pokemon.find({});
     },
+    pokemon: async (parent, args) => {
+      return await Pokemon.findOne({pokemon: args.pokemon})
+    }
   },
 
   Mutation: {

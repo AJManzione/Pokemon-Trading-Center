@@ -41,9 +41,12 @@ const userSchema = new Schema({
     sprite:{
         type: String
     },
-    pokemonCaught:{
-        type: Array
-    }
+    pokemonCaught: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Pokemon'
+        }
+    ]
 
 
 })
