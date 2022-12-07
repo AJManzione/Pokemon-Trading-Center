@@ -1,12 +1,20 @@
 // import user > pokemon > etc..
 
+const { User } = require("../models/User");
+
 const resolvers = {
     Query: {
     
-        user: async (parent, { userId }) => {
-          return User.findOne({ _id: userId });
+        users: async (parent, { username }) => {
+          return User.find({ username });
         },
       },
+
+    Mutation: {
+      addUser: async (parent, { username, email, password }) => {
+        return User.create({ username, email, password })
+      }
+    }
 }
 
 
