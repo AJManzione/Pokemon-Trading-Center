@@ -14,7 +14,7 @@ const resolvers = {
       return await Pokemon.find({});
     },
     pokemon: async (parent, args) => {
-      return await Pokemon.findOne({pokemon: args.pokemon})
+      return await Pokemon.findOne({_id: args._id})
     }
   },
 
