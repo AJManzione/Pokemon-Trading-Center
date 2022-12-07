@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import DexTabs from './DexTabs';
 import Home from './pages/Home';
-import GenOne from './pages/genOne';
-import GenTwo from './pages/genTwo';
-import GenThree from './pages/genThree';
-import GenFour from './pages/genFour';
-import GenFive from './pages/genFive';
-import GenSix from './pages/genSix';
-import GenSeven from './pages/genSeven';
-import GenEight from './pages/genEight';
-import GenNine from './pages/genNine';
+import GenOne from './pages/GenOne';
+import GenTwo from './pages/GenTwo';
+import GenThree from './pages/GenThree';
+import GenFour from './pages/GenFour';
+import GenFive from './pages/GenFive';
+import GenSix from './pages/GenSix';
+import GenSeven from './pages/GenSeven';
+import GenEight from './pages/GenEight';
+import GenNine from './pages/GenNine';
+import Login from './pages/Login';
+import Signup from './pages/SignUp';
+import '../styles/pokedex.css';
 
 
 export default function Pokedex() {
@@ -19,32 +22,38 @@ export default function Pokedex() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'genOne') {
+    if (currentPage === 'GenOne') {
       return <GenOne />;
     }
-    if (currentPage === 'genTwo') {
+    if (currentPage === 'GenTwo') {
       return <GenTwo />;
     }
-    if (currentPage === 'genThree') {
+    if (currentPage === 'GenThree') {
       return <GenThree />;
     }
-    if (currentPage === 'genFour') {
+    if (currentPage === 'GenFour') {
       return <GenFour />;
     }
-    if (currentPage === 'genFive') {
+    if (currentPage === 'GenFive') {
       return <GenFive />;
     }
-    if (currentPage === 'genSix') {
+    if (currentPage === 'GenSix') {
       return <GenSix />;
     }
-    if (currentPage === 'genSeven') {
+    if (currentPage === 'GenSeven') {
       return <GenSeven />;
     }
-    if (currentPage === 'genEight') {
+    if (currentPage === 'GenEight') {
       return <GenEight />;
     }
-    if (currentPage === 'genNine') {
+    if (currentPage === 'GenNine') {
       return <GenNine />;
+    }
+    if (currentPage === 'Login') {
+      return <Login />;
+    }
+    if (currentPage === 'Signup') {
+      return <Signup />;
     }
   };
 

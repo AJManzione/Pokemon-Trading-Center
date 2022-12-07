@@ -15,7 +15,7 @@ const checkPassword = function(input) {
 
   const pokemonSchema = new Schema({
     //Matt
-    pokemon: {
+    name: {
       type: String,
       required: true,
       trim: true,
