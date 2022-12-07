@@ -19,10 +19,14 @@ const resolvers = {
   },
 
   Mutation: {
-    addPokemon: async (parent, { pokemon, type, sprite }) => {
-      const pokemonV = await Pokemon.create({ pokemon, type, sprite });
-      return pokemonV;
+    addUser: async (parent, args) => {
+      User.create(
+        {username: args.username,
+          email: args.email,
+          password: args.password
+        })
     },
+   
     catchPokemon: async (parent, args) => {
       const pokemon = await Pokemon.findOne({entry: args.entry})
       User.findOneAndUpdate(

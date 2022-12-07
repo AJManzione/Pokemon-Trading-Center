@@ -25,7 +25,6 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addPokemon(pokemon: String!, type: String!, sprite: String!): Pokemon
     addUser(username: String!, email: String!, password: String!): User
     catchPokemon(username: String!, entry: String!): User
     unCatchPokemon(username: String!, entry: String): User
