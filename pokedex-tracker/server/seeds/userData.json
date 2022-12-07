@@ -4,7 +4,7 @@
         "email": "Ash@ketchum.com",
         "password": "pikachuR00lz",
         "sprite": "here is a sprite",
-        "pokemonCaught": ["#001", "#002"]
+        "pokemonCaught": []
 
     }
 ]

@@ -8,7 +8,7 @@ const resolvers = {
       return User.findOne({ username: args.username });
     },
     users: async() => {
-      return User.find({})
+      return User.find({}).populate('pokemonCaught')
     },
     pokemons: async (parent) => {
       return await Pokemon.find({});
