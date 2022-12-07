@@ -26,8 +26,9 @@ const typeDefs = gql`
 
   type Mutation {
     addUser(username: String!, email: String!, password: String!): User
+    removeUser(username: String!): User
     catchPokemon(username: String!, entry: String!): User
-    unCatchPokemon(username: String!, entry: String): User
+    unCatchPokemon(username: String!, entry: String!): User
   }
 `;
 module.exports = typeDefs;
