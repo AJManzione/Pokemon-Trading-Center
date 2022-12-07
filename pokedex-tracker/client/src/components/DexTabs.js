@@ -93,6 +93,24 @@ function DexTabs({ currentPage, handlePageChange }) {
           Paldea
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#Login"
+          onClick={() => handlePageChange('Login')}
+          className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
+        >
+          Login
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Signup"
+          onClick={() => handlePageChange('Signup')}
+          className={currentPage === 'Signup' ? 'nav-link active' : 'nav-link'}
+        >
+          Signup
+        </a>
+      </li>
     </ul>
   );
 }

@@ -10,6 +10,8 @@ import GenSix from './pages/genSix';
 import GenSeven from './pages/genSeven';
 import GenEight from './pages/genEight';
 import GenNine from './pages/genNine';
+import Login from './pages/Login';
+import Signup from './pages/SignUp';
 
 
 export default function Pokedex() {
@@ -45,6 +47,12 @@ export default function Pokedex() {
     }
     if (currentPage === 'genNine') {
       return <GenNine />;
+    }
+    if (currentPage === 'Login') {
+      return <Login />;
+    }
+    if (currentPage === 'Signup') {
+      return <Signup />;
     }
   };
 
