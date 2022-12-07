@@ -33,6 +33,17 @@ const resolvers = {
       .then((user) => {
         console.log(user)
       })
+    },
+    unCatchPokemon: async (parent, args) => {
+      const pokemon = await Pokemon.findOne({entry: args.entry})
+      User.findOneAndUpdate(
+        {username: args.username},
+        { $pull: {pokemonCaught: {entry: args.entry}}},
+        {new: true}
+      )
+      .then((user) => {
+        console.log(user)
+      })
     }
   },
 
