@@ -5,89 +5,131 @@
     list-style: none;
 }
 
-.custom-bg {
-    background: rgb(193,30,30);
-    background: linear-gradient(90deg, rgba(193,30,30,1) 0%, #1b19bb 69%);
-}
 
-.object-fit {
-    object-fit: cover;
+.dashboard-bg {
+    background: rgb(0,58,112);
+    background: linear-gradient(180deg, rgba(0,58,112,1) 0%, rgba(61,125,202,1) 50%, rgba(255,203,5,1) 100%);
+    min-height: 80vh;
+    width: 100vw;
 }
 
 .gen-one-bg {
+    background: rgb(193,30,30);
+    background: linear-gradient(90deg, rgba(193,30,30,1) 0%, #1b19bb 69%);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.gen-one-tab {
     background-image: url('../images/generations/generations-01.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-two-bg {
+.gen-two-tab {
     background-image: url('../images/generations/generations-02.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-three-bg {
+.gen-three-tab {
     background-image: url('../images/generations/generations-03.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-four-bg {
+.gen-four-tab {
     background-image: url('../images/generations/generations-04.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-five-bg {
+.gen-five-tab {
     background-image: url('../images/generations/generations-05.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-six-bg {
+.gen-six-tab {
     background-image: url('../images/generations/generations-06.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-seven-bg {
+.gen-seven-tab {
     background-image: url('../images/generations/generations-07.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-eight-bg {
+.gen-eight-tab {
     background-image: url('../images/generations/generations-08.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
-.gen-nine-bg {
+.gen-nine-tab {
     background-image: url('../images/generations/generations-09.png');
     background-size: cover;
     min-width: 80px;    
     min-height: 10vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
 }
 
-.login-bg {
+.login-tab {
     background-image: url('../images/ui-icons/login.png');
     background-size: cover;
     min-width: 80px;    
@@ -97,9 +139,10 @@
     border-color: white;
     border-style: solid;
     border-width: 2px;
+    border-bottom: none;
 }
 
-.logout-bg {
+.logout-tab {
     background-image: url('../images/ui-icons/logout.png');
     background-size: cover;
     min-width: 80px;    
@@ -109,9 +152,10 @@
     border-color: white;
     border-style: solid;
     border-width: 2px;
+    border-bottom: none;
 }
 
-.signup-bg {
+.signup-tab {
     background-image: url('../images/ui-icons/signup.png');
     background-size: cover;
     min-width: 80px;    
@@ -121,9 +165,10 @@
     border-color: white;
     border-style: solid;
     border-width: 2px;
+    border-bottom: none;
 }
 
-.dashboard-bg {
+.dashboard-tab {
     background-image: url('../images/ui-icons/dashboard.png');
     background-size: cover;
     min-width: 80px;    
@@ -133,10 +178,11 @@
     border-color: white;
     border-style: solid;
     border-width: 2px;
+    border-bottom: none;
 }
 
 .banner-bg {
-    background-image: url('../images/poke-banner-example.jpg');
+    background-image: url('../images/pokemon-banner.png');
     padding-top: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
