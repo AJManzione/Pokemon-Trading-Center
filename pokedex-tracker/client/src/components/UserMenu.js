@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import BadgeKey from './BadgeKey';
 
 export default function UserMenu() {
   return (
+  <div>
     <div className='user-menu-bg'>
       <div className='row d-flex align-items-center justify-content-around'>
         <div className='col-md-6 d-flex justify-content-end'>
@@ -25,5 +27,8 @@ export default function UserMenu() {
         </div>
       </div>
     </div>
+    <br></br>
+    <BadgeKey/>
+  </div>
   )
 }
