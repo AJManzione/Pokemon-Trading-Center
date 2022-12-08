@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function genSeven() {
+export default function GenSeven() {
   return (
     <div>
       <h1>Alola</h1>
