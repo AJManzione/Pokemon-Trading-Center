@@ -14,8 +14,8 @@ const resolvers = {
       return await Pokemon.find({});
     },
     pokemon: async (parent, args) => {
-      return await Pokemon.findOne({_id: args._id})
-    }
+      return await Pokemon.findOne({name: args.name})
+    },
   },
 
   Mutation: {

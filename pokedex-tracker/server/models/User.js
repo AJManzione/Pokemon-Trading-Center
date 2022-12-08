@@ -19,6 +19,7 @@ const checkPassword = function(input) {
       type: String,
       required: true,
       trim: true,
+      toUpper: true
     },
     type: {
       type: String,
@@ -74,9 +75,20 @@ const userSchema = new Schema({
         type: String
     },
     pokemonCaught:[pokemonSchema]
-
-
+},
+{
+  toJSON: {
+      virtuals: true,
+      getters: true
+  }
 })
+
+userSchema
+  .virtual('pokemonCount')
+  .get(function(){
+      return this.pokemonCaught.length
+  })
+
 const User = model('User', userSchema);
 
 module.exports = User
