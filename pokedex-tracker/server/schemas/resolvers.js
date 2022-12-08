@@ -4,6 +4,7 @@ const { User, Pokemon } = require("../models");
 function capFirstLetters(sentance){
   const words = sentance.split(" ");
 
+  //capitolizes first letter of every work
 for (let i = 0; i < words.length; i++) {
   words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase()
 }
