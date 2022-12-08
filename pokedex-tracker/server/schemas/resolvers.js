@@ -1,6 +1,16 @@
 // import user > pokemon > etc..
 const { User, Pokemon } = require("../models");
 
+function capFirstLetters(sentance){
+  const words = sentance.split(" ");
+
+for (let i = 0; i < words.length; i++) {
+  words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase()
+}
+
+return words.join(" ");
+}
+
 
 const resolvers = {
   Query: {
@@ -14,8 +24,9 @@ const resolvers = {
       return await Pokemon.find({});
     },
     pokemon: async (parent, args) => {
-      return await Pokemon.findOne({_id: args._id})
-    }
+      const formattedName = capFirstLetters(args.name)
+      return await Pokemon.findOne({name: formattedName})
+    },
   },
 
   Mutation: {

@@ -6,6 +6,7 @@ const pokemonSchema = new Schema({
     type: String,
     required: true,
     trim: true,
+    toUpper: true
   },
   type: {
     type: String,

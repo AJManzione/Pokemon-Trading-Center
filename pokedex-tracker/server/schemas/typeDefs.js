@@ -21,7 +21,7 @@ const typeDefs = gql`
     user(username: String!): User
     users: [User]
     pokemons: [Pokemon]
-    pokemon(name: String!): [Pokemon]
+    pokemon(name: String!): Pokemon
   }
 
   type Mutation {
