@@ -13,11 +13,10 @@ import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import '../styles/pokedex.css';
 import Dashboard from './pages/Dashboard';
-import Banner from '../images/poke-banner-example.jpg'
 
 
 export default function Pokedex() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Dashboard');
 
   const renderPage = () => {
     if (currentPage === 'Dashboard') {
