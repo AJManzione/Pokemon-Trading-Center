@@ -2,113 +2,105 @@ import React from 'react';
 
 function DexTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav d-flex justify-content-between banner-bg">
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          href="#dashboard"
+          onClick={() => handlePageChange('Dashboard')}
+          className={currentPage === 'Dashboard' ? 'nav-link active dashboard-bg' : 'nav-link dashboard-bg'}
         >
-          Home
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#GenOne"
           onClick={() => handlePageChange('GenOne')}
-          className={currentPage === 'GenOne' ? 'nav-link active' : 'nav-link'}
-        >
-          Kanto
-        </a>
+          className={currentPage === 'GenOne' ? 'nav-link active gen-one-bg' : 'nav-link tag-bg gen-one-bg'}
+        ></a>
       </li>
+
       <li className="nav-item">
         <a
           href="#GenTwo"
           onClick={() => handlePageChange('GenTwo')}
-          className={currentPage === 'GenTwo' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenTwo' ? 'nav-link active gen-two-bg' : 'nav-link gen-two-bg'}
         >
-          Johto
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#GenThree"
           onClick={() => handlePageChange('GenThree')}
-          className={currentPage === 'GenThree' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenThree' ? 'nav-link active gen-three-bg' : 'nav-link gen-three-bg'}
         >
-          Hoenn
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#GenFour"
           onClick={() => handlePageChange('GenFour')}
-          className={currentPage === 'GenFour' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenFour' ? 'nav-link active gen-four-bg' : 'nav-link gen-four-bg'}
         >
-          Sinnoh
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#GenFive"
           onClick={() => handlePageChange('GenFive')}
-          className={currentPage === 'GenFive' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenFive' ? 'nav-link active gen-five-bg' : 'nav-link gen-five-bg'}
         >
-          Unova
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#GenSix"
           onClick={() => handlePageChange('GenSix')}
-          className={currentPage === 'GenSix' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenSix' ? 'nav-link active gen-six-bg' : 'nav-link gen-six-bg'}
         >
-          Kalos
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#GenSeven"
           onClick={() => handlePageChange('GenSeven')}
-          className={currentPage === 'GenSeven' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenSeven' ? 'nav-link active gen-seven-bg' : 'nav-link gen-seven-bg'}
         >
-          Alola
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#GenEight"
           onClick={() => handlePageChange('GenEight')}
-          className={currentPage === 'GenEight' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenEight' ? 'nav-link active gen-eight-bg' : 'nav-link gen-eight-bg'}
         >
-          Galar
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#GenNine"
           onClick={() => handlePageChange('GenNine')}
-          className={currentPage === 'GenNine' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GenNine' ? 'nav-link active gen-nine-bg' : 'nav-link gen-nine-bg'}
         >
-          Paldea
         </a>
       </li>
         <li className="nav-item">
           <a
             href="#Login"
             onClick={() => handlePageChange('Login')}
-            className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Login' ? 'nav-link active login-bg' : 'nav-link login-bg'}
           >
-            Login
           </a>
         </li>
         <li className="nav-item">
           <a
             href="#Signup"
             onClick={() => handlePageChange('Signup')}
-            className={currentPage === 'Signup' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Signup' ? 'nav-link active signup-bg' : 'nav-link signup-bg'}
           >
-            Signup
           </a>
         </li>
     </ul>
