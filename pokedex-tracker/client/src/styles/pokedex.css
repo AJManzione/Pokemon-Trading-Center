@@ -5,199 +5,81 @@
     list-style: none;
 }
 
+.banner-bg {
+    background-image: url('../images/pokemon-banner.png');
+    padding-top: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.tab-bg-black {
+    background-size: cover;
+    min-width: 80px;    
+    min-height: 10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
+}
+
+.tab-bg-white {
+    background-size: cover;
+    min-width: 80px;    
+    min-height: 10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
+}
+
+/* pokemon logo colors */
 .dashboard-bg {
     background: rgb(0,58,112);
     background: linear-gradient(180deg, rgba(0,58,112,1) 0%, rgba(61,125,202,1) 50%, rgba(255,203,5,1) 100%);
     min-height: 80vh;
     width: 100vw;
 }
-
+/* red - blue */
 .gen-one-bg {
     background: rgb(193,30,30);
     background: linear-gradient(90deg, rgba(193,30,30,1) 0%, #1b19bb 69%);
     min-height: 100vh;
     width: 100vw;
 }
-
-.gen-one-tab {
-    background-image: url('../images/generations/generations-01.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
+/* gold - silver */
+.gen-two-bg {
+    background: rgb(212,175,55);
+    background: linear-gradient(180deg, rgba(212,175,55,1) 0%, rgba(170,169,173,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
 }
-.gen-two-tab {
-    background-image: url('../images/generations/generations-02.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
+/* ruby - sapphire */
+.gen-three-bg {
+    background: rgb(224,17,95);
+    background: linear-gradient(180deg, rgba(224,17,95,1) 0%, rgba(0,103,165,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
 }
-.gen-three-tab {
-    background-image: url('../images/generations/generations-03.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
+/* diamond - pearl */
+.gen-four-bg {
+    background: rgb(185,242,255);
+    background: linear-gradient(180deg, rgba(185,242,255,1) 0%, rgba(234,224,200,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
 }
-.gen-four-tab {
-    background-image: url('../images/generations/generations-04.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;    
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
+/* black - white */
+.gen-five-bg {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
 }
-.gen-five-tab {
-    background-image: url('../images/generations/generations-05.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-.gen-six-tab {
-    background-image: url('../images/generations/generations-06.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-.gen-seven-tab {
-    background-image: url('../images/generations/generations-07.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-.gen-eight-tab {
-    background-image: url('../images/generations/generations-08.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-.gen-nine-tab {
-    background-image: url('../images/generations/generations-09.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-
-.login-tab {
-    background-image: url('../images/ui-icons/login.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-
-.logout-tab {
-    background-image: url('../images/ui-icons/logout.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-
-.signup-tab {
-    background-image: url('../images/ui-icons/signup.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-
-.dashboard-tab {
-    background-image: url('../images/ui-icons/dashboard.png');
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-bottom: none;
-}
-
-.banner-bg {
-    background-image: url('../images/pokemon-banner.png');
-    padding-top: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* gen-6-9 still needed */
 
 .pokeball {
     cursor: pointer;
-}
-
-.caught {
-    background-size: cover;
-    background-color: lightseagreen;
-    transition: 1s ease-in-out;
-}
-
-.list-group-item-success {
-    border-radius: 5px;
 }

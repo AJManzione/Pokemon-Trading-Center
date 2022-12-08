@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DexTabs from './DexTabs';
+import Dashboard from './pages/Dashboard';
 import GenOne from './pages/GenOne';
 import GenTwo from './pages/GenTwo';
 import GenThree from './pages/GenThree';
@@ -12,7 +13,7 @@ import GenNine from './pages/GenNine';
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import '../styles/pokedex.css';
-import Dashboard from './pages/Dashboard';
+
 
 
 export default function Pokedex() {
