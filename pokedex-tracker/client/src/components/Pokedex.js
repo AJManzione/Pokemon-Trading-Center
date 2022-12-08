@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import DexTabs from './DexTabs';
-import Home from './pages/Home';
 import GenOne from './pages/GenOne';
 import GenTwo from './pages/GenTwo';
 import GenThree from './pages/GenThree';
@@ -13,14 +12,16 @@ import GenNine from './pages/GenNine';
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import '../styles/pokedex.css';
+import Dashboard from './pages/Dashboard';
+import Banner from '../images/poke-banner-example.jpg'
 
 
 export default function Pokedex() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    if (currentPage === 'Dashboard') {
+      return <Dashboard />;
     }
     if (currentPage === 'GenOne') {
       return <GenOne />;
