@@ -8,9 +8,9 @@ export default function BadgeKey() {
   return (
     <div className='badge-key-bg'>
       <div className='row d-flex justify-content-center'>
-        <h5 className='text-center m-2'>Badge Rewards</h5>
-        <hr className='w-75'></hr>
-        <div className='container m-3'>
+        <h5 className='text-center mt-4'>Badge Rewards</h5>
+        <div className='container'>
+        <hr className='w-100'></hr>
           <div className='col-lg-12 d-flex justify-content-around'>
             <p className='text-center'>0 - 25%</p>
             <p className='text-center'>
