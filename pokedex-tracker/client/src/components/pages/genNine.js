@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function genNine() {
+export default function GenNine() {
   return (
     <div>
       <h1>Paldea</h1>
