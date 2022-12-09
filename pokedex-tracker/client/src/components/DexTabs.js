@@ -1,16 +1,16 @@
 import React from 'react';
-import dashboard from '../images/tabs-ui/dashboard.png';
-import genOneTab from '../images/tabs/generations-01.png';
-import genTwoTab from '../images/tabs/generations-02.png';
-import genThreeTab from '../images/tabs/generations-03.png';
-import genFourTab from '../images/tabs/generations-04.png';
-import genFiveTab from '../images/tabs/generations-05.png';
-import genSixTab from '../images/tabs/generations-06.png';
-import genSevenTab from '../images/tabs/generations-07.png';
-import genEightTab from '../images/tabs/generations-08.png';
-import genNineTab from '../images/tabs/generations-09.png';
-import login from '../images/tabs-ui/login.png';
-import signup from '../images/tabs-ui/signup.png';
+import dashboard from '../images/tabs-ui/dashboard.jpg';
+import genOneTab from '../images/tabs/gen-one-tab.jpg';
+import genTwoTab from '../images/tabs/gen-two-tab.jpg';
+import genThreeTab from '../images/tabs/gen-three-tab.jpg';
+import genFourTab from '../images/tabs/gen-four-tab.jpg';
+import genFiveTab from '../images/tabs/gen-five-tab.jpg';
+import genSixTab from '../images/tabs/gen-six-tab.jpg';
+import genSevenTab from '../images/tabs/gen-seven-tab.jpg';
+import genEightTab from '../images/tabs/gen-eight-tab.jpg';
+import genNineTab from '../images/tabs/gen-nine-tab.jpg';
+import login from '../images/tabs-ui/login.jpg';
+import signup from '../images/tabs-ui/signup.jpg';
 
 function DexTabs() {
 
