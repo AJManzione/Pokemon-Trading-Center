@@ -1,530 +1,442 @@
 [
-    {
-       "entry":"722",
-       "name":"Rowlet",
-       "type":"Grass Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/722.png"
-    },
-    {
-       "entry":"723",
-       "name":"Dartrix",
-       "type":"Grass Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/723.png"
-    },
-    {
-       "entry":"724",
-       "name":"Decidueye",
-       "type":"Grass Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/724.png"
-    },
-    {
-       "entry":"725",
-       "name":"Litten",
-       "type":"Fire ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/725.png"
-    },
-    {
-       "entry":"726",
-       "name":"Torracat",
-       "type":"Fire ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/726.png"
-    },
-    {
-       "entry":"727",
-       "name":"Incineroar",
-       "type":"Fire Dark",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/727.png"
-    },
-    {
-       "entry":"728",
-       "name":"Popplio",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/728.png"
-    },
-    {
-       "entry":"729",
-       "name":"Brionne",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/729.png"
-    },
-    {
-       "entry":"730",
-       "name":"Primarina",
-       "type":"Water Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/730.png"
-    },
-    {
-       "entry":"731",
-       "name":"Pikipek",
-       "type":"Normal Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/731.png"
-    },
-    {
-       "entry":"732",
-       "name":"Trumbeak",
-       "type":"Normal Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/732.png"
-    },
-    {
-       "entry":"733",
-       "name":"Toucannon",
-       "type":"Normal Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/733.png"
-    },
-    {
-       "entry":"734",
-       "name":"Yungoos",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/734.png"
-    },
-    {
-       "entry":"735",
-       "name":"Gumshoos",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/735.png"
-    },
-    {
-       "entry":"736",
-       "name":"Grubbin",
-       "type":"Bug ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/736.png"
-    },
-    {
-       "entry":"737",
-       "name":"Charjabug",
-       "type":"Bug Electric",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/737.png"
-    },
-    {
-       "entry":"738",
-       "name":"Vikavolt",
-       "type":"Bug Electric",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/738.png"
-    },
-    {
-       "entry":"739",
-       "name":"Crabrawler",
-       "type":"Fighting ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/739.png"
-    },
-    {
-       "entry":"740",
-       "name":"Crabominable",
-       "type":"Fighting Ice",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/740.png"
-    },
-    {
-       "entry":"741",
-       "name":"OricorioBaile Style",
-       "type":"Fire Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/741.png"
-    },
-    {
-       "entry":"742",
-       "name":"Cutiefly",
-       "type":"Bug Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/742.png"
-    },
-    {
-       "entry":"743",
-       "name":"Ribombee",
-       "type":"Bug Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/743.png"
-    },
-    {
-       "entry":"744",
-       "name":"Rockruff",
-       "type":"Rock ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/744.png"
-    },
-    {
-       "entry":"745",
-       "name":"LycanrocMidday Form",
-       "type":"Rock ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/745.png"
-    },
-    {
-       "entry":"746",
-       "name":"WishiwashiSolo Form",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/746.png"
-    },
-    {
-       "entry":"747",
-       "name":"Mareanie",
-       "type":"Poison Water",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/747.png"
-    },
-    {
-       "entry":"748",
-       "name":"Toxapex",
-       "type":"Poison Water",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/748.png"
-    },
-    {
-       "entry":"749",
-       "name":"Mudbray",
-       "type":"Ground ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/749.png"
-    },
-    {
-       "entry":"750",
-       "name":"Mudsdale",
-       "type":"Ground ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/750.png"
-    },
-    {
-       "entry":"751",
-       "name":"Dewpider",
-       "type":"Water Bug",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/751.png"
-    },
-    {
-       "entry":"752",
-       "name":"Araquanid",
-       "type":"Water Bug",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/752.png"
-    },
-    {
-       "entry":"753",
-       "name":"Fomantis",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/753.png"
-    },
-    {
-       "entry":"754",
-       "name":"Lurantis",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/754.png"
-    },
-    {
-       "entry":"755",
-       "name":"Morelull",
-       "type":"Grass Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/755.png"
-    },
-    {
-       "entry":"756",
-       "name":"Shiinotic",
-       "type":"Grass Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/756.png"
-    },
-    {
-       "entry":"757",
-       "name":"Salandit",
-       "type":"Poison Fire",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/757.png"
-    },
-    {
-       "entry":"758",
-       "name":"Salazzle",
-       "type":"Poison Fire",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/758.png"
-    },
-    {
-       "entry":"759",
-       "name":"Stufful",
-       "type":"Normal Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/759.png"
-    },
-    {
-       "entry":"760",
-       "name":"Bewear",
-       "type":"Normal Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/760.png"
-    },
-    {
-       "entry":"761",
-       "name":"Bounsweet",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/761.png"
-    },
-    {
-       "entry":"762",
-       "name":"Steenee",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/762.png"
-    },
-    {
-       "entry":"763",
-       "name":"Tsareena",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/763.png"
-    },
-    {
-       "entry":"764",
-       "name":"Comfey",
-       "type":"Fairy ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/764.png"
-    },
-    {
-       "entry":"765",
-       "name":"Oranguru",
-       "type":"Normal Psychic",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/765.png"
-    },
-    {
-       "entry":"766",
-       "name":"Passimian",
-       "type":"Fighting ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/766.png"
-    },
-    {
-       "entry":"767",
-       "name":"Wimpod",
-       "type":"Bug Water",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/767.png"
-    },
-    {
-       "entry":"768",
-       "name":"Golisopod",
-       "type":"Bug Water",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/768.png"
-    },
-    {
-       "entry":"769",
-       "name":"Sandygast",
-       "type":"Ghost Ground",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/769.png"
-    },
-    {
-       "entry":"770",
-       "name":"Palossand",
-       "type":"Ghost Ground",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/770.png"
-    },
-    {
-       "entry":"771",
-       "name":"Pyukumuku",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/771.png"
-    },
-    {
-       "entry":"772",
-       "name":"Type: Null",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/772.png"
-    },
-    {
-       "entry":"773",
-       "name":"SilvallyType: Normal",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/773.png"
-    },
-    {
-       "entry":"774",
-       "name":"MiniorMeteor Form",
-       "type":"Rock Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/774.png"
-    },
-    {
-       "entry":"775",
-       "name":"Komala",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/775.png"
-    },
-    {
-       "entry":"776",
-       "name":"Turtonator",
-       "type":"Fire Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/776.png"
-    },
-    {
-       "entry":"777",
-       "name":"Togedemaru",
-       "type":"Electric Steel",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/777.png"
-    },
-    {
-       "entry":"778",
-       "name":"MimikyuDisguised Form",
-       "type":"Ghost Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/778.png"
-    },
-    {
-       "entry":"779",
-       "name":"Bruxish",
-       "type":"Water Psychic",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/779.png"
-    },
-    {
-       "entry":"780",
-       "name":"Drampa",
-       "type":"Normal Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/780.png"
-    },
-    {
-       "entry":"781",
-       "name":"Dhelmise",
-       "type":"Ghost Grass",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/781.png"
-    },
-    {
-       "entry":"782",
-       "name":"Jangmo-o",
-       "type":"Dragon ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/782.png"
-    },
-    {
-       "entry":"783",
-       "name":"Hakamo-o",
-       "type":"Dragon Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/783.png"
-    },
-    {
-       "entry":"784",
-       "name":"Kommo-o",
-       "type":"Dragon Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/784.png"
-    },
-    {
-       "entry":"785",
-       "name":"Tapu Koko",
-       "type":"Electric Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/785.png"
-    },
-    {
-       "entry":"786",
-       "name":"Tapu Lele",
-       "type":"Psychic Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/786.png"
-    },
-    {
-       "entry":"787",
-       "name":"Tapu Bulu",
-       "type":"Grass Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/787.png"
-    },
-    {
-       "entry":"788",
-       "name":"Tapu Fini",
-       "type":"Water Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/788.png"
-    },
-    {
-       "entry":"789",
-       "name":"Cosmog",
-       "type":"Psychic ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/789.png"
-    },
-    {
-       "entry":"790",
-       "name":"Cosmoem",
-       "type":"Psychic ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/790.png"
-    },
-    {
-       "entry":"791",
-       "name":"Solgaleo",
-       "type":"Psychic Steel",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/791.png"
-    },
-    {
-       "entry":"792",
-       "name":"Lunala",
-       "type":"Psychic Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/792.png"
-    },
-    {
-       "entry":"793",
-       "name":"Nihilego",
-       "type":"Rock Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/793.png"
-    },
-    {
-       "entry":"794",
-       "name":"Buzzwole",
-       "type":"Bug Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/794.png"
-    },
-    {
-       "entry":"795",
-       "name":"Pheromosa",
-       "type":"Bug Fighting",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/795.png"
-    },
-    {
-       "entry":"796",
-       "name":"Xurkitree",
-       "type":"Electric ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/796.png"
-    },
-    {
-       "entry":"797",
-       "name":"Celesteela",
-       "type":"Steel Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/797.png"
-    },
-    {
-       "entry":"798",
-       "name":"Kartana",
-       "type":"Grass Steel",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/798.png"
-    },
-    {
-       "entry":"799",
-       "name":"Guzzlord",
-       "type":"Dark Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/799.png"
-    },
-    {
-       "entry":"800",
-       "name":"Necrozma",
-       "type":"Psychic ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/800.png"
-    },
-    {
-       "entry":"801",
-       "name":"Magearna",
-       "type":"Steel Fairy",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/801.png"
-    },
-    {
-       "entry":"802",
-       "name":"Marshadow",
-       "type":"Fighting Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/802.png"
-    },
-    {
-       "entry":"803",
-       "name":"Poipole",
-       "type":"Poison ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/803.png"
-    },
-    {
-       "entry":"804",
-       "name":"Naganadel",
-       "type":"Poison Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/804.png"
-    },
-    {
-       "entry":"805",
-       "name":"Stakataka",
-       "type":"Rock Steel",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/805.png"
-    },
-    {
-       "entry":"806",
-       "name":"Blacephalon",
-       "type":"Fire Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/806.png"
-    },
-    {
-       "entry":"807",
-       "name":"Zeraora",
-       "type":"Electric ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/807.png"
-    },
-    {
-       "entry":"808",
-       "name":"Meltan",
-       "type":"Steel ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/808.png"
-    },
-    {
-       "entry":"809",
-       "name":"Melmetal",
-       "type":"Steel ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/809.png"
-    }
- ]
+   {
+      "entry":"722",
+      "name":"Rowlet",
+      "type":"Grass Flying"
+   },
+   {
+      "entry":"723",
+      "name":"Dartrix",
+      "type":"Grass Flying"
+   },
+   {
+      "entry":"724",
+      "name":"Decidueye",
+      "type":"Grass Ghost"
+   },
+   {
+      "entry":"725",
+      "name":"Litten",
+      "type":"Fire "
+   },
+   {
+      "entry":"726",
+      "name":"Torracat",
+      "type":"Fire "
+   },
+   {
+      "entry":"727",
+      "name":"Incineroar",
+      "type":"Fire Dark"
+   },
+   {
+      "entry":"728",
+      "name":"Popplio",
+      "type":"Water "
+   },
+   {
+      "entry":"729",
+      "name":"Brionne",
+      "type":"Water "
+   },
+   {
+      "entry":"730",
+      "name":"Primarina",
+      "type":"Water Fairy"
+   },
+   {
+      "entry":"731",
+      "name":"Pikipek",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"732",
+      "name":"Trumbeak",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"733",
+      "name":"Toucannon",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"734",
+      "name":"Yungoos",
+      "type":"Normal "
+   },
+   {
+      "entry":"735",
+      "name":"Gumshoos",
+      "type":"Normal "
+   },
+   {
+      "entry":"736",
+      "name":"Grubbin",
+      "type":"Bug "
+   },
+   {
+      "entry":"737",
+      "name":"Charjabug",
+      "type":"Bug Electric"
+   },
+   {
+      "entry":"738",
+      "name":"Vikavolt",
+      "type":"Bug Electric"
+   },
+   {
+      "entry":"739",
+      "name":"Crabrawler",
+      "type":"Fighting "
+   },
+   {
+      "entry":"740",
+      "name":"Crabominable",
+      "type":"Fighting Ice"
+   },
+   {
+      "entry":"741",
+      "name":"OricorioBaile Style",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"742",
+      "name":"Cutiefly",
+      "type":"Bug Fairy"
+   },
+   {
+      "entry":"743",
+      "name":"Ribombee",
+      "type":"Bug Fairy"
+   },
+   {
+      "entry":"744",
+      "name":"Rockruff",
+      "type":"Rock "
+   },
+   {
+      "entry":"745",
+      "name":"LycanrocMidday Form",
+      "type":"Rock "
+   },
+   {
+      "entry":"746",
+      "name":"WishiwashiSolo Form",
+      "type":"Water "
+   },
+   {
+      "entry":"747",
+      "name":"Mareanie",
+      "type":"Poison Water"
+   },
+   {
+      "entry":"748",
+      "name":"Toxapex",
+      "type":"Poison Water"
+   },
+   {
+      "entry":"749",
+      "name":"Mudbray",
+      "type":"Ground "
+   },
+   {
+      "entry":"750",
+      "name":"Mudsdale",
+      "type":"Ground "
+   },
+   {
+      "entry":"751",
+      "name":"Dewpider",
+      "type":"Water Bug"
+   },
+   {
+      "entry":"752",
+      "name":"Araquanid",
+      "type":"Water Bug"
+   },
+   {
+      "entry":"753",
+      "name":"Fomantis",
+      "type":"Grass "
+   },
+   {
+      "entry":"754",
+      "name":"Lurantis",
+      "type":"Grass "
+   },
+   {
+      "entry":"755",
+      "name":"Morelull",
+      "type":"Grass Fairy"
+   },
+   {
+      "entry":"756",
+      "name":"Shiinotic",
+      "type":"Grass Fairy"
+   },
+   {
+      "entry":"757",
+      "name":"Salandit",
+      "type":"Poison Fire"
+   },
+   {
+      "entry":"758",
+      "name":"Salazzle",
+      "type":"Poison Fire"
+   },
+   {
+      "entry":"759",
+      "name":"Stufful",
+      "type":"Normal Fighting"
+   },
+   {
+      "entry":"760",
+      "name":"Bewear",
+      "type":"Normal Fighting"
+   },
+   {
+      "entry":"761",
+      "name":"Bounsweet",
+      "type":"Grass "
+   },
+   {
+      "entry":"762",
+      "name":"Steenee",
+      "type":"Grass "
+   },
+   {
+      "entry":"763",
+      "name":"Tsareena",
+      "type":"Grass "
+   },
+   {
+      "entry":"764",
+      "name":"Comfey",
+      "type":"Fairy "
+   },
+   {
+      "entry":"765",
+      "name":"Oranguru",
+      "type":"Normal Psychic"
+   },
+   {
+      "entry":"766",
+      "name":"Passimian",
+      "type":"Fighting "
+   },
+   {
+      "entry":"767",
+      "name":"Wimpod",
+      "type":"Bug Water"
+   },
+   {
+      "entry":"768",
+      "name":"Golisopod",
+      "type":"Bug Water"
+   },
+   {
+      "entry":"769",
+      "name":"Sandygast",
+      "type":"Ghost Ground"
+   },
+   {
+      "entry":"770",
+      "name":"Palossand",
+      "type":"Ghost Ground"
+   },
+   {
+      "entry":"771",
+      "name":"Pyukumuku",
+      "type":"Water "
+   },
+   {
+      "entry":"772",
+      "name":"Type: Null",
+      "type":"Normal "
+   },
+   {
+      "entry":"773",
+      "name":"SilvallyType: Normal",
+      "type":"Normal "
+   },
+   {
+      "entry":"774",
+      "name":"MiniorMeteor Form",
+      "type":"Rock Flying"
+   },
+   {
+      "entry":"775",
+      "name":"Komala",
+      "type":"Normal "
+   },
+   {
+      "entry":"776",
+      "name":"Turtonator",
+      "type":"Fire Dragon"
+   },
+   {
+      "entry":"777",
+      "name":"Togedemaru",
+      "type":"Electric Steel"
+   },
+   {
+      "entry":"778",
+      "name":"MimikyuDisguised Form",
+      "type":"Ghost Fairy"
+   },
+   {
+      "entry":"779",
+      "name":"Bruxish",
+      "type":"Water Psychic"
+   },
+   {
+      "entry":"780",
+      "name":"Drampa",
+      "type":"Normal Dragon"
+   },
+   {
+      "entry":"781",
+      "name":"Dhelmise",
+      "type":"Ghost Grass"
+   },
+   {
+      "entry":"782",
+      "name":"Jangmo-o",
+      "type":"Dragon "
+   },
+   {
+      "entry":"783",
+      "name":"Hakamo-o",
+      "type":"Dragon Fighting"
+   },
+   {
+      "entry":"784",
+      "name":"Kommo-o",
+      "type":"Dragon Fighting"
+   },
+   {
+      "entry":"785",
+      "name":"Tapu Koko",
+      "type":"Electric Fairy"
+   },
+   {
+      "entry":"786",
+      "name":"Tapu Lele",
+      "type":"Psychic Fairy"
+   },
+   {
+      "entry":"787",
+      "name":"Tapu Bulu",
+      "type":"Grass Fairy"
+   },
+   {
+      "entry":"788",
+      "name":"Tapu Fini",
+      "type":"Water Fairy"
+   },
+   {
+      "entry":"789",
+      "name":"Cosmog",
+      "type":"Psychic "
+   },
+   {
+      "entry":"790",
+      "name":"Cosmoem",
+      "type":"Psychic "
+   },
+   {
+      "entry":"791",
+      "name":"Solgaleo",
+      "type":"Psychic Steel"
+   },
+   {
+      "entry":"792",
+      "name":"Lunala",
+      "type":"Psychic Ghost"
+   },
+   {
+      "entry":"793",
+      "name":"Nihilego",
+      "type":"Rock Poison"
+   },
+   {
+      "entry":"794",
+      "name":"Buzzwole",
+      "type":"Bug Fighting"
+   },
+   {
+      "entry":"795",
+      "name":"Pheromosa",
+      "type":"Bug Fighting"
+   },
+   {
+      "entry":"796",
+      "name":"Xurkitree",
+      "type":"Electric "
+   },
+   {
+      "entry":"797",
+      "name":"Celesteela",
+      "type":"Steel Flying"
+   },
+   {
+      "entry":"798",
+      "name":"Kartana",
+      "type":"Grass Steel"
+   },
+   {
+      "entry":"799",
+      "name":"Guzzlord",
+      "type":"Dark Dragon"
+   },
+   {
+      "entry":"800",
+      "name":"Necrozma",
+      "type":"Psychic "
+   },
+   {
+      "entry":"801",
+      "name":"Magearna",
+      "type":"Steel Fairy"
+   },
+   {
+      "entry":"802",
+      "name":"Marshadow",
+      "type":"Fighting Ghost"
+   },
+   {
+      "entry":"803",
+      "name":"Poipole",
+      "type":"Poison "
+   },
+   {
+      "entry":"804",
+      "name":"Naganadel",
+      "type":"Poison Dragon"
+   },
+   {
+      "entry":"805",
+      "name":"Stakataka",
+      "type":"Rock Steel"
+   },
+   {
+      "entry":"806",
+      "name":"Blacephalon",
+      "type":"Fire Ghost"
+   },
+   {
+      "entry":"807",
+      "name":"Zeraora",
+      "type":"Electric "
+   },
+   {
+      "entry":"808",
+      "name":"Meltan",
+      "type":"Steel "
+   },
+   {
+      "entry":"809",
+      "name":"Melmetal",
+      "type":"Steel "
+   }
+]

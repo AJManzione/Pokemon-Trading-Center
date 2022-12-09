@@ -4,7 +4,6 @@ const typeDefs = gql`
   type User {
     _id: ID
     username: String
-    sprite: String
     pokemonCaught: [Pokemon]
   }
 
@@ -12,7 +11,6 @@ const typeDefs = gql`
     _id: ID
     name: String
     type: String
-    sprite: String
     entry: Int
   }
 
