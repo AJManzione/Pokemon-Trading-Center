@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import DexTabs from './DexTabs';
-import GenOne from './pages/genOne';
-import GenTwo from './pages/genTwo';
-import GenThree from './pages/genThree';
-import GenFour from './pages/genFour';
-import GenFive from './pages/genFive';
-import GenSix from './pages/genSix';
-import GenSeven from './pages/genSeven';
-import GenEight from './pages/genEight';
-import GenNine from './pages/genNine';
+import Dashboard from './pages/Dashboard';
+import GenOne from './pages/GenOne';
+import GenTwo from './pages/GenTwo';
+import GenThree from './pages/GenThree';
+import GenFour from './pages/GenFour';
+import GenFive from './pages/GenFive';
+import GenSix from './pages/GenSix';
+import GenSeven from './pages/GenSeven';
+import GenEight from './pages/GenEight';
+import GenNine from './pages/GenNine';
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import '../styles/pokedex.css';
-import Dashboard from './pages/Dashboard';
+
 
 
 export default function Pokedex() {
