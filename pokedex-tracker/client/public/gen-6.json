@@ -340,8 +340,18 @@
       "type":"Dark Flying"
    },
    {
-      "entry":"718",
-      "name":"Zygarde50% Forme",
+      "entry":"718.1",
+      "name":"Zygarde (10% Form)",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"718.2",
+      "name":"Zygarde (50% Form)",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"718.3",
+      "name":"Zygarde (Complete Form)",
       "type":"Dragon Ground"
    },
    {
@@ -350,8 +360,13 @@
       "type":"Rock Fairy"
    },
    {
-      "entry":"720",
-      "name":"HoopaHoopa Confined",
+      "entry":"720.1",
+      "name":"Hoopa (Unbound)",
+      "type":"Psychic Ghost"
+   },
+   {
+      "entry":"720.2",
+      "name":"Hoopa (Confined)",
       "type":"Psychic Ghost"
    },
    {
