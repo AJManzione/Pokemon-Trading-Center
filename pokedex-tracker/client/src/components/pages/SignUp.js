@@ -1,89 +1,101 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
+import { useMutation } from '@apollo/client';
+import { ADD_USER } from '../../utils/mutations';
 
-export default function Signup() {
+import Auth from '../../utils/auth';
 
-// States for registration
-const [name, setName] = useState('');
-const [email, setEmail] = useState('');
-const [password, setPassword] = useState('');
+const Signup = () => {
+  const [formState, setFormState] = useState({
+    username: '',
+    email: '',
+    password: '',
+  });
+  const [addUser, { error, data }] = useMutation(ADD_USER);
 
-// States for checking the errors
-const [submitted, setSubmitted] = useState(false);
-const [error, setError] = useState(false);
+  const handleChange = (event) => {
+    const { name, value } = event.target;
 
-// Handling the name change
-const handleName = (e) => {
-setName(e.target.value);
-setSubmitted(false);
-};
-
-// Handling the email change
-const handleEmail = (e) => {
-  setEmail(e.target.value);
-  setSubmitted(false);
-};
-
-// Handling the password change
-const handlePassword = (e) => {
-  setPassword(e.target.value);
-  setSubmitted(false);
-};
-
-// Handling the form submission
-const handleSubmit = (e) => {
-  e.preventDefault();
-  if (name === '' || email === '' || password === '') {
-    setError(true);
-  } else {
-    setSubmitted(true);
-    setError(false);
-  }
-};
-
-// Showing success message
-const successMessage = () => {
-  return (
-  <div className="success" style={{ display: submitted ? '' : 'none', }}>
-    <h1>User {name} successfully registered!!</h1>
-    </div>
-    );
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
   };
 
-// Showing error message if error is true
-const errorMessage = () => {
-  return (
-  <div className="error" style={{ display: error ? '' : 'none', }}>
-    <h1>Please enter all the fields</h1>
-    </div>
-    );
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    console.log(formState);
+
+    try {
+      const { data } = await addUser({
+        variables: 
+        { ...formState },
+      });
+
+      Auth.login(data.addUser.token);
+    } catch (e) {
+      console.error(e);
+    }
   };
 
-return (
-<div className="form">
-  <div>
-    <h1>User Registration</h1>
-    </div>
-    
-    {/* Calling to the methods */}
-    <div className="messages">
-      {errorMessage()}
-      {successMessage()}
+  return (
+    <main className="flex-row justify-center mb-4">
+      <div className="col-12 col-lg-10">
+        <div className="card">
+          <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
+          <div className="card-body">
+            {data ? (
+              <p>
+                Success! You may now head{' '}
+                <Link to="/">back to the homepage.</Link>
+              </p>
+            ) : (
+              <form onSubmit={handleFormSubmit}>
+                <input
+                  className="form-input"
+                  placeholder="Your username"
+                  name="username"
+                  type="text"
+                  value={formState.name}
+                  onChange={handleChange}
+                />
+                <input
+                  className="form-input"
+                  placeholder="Your email"
+                  name="email"
+                  type="email"
+                  value={formState.email}
+                  onChange={handleChange}
+                />
+                <input
+                  className="form-input"
+                  placeholder="******"
+                  name="password"
+                  type="password"
+                  value={formState.password}
+                  onChange={handleChange}
+                />
+                <button
+                  className="btn btn-block btn-primary"
+                  style={{ cursor: 'pointer' }}
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            )}
+
+            {error && (
+              <div className="my-3 p-3 bg-danger text-white">
+                {error.message}
+              </div>
+            )}
+          </div>
+        </div>
       </div>
-      
-      <form>
-        {/* Labels and inputs for form data */}
-        <label className="label">Name</label>
-        <input onChange={handleName} className="input" value={name} type="text" />
-        <label className="label">Email</label>
-        <input onChange={handleEmail} className="input" value={email} type="email" />
-        <label className="label">Password</label>
-        <input onChange={handlePassword} className="input" value={password} type="password" />
-        <button onClick={handleSubmit} className="btn" type="submit">
-          Submit
-        </button>
-      </form>
-    </div>
-);
+    </main>
+  );
+};
 
-}
+export default Signup;

@@ -32,6 +32,7 @@ const resolvers = {
 
   Mutation: {
     addUser: async (parent, args) => {
+      console.log(args)
       User.create(
         {username: args.username,
           email: args.email,
@@ -39,6 +40,7 @@ const resolvers = {
         })
     },
     removeUser: async (parent, args) => {
+      
       const user = await User.findOne(
         {username: args.username}
       );
