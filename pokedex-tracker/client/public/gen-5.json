@@ -549,13 +549,13 @@
       "entry":"585",
       "name":"DeerlingSpring Form",
       "type":"Normal Grass",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/585.png"
+      "sprite":"https://archives.bulbagarden.net/media/upload/6/68/585Deerling-Spring.png"
    },
    {
       "entry":"586",
       "name":"SawsbuckSpring Form",
       "type":"Normal Grass",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/586.png"
+      "sprite":"https://archives.bulbagarden.net/media/upload/8/8d/586Sawsbuck-Spring.png"
    },
    {
       "entry":"587",
@@ -866,32 +866,32 @@
    {
       "entry":"638",
       "name":"Cobalion",
-      "type":"Steel Fighting",
+      "type":"Steel, Fighting",
       "sprite":"https://cdn.traction.one/pokedex/pokemon/638.png"
    },
    {
       "entry":"639",
       "name":"Terrakion",
-      "type":"Rock Fighting",
+      "type":"Rock, Fighting",
       "sprite":"https://cdn.traction.one/pokedex/pokemon/639.png"
    },
    {
       "entry":"640",
       "name":"Virizion",
-      "type":"Grass Fighting",
+      "type":"Grass, Fighting",
       "sprite":"https://cdn.traction.one/pokedex/pokemon/640.png"
    },
    {
       "entry":"641",
       "name":"TornadusIncarnate Forme",
-      "type":"Flying ",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/641.png"
+      "type":"Flying",
+      "sprite":"https://archives.bulbagarden.net/media/upload/0/08/641Tornadus.png"
    },
    {
       "entry":"642",
       "name":"ThundurusIncarnate Forme",
-      "type":"Electric Flying",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/642.png"
+      "type":"Electric, Flying",
+      "sprite":"https://archives.bulbagarden.net/media/upload/b/b8/642Thundurus.png"
    },
    {
       "entry":"643",
@@ -920,8 +920,8 @@
    {
       "entry":"647",
       "name":"KeldeoOrdinary Form",
-      "type":"Water Fighting",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/647.png"
+      "type":"Water, Fighting",
+      "sprite":"https://archives.bulbagarden.net/media/upload/5/50/647Keldeo.png"
    },
    {
       "entry":"648",
