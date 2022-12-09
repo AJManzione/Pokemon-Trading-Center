@@ -1,9 +1,4 @@
-
-
 import React from "react";
-
-
-
 import {
   ApolloClient,
   InMemoryCache,
@@ -53,9 +48,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    
     <ApolloProvider client={client}>
-      
       <Router>
         <DexTabs/>
           <Routes>
@@ -110,7 +103,6 @@ function App() {
           </Routes>
       </Router>
     </ApolloProvider>
-    
   );
 }
 
