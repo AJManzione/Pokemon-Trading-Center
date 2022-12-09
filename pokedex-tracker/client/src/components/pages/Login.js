@@ -10,7 +10,7 @@ const Login = (props) => {
     email: "",
     password: "",
   });
-  const [login, { eror, data }] = useMutation(LOGIN_USER);
+  const [loginUser, { eror, data }] = useMutation(LOGIN_USER);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -20,7 +20,7 @@ const Login = (props) => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     try {
-      const { data } = await login({ variables: { ...formState } });
+      const { data } = await loginUser({ variables: { ...formState } });
       console.log(data)
       Auth.login(data.login.token);
     } catch (e) {
