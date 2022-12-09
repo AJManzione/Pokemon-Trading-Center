@@ -908,13 +908,13 @@
    {
       "entry":"645",
       "name":"LandorusIncarnate Forme",
-      "type":"Ground Flying",
+      "type":"Ground, Flying",
       "sprite":"https://cdn.traction.one/pokedex/pokemon/645.png"
    },
    {
       "entry":"646",
       "name":"KyuremKyurem",
-      "type":"Dragon Ice",
+      "type":"Dragon, Ice",
       "sprite":"https://cdn.traction.one/pokedex/pokemon/646.png"
    },
    {
@@ -927,7 +927,7 @@
       "entry":"648",
       "name":"MeloettaAria Forme",
       "type":"Normal Psychic",
-      "sprite":"https://cdn.traction.one/pokedex/pokemon/648.png"
+      "sprite":"https://archives.bulbagarden.net/media/upload/a/a3/648Meloetta.png"
    },
    {
       "entry":"649",
