@@ -1,5 +1,7 @@
 // import user > pokemon > etc..
+const { AuthenticationError } = require('apollo-server-express');
 const { User, Pokemon } = require("../models");
+const { signToken } = require('../utils/auth');
 
 function capFirstLetters(sentance){
   const words = sentance.split(" ");
@@ -31,13 +33,10 @@ const resolvers = {
   },
 
   Mutation: {
-    addUser: async (parent, args) => {
-      console.log(args)
-      User.create(
-        {username: args.username,
-          email: args.email,
-          password: args.password
-        })
+    addUser: async (parent, { username, email, password }) => {
+      const user = await User.create({ username, email, password });
+      const token = signToken(user);
+      return { token, user };
     },
     removeUser: async (parent, args) => {
       
