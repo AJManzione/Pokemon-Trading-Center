@@ -1,0 +1,482 @@
+[
+   {
+      "entry":"810",
+      "name":"Grookey",
+      "type":"Grass "
+   },
+   {
+      "entry":"811",
+      "name":"Thwackey",
+      "type":"Grass "
+   },
+   {
+      "entry":"812",
+      "name":"Rillaboom",
+      "type":"Grass "
+   },
+   {
+      "entry":"813",
+      "name":"Scorbunny",
+      "type":"Fire "
+   },
+   {
+      "entry":"814",
+      "name":"Raboot",
+      "type":"Fire "
+   },
+   {
+      "entry":"815",
+      "name":"Cinderace",
+      "type":"Fire "
+   },
+   {
+      "entry":"816",
+      "name":"Sobble",
+      "type":"Water "
+   },
+   {
+      "entry":"817",
+      "name":"Drizzile",
+      "type":"Water "
+   },
+   {
+      "entry":"818",
+      "name":"Inteleon",
+      "type":"Water "
+   },
+   {
+      "entry":"819",
+      "name":"Skwovet",
+      "type":"Normal "
+   },
+   {
+      "entry":"820",
+      "name":"Greedent",
+      "type":"Normal "
+   },
+   {
+      "entry":"821",
+      "name":"Rookidee",
+      "type":"Flying "
+   },
+   {
+      "entry":"822",
+      "name":"Corvisquire",
+      "type":"Flying "
+   },
+   {
+      "entry":"823",
+      "name":"Corviknight",
+      "type":"Flying Steel"
+   },
+   {
+      "entry":"824",
+      "name":"Blipbug",
+      "type":"Bug "
+   },
+   {
+      "entry":"825",
+      "name":"Dottler",
+      "type":"Bug Psychic"
+   },
+   {
+      "entry":"826",
+      "name":"Orbeetle",
+      "type":"Bug Psychic"
+   },
+   {
+      "entry":"827",
+      "name":"Nickit",
+      "type":"Dark "
+   },
+   {
+      "entry":"828",
+      "name":"Thievul",
+      "type":"Dark "
+   },
+   {
+      "entry":"829",
+      "name":"Gossifleur",
+      "type":"Grass "
+   },
+   {
+      "entry":"830",
+      "name":"Eldegoss",
+      "type":"Grass "
+   },
+   {
+      "entry":"831",
+      "name":"Wooloo",
+      "type":"Normal "
+   },
+   {
+      "entry":"832",
+      "name":"Dubwool",
+      "type":"Normal "
+   },
+   {
+      "entry":"833",
+      "name":"Chewtle",
+      "type":"Water "
+   },
+   {
+      "entry":"834",
+      "name":"Drednaw",
+      "type":"Water Rock"
+   },
+   {
+      "entry":"835",
+      "name":"Yamper",
+      "type":"Electric "
+   },
+   {
+      "entry":"836",
+      "name":"Boltund",
+      "type":"Electric "
+   },
+   {
+      "entry":"837",
+      "name":"Rolycoly",
+      "type":"Rock "
+   },
+   {
+      "entry":"838",
+      "name":"Carkol",
+      "type":"Rock Fire"
+   },
+   {
+      "entry":"839",
+      "name":"Coalossal",
+      "type":"Rock Fire"
+   },
+   {
+      "entry":"840",
+      "name":"Applin",
+      "type":"Grass Dragon"
+   },
+   {
+      "entry":"841",
+      "name":"Flapple",
+      "type":"Grass Dragon"
+   },
+   {
+      "entry":"842",
+      "name":"Appletun",
+      "type":"Grass Dragon"
+   },
+   {
+      "entry":"843",
+      "name":"Silicobra",
+      "type":"Ground "
+   },
+   {
+      "entry":"844",
+      "name":"Sandaconda",
+      "type":"Ground "
+   },
+   {
+      "entry":"845",
+      "name":"Cramorant",
+      "type":"Flying Water"
+   },
+   {
+      "entry":"846",
+      "name":"Arrokuda",
+      "type":"Water "
+   },
+   {
+      "entry":"847",
+      "name":"Barraskewda",
+      "type":"Water "
+   },
+   {
+      "entry":"848",
+      "name":"Toxel",
+      "type":"Electric Poison"
+   },
+   {
+      "entry":"849",
+      "name":"ToxtricityAmped Form",
+      "type":"Electric Poison"
+   },
+   {
+      "entry":"850",
+      "name":"Sizzlipede",
+      "type":"Fire Bug"
+   },
+   {
+      "entry":"851",
+      "name":"Centiskorch",
+      "type":"Fire Bug"
+   },
+   {
+      "entry":"852",
+      "name":"Clobbopus",
+      "type":"Fighting "
+   },
+   {
+      "entry":"853",
+      "name":"Grapploct",
+      "type":"Fighting "
+   },
+   {
+      "entry":"854",
+      "name":"Sinistea",
+      "type":"Ghost "
+   },
+   {
+      "entry":"855",
+      "name":"Polteageist",
+      "type":"Ghost "
+   },
+   {
+      "entry":"856",
+      "name":"Hatenna",
+      "type":"Psychic "
+   },
+   {
+      "entry":"857",
+      "name":"Hattrem",
+      "type":"Psychic "
+   },
+   {
+      "entry":"858",
+      "name":"Hatterene",
+      "type":"Psychic Fairy"
+   },
+   {
+      "entry":"859",
+      "name":"Impidimp",
+      "type":"Dark Fairy"
+   },
+   {
+      "entry":"860",
+      "name":"Morgrem",
+      "type":"Dark Fairy"
+   },
+   {
+      "entry":"861",
+      "name":"Grimmsnarl",
+      "type":"Dark Fairy"
+   },
+   {
+      "entry":"862",
+      "name":"Obstagoon",
+      "type":"Dark Normal"
+   },
+   {
+      "entry":"863",
+      "name":"Perrserker",
+      "type":"Steel "
+   },
+   {
+      "entry":"864",
+      "name":"Cursola",
+      "type":"Ghost "
+   },
+   {
+      "entry":"865",
+      "name":"Sirfetch'd",
+      "type":"Fighting "
+   },
+   {
+      "entry":"866",
+      "name":"Mr. Rime",
+      "type":"Ice Psychic"
+   },
+   {
+      "entry":"867",
+      "name":"Runerigus",
+      "type":"Ground Ghost"
+   },
+   {
+      "entry":"868",
+      "name":"Milcery",
+      "type":"Fairy "
+   },
+   {
+      "entry":"869",
+      "name":"AlcremieVanilla Cream",
+      "type":"Fairy "
+   },
+   {
+      "entry":"870",
+      "name":"Falinks",
+      "type":"Fighting "
+   },
+   {
+      "entry":"871",
+      "name":"Pincurchin",
+      "type":"Electric "
+   },
+   {
+      "entry":"872",
+      "name":"Snom",
+      "type":"Ice Bug"
+   },
+   {
+      "entry":"873",
+      "name":"Frosmoth",
+      "type":"Ice Bug"
+   },
+   {
+      "entry":"874",
+      "name":"Stonjourner",
+      "type":"Rock "
+   },
+   {
+      "entry":"875",
+      "name":"EiscueIce Face",
+      "type":"Ice "
+   },
+   {
+      "entry":"876",
+      "name":"IndeedeeMale",
+      "type":"Psychic Normal"
+   },
+   {
+      "entry":"877",
+      "name":"MorpekoFull Belly Mode",
+      "type":"Electric Dark"
+   },
+   {
+      "entry":"878",
+      "name":"Cufant",
+      "type":"Steel "
+   },
+   {
+      "entry":"879",
+      "name":"Copperajah",
+      "type":"Steel "
+   },
+   {
+      "entry":"880",
+      "name":"Dracozolt",
+      "type":"Electric Dragon"
+   },
+   {
+      "entry":"881",
+      "name":"Arctozolt",
+      "type":"Electric Ice"
+   },
+   {
+      "entry":"882",
+      "name":"Dracovish",
+      "type":"Water Dragon"
+   },
+   {
+      "entry":"883",
+      "name":"Arctovish",
+      "type":"Water Ice"
+   },
+   {
+      "entry":"884",
+      "name":"Duraludon",
+      "type":"Steel Dragon"
+   },
+   {
+      "entry":"885",
+      "name":"Dreepy",
+      "type":"Dragon Ghost"
+   },
+   {
+      "entry":"886",
+      "name":"Drakloak",
+      "type":"Dragon Ghost"
+   },
+   {
+      "entry":"887",
+      "name":"Dragapult",
+      "type":"Dragon Ghost"
+   },
+   {
+      "entry":"888",
+      "name":"ZacianHero of Many Battles",
+      "type":"Fairy "
+   },
+   {
+      "entry":"889",
+      "name":"ZamazentaHero of Many Battles",
+      "type":"Fighting "
+   },
+   {
+      "entry":"890",
+      "name":"Eternatus",
+      "type":"Poison Dragon"
+   },
+   {
+      "entry":"891",
+      "name":"Kubfu",
+      "type":"Fighting "
+   },
+   {
+      "entry":"892",
+      "name":"UrshifuSingle Strike Style",
+      "type":"Fighting Dark"
+   },
+   {
+      "entry":"893",
+      "name":"Zarude",
+      "type":"Dark Grass"
+   },
+   {
+      "entry":"894",
+      "name":"Regieleki",
+      "type":"Electric "
+   },
+   {
+      "entry":"895",
+      "name":"Regidrago",
+      "type":"Dragon "
+   },
+   {
+      "entry":"896",
+      "name":"Glastrier",
+      "type":"Ice "
+   },
+   {
+      "entry":"897",
+      "name":"Spectrier",
+      "type":"Ghost "
+   },
+   {
+      "entry":"898",
+      "name":"Calyrex",
+      "type":"Psychic Grass"
+   },
+   {
+      "entry":"899",
+      "name":"Wyrdeer",
+      "type":"Normal Psychic"
+   },
+   {
+      "entry":"900",
+      "name":"Kleavor",
+      "type":"Bug Rock"
+   },
+   {
+      "entry":"901",
+      "name":"Ursaluna",
+      "type":"Ground Normal"
+   },
+   {
+      "entry":"902",
+      "name":"BasculegionMale",
+      "type":"Water Ghost"
+   },
+   {
+      "entry":"903",
+      "name":"Sneasler",
+      "type":"Fighting Poison"
+   },
+   {
+      "entry":"904",
+      "name":"Overqwil",
+      "type":"Dark Poison"
+   },
+   {
+      "entry":"905",
+      "name":"EnamorusIncarnate Forme",
+      "type":"Fairy Flying"
+   }
+]

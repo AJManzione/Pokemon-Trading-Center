@@ -1,0 +1,782 @@
+[
+   {
+      "entry":"494",
+      "name":"Victini",
+      "type":"Psychic Fire"
+   },
+   {
+      "entry":"495",
+      "name":"Snivy",
+      "type":"Grass "
+   },
+   {
+      "entry":"496",
+      "name":"Servine",
+      "type":"Grass "
+   },
+   {
+      "entry":"497",
+      "name":"Serperior",
+      "type":"Grass "
+   },
+   {
+      "entry":"498",
+      "name":"Tepig",
+      "type":"Fire "
+   },
+   {
+      "entry":"499",
+      "name":"Pignite",
+      "type":"Fire Fighting"
+   },
+   {
+      "entry":"500",
+      "name":"Emboar",
+      "type":"Fire Fighting"
+   },
+   {
+      "entry":"501",
+      "name":"Oshawott",
+      "type":"Water "
+   },
+   {
+      "entry":"502",
+      "name":"Dewott",
+      "type":"Water "
+   },
+   {
+      "entry":"503",
+      "name":"Samurott",
+      "type":"Water "
+   },
+   {
+      "entry":"504",
+      "name":"Patrat",
+      "type":"Normal "
+   },
+   {
+      "entry":"505",
+      "name":"Watchog",
+      "type":"Normal "
+   },
+   {
+      "entry":"506",
+      "name":"Lillipup",
+      "type":"Normal "
+   },
+   {
+      "entry":"507",
+      "name":"Herdier",
+      "type":"Normal "
+   },
+   {
+      "entry":"508",
+      "name":"Stoutland",
+      "type":"Normal "
+   },
+   {
+      "entry":"509",
+      "name":"Purrloin",
+      "type":"Dark "
+   },
+   {
+      "entry":"510",
+      "name":"Liepard",
+      "type":"Dark "
+   },
+   {
+      "entry":"511",
+      "name":"Pansage",
+      "type":"Grass "
+   },
+   {
+      "entry":"512",
+      "name":"Simisage",
+      "type":"Grass "
+   },
+   {
+      "entry":"513",
+      "name":"Pansear",
+      "type":"Fire "
+   },
+   {
+      "entry":"514",
+      "name":"Simisear",
+      "type":"Fire "
+   },
+   {
+      "entry":"515",
+      "name":"Panpour",
+      "type":"Water "
+   },
+   {
+      "entry":"516",
+      "name":"Simipour",
+      "type":"Water "
+   },
+   {
+      "entry":"517",
+      "name":"Munna",
+      "type":"Psychic "
+   },
+   {
+      "entry":"518",
+      "name":"Musharna",
+      "type":"Psychic "
+   },
+   {
+      "entry":"519",
+      "name":"Pidove",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"520",
+      "name":"Tranquill",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"521",
+      "name":"Unfezant",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"522",
+      "name":"Blitzle",
+      "type":"Electric "
+   },
+   {
+      "entry":"523",
+      "name":"Zebstrika",
+      "type":"Electric "
+   },
+   {
+      "entry":"524",
+      "name":"Roggenrola",
+      "type":"Rock "
+   },
+   {
+      "entry":"525",
+      "name":"Boldore",
+      "type":"Rock "
+   },
+   {
+      "entry":"526",
+      "name":"Gigalith",
+      "type":"Rock "
+   },
+   {
+      "entry":"527",
+      "name":"Woobat",
+      "type":"Psychic Flying"
+   },
+   {
+      "entry":"528",
+      "name":"Swoobat",
+      "type":"Psychic Flying"
+   },
+   {
+      "entry":"529",
+      "name":"Drilbur",
+      "type":"Ground "
+   },
+   {
+      "entry":"530",
+      "name":"Excadrill",
+      "type":"Ground Steel"
+   },
+   {
+      "entry":"531",
+      "name":"Audino",
+      "type":"Normal "
+   },
+   {
+      "entry":"532",
+      "name":"Timburr",
+      "type":"Fighting "
+   },
+   {
+      "entry":"533",
+      "name":"Gurdurr",
+      "type":"Fighting "
+   },
+   {
+      "entry":"534",
+      "name":"Conkeldurr",
+      "type":"Fighting "
+   },
+   {
+      "entry":"535",
+      "name":"Tympole",
+      "type":"Water "
+   },
+   {
+      "entry":"536",
+      "name":"Palpitoad",
+      "type":"Water Ground"
+   },
+   {
+      "entry":"537",
+      "name":"Seismitoad",
+      "type":"Water Ground"
+   },
+   {
+      "entry":"538",
+      "name":"Throh",
+      "type":"Fighting "
+   },
+   {
+      "entry":"539",
+      "name":"Sawk",
+      "type":"Fighting "
+   },
+   {
+      "entry":"540",
+      "name":"Sewaddle",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"541",
+      "name":"Swadloon",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"542",
+      "name":"Leavanny",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"543",
+      "name":"Venipede",
+      "type":"Bug Poison"
+   },
+   {
+      "entry":"544",
+      "name":"Whirlipede",
+      "type":"Bug Poison"
+   },
+   {
+      "entry":"545",
+      "name":"Scolipede",
+      "type":"Bug Poison"
+   },
+   {
+      "entry":"546",
+      "name":"Cottonee",
+      "type":"Grass Fairy"
+   },
+   {
+      "entry":"547",
+      "name":"Whimsicott",
+      "type":"Grass Fairy"
+   },
+   {
+      "entry":"548",
+      "name":"Petilil",
+      "type":"Grass "
+   },
+   {
+      "entry":"549",
+      "name":"Lilligant",
+      "type":"Grass "
+   },
+   {
+      "entry":"550",
+      "name":"BasculinRed-Striped Form",
+      "type":"Water "
+   },
+   {
+      "entry":"551",
+      "name":"Sandile",
+      "type":"Ground Dark"
+   },
+   {
+      "entry":"552",
+      "name":"Krokorok",
+      "type":"Ground Dark"
+   },
+   {
+      "entry":"553",
+      "name":"Krookodile",
+      "type":"Ground Dark"
+   },
+   {
+      "entry":"554",
+      "name":"Darumaka",
+      "type":"Fire "
+   },
+   {
+      "entry":"555",
+      "name":"DarmanitanStandard Mode",
+      "type":"Fire "
+   },
+   {
+      "entry":"556",
+      "name":"Maractus",
+      "type":"Grass "
+   },
+   {
+      "entry":"557",
+      "name":"Dwebble",
+      "type":"Bug Rock"
+   },
+   {
+      "entry":"558",
+      "name":"Crustle",
+      "type":"Bug Rock"
+   },
+   {
+      "entry":"559",
+      "name":"Scraggy",
+      "type":"Dark Fighting"
+   },
+   {
+      "entry":"560",
+      "name":"Scrafty",
+      "type":"Dark Fighting"
+   },
+   {
+      "entry":"561",
+      "name":"Sigilyph",
+      "type":"Psychic Flying"
+   },
+   {
+      "entry":"562",
+      "name":"Yamask",
+      "type":"Ghost "
+   },
+   {
+      "entry":"563",
+      "name":"Cofagrigus",
+      "type":"Ghost "
+   },
+   {
+      "entry":"564",
+      "name":"Tirtouga",
+      "type":"Water Rock"
+   },
+   {
+      "entry":"565",
+      "name":"Carracosta",
+      "type":"Water Rock"
+   },
+   {
+      "entry":"566",
+      "name":"Archen",
+      "type":"Rock Flying"
+   },
+   {
+      "entry":"567",
+      "name":"Archeops",
+      "type":"Rock Flying"
+   },
+   {
+      "entry":"568",
+      "name":"Trubbish",
+      "type":"Poison "
+   },
+   {
+      "entry":"569",
+      "name":"Garbodor",
+      "type":"Poison "
+   },
+   {
+      "entry":"570",
+      "name":"Zorua",
+      "type":"Dark "
+   },
+   {
+      "entry":"571",
+      "name":"Zoroark",
+      "type":"Dark "
+   },
+   {
+      "entry":"572",
+      "name":"Minccino",
+      "type":"Normal "
+   },
+   {
+      "entry":"573",
+      "name":"Cinccino",
+      "type":"Normal "
+   },
+   {
+      "entry":"574",
+      "name":"Gothita",
+      "type":"Psychic "
+   },
+   {
+      "entry":"575",
+      "name":"Gothorita",
+      "type":"Psychic "
+   },
+   {
+      "entry":"576",
+      "name":"Gothitelle",
+      "type":"Psychic "
+   },
+   {
+      "entry":"577",
+      "name":"Solosis",
+      "type":"Psychic "
+   },
+   {
+      "entry":"578",
+      "name":"Duosion",
+      "type":"Psychic "
+   },
+   {
+      "entry":"579",
+      "name":"Reuniclus",
+      "type":"Psychic "
+   },
+   {
+      "entry":"580",
+      "name":"Ducklett",
+      "type":"Water Flying"
+   },
+   {
+      "entry":"581",
+      "name":"Swanna",
+      "type":"Water Flying"
+   },
+   {
+      "entry":"582",
+      "name":"Vanillite",
+      "type":"Ice "
+   },
+   {
+      "entry":"583",
+      "name":"Vanillish",
+      "type":"Ice "
+   },
+   {
+      "entry":"584",
+      "name":"Vanilluxe",
+      "type":"Ice "
+   },
+   {
+      "entry":"585",
+      "name":"DeerlingSpring Form",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"586",
+      "name":"SawsbuckSpring Form",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"587",
+      "name":"Emolga",
+      "type":"Electric Flying"
+   },
+   {
+      "entry":"588",
+      "name":"Karrablast",
+      "type":"Bug "
+   },
+   {
+      "entry":"589",
+      "name":"Escavalier",
+      "type":"Bug Steel"
+   },
+   {
+      "entry":"590",
+      "name":"Foongus",
+      "type":"Grass Poison"
+   },
+   {
+      "entry":"591",
+      "name":"Amoonguss",
+      "type":"Grass Poison"
+   },
+   {
+      "entry":"592",
+      "name":"Frillish",
+      "type":"Water Ghost"
+   },
+   {
+      "entry":"593",
+      "name":"Jellicent",
+      "type":"Water Ghost"
+   },
+   {
+      "entry":"594",
+      "name":"Alomomola",
+      "type":"Water "
+   },
+   {
+      "entry":"595",
+      "name":"Joltik",
+      "type":"Bug Electric"
+   },
+   {
+      "entry":"596",
+      "name":"Galvantula",
+      "type":"Bug Electric"
+   },
+   {
+      "entry":"597",
+      "name":"Ferroseed",
+      "type":"Grass Steel"
+   },
+   {
+      "entry":"598",
+      "name":"Ferrothorn",
+      "type":"Grass Steel"
+   },
+   {
+      "entry":"599",
+      "name":"Klink",
+      "type":"Steel "
+   },
+   {
+      "entry":"600",
+      "name":"Klang",
+      "type":"Steel "
+   },
+   {
+      "entry":"601",
+      "name":"Klinklang",
+      "type":"Steel "
+   },
+   {
+      "entry":"602",
+      "name":"Tynamo",
+      "type":"Electric "
+   },
+   {
+      "entry":"603",
+      "name":"Eelektrik",
+      "type":"Electric "
+   },
+   {
+      "entry":"604",
+      "name":"Eelektross",
+      "type":"Electric "
+   },
+   {
+      "entry":"605",
+      "name":"Elgyem",
+      "type":"Psychic "
+   },
+   {
+      "entry":"606",
+      "name":"Beheeyem",
+      "type":"Psychic "
+   },
+   {
+      "entry":"607",
+      "name":"Litwick",
+      "type":"Ghost Fire"
+   },
+   {
+      "entry":"608",
+      "name":"Lampent",
+      "type":"Ghost Fire"
+   },
+   {
+      "entry":"609",
+      "name":"Chandelure",
+      "type":"Ghost Fire"
+   },
+   {
+      "entry":"610",
+      "name":"Axew",
+      "type":"Dragon "
+   },
+   {
+      "entry":"611",
+      "name":"Fraxure",
+      "type":"Dragon "
+   },
+   {
+      "entry":"612",
+      "name":"Haxorus",
+      "type":"Dragon "
+   },
+   {
+      "entry":"613",
+      "name":"Cubchoo",
+      "type":"Ice "
+   },
+   {
+      "entry":"614",
+      "name":"Beartic",
+      "type":"Ice "
+   },
+   {
+      "entry":"615",
+      "name":"Cryogonal",
+      "type":"Ice "
+   },
+   {
+      "entry":"616",
+      "name":"Shelmet",
+      "type":"Bug "
+   },
+   {
+      "entry":"617",
+      "name":"Accelgor",
+      "type":"Bug "
+   },
+   {
+      "entry":"618",
+      "name":"Stunfisk",
+      "type":"Ground Electric"
+   },
+   {
+      "entry":"619",
+      "name":"Mienfoo",
+      "type":"Fighting "
+   },
+   {
+      "entry":"620",
+      "name":"Mienshao",
+      "type":"Fighting "
+   },
+   {
+      "entry":"621",
+      "name":"Druddigon",
+      "type":"Dragon "
+   },
+   {
+      "entry":"622",
+      "name":"Golett",
+      "type":"Ground Ghost"
+   },
+   {
+      "entry":"623",
+      "name":"Golurk",
+      "type":"Ground Ghost"
+   },
+   {
+      "entry":"624",
+      "name":"Pawniard",
+      "type":"Dark Steel"
+   },
+   {
+      "entry":"625",
+      "name":"Bisharp",
+      "type":"Dark Steel"
+   },
+   {
+      "entry":"626",
+      "name":"Bouffalant",
+      "type":"Normal "
+   },
+   {
+      "entry":"627",
+      "name":"Rufflet",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"628",
+      "name":"Braviary",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"629",
+      "name":"Vullaby",
+      "type":"Dark Flying"
+   },
+   {
+      "entry":"630",
+      "name":"Mandibuzz",
+      "type":"Dark Flying "
+   },
+   {
+      "entry":"631",
+      "name":"Heatmor",
+      "type":"Fire "
+   },
+   {
+      "entry":"632",
+      "name":"Durant",
+      "type":"Bug Steel"
+   },
+   {
+      "entry":"633",
+      "name":"Deino",
+      "type":"Dark Dragon"
+   },
+   {
+      "entry":"634",
+      "name":"Zweilous",
+      "type":"Dark Dragon"
+   },
+   {
+      "entry":"635",
+      "name":"Hydreigon",
+      "type":"Dark Dragon"
+   },
+   {
+      "entry":"636",
+      "name":"Larvesta",
+      "type":"Bug Fire"
+   },
+   {
+      "entry":"637",
+      "name":"Volcarona",
+      "type":"Bug Fire"
+   },
+   {
+      "entry":"638",
+      "name":"Cobalion",
+      "type":"Steel Fighting"
+   },
+   {
+      "entry":"639",
+      "name":"Terrakion",
+      "type":"Rock Fighting"
+   },
+   {
+      "entry":"640",
+      "name":"Virizion",
+      "type":"Grass Fighting"
+   },
+   {
+      "entry":"641",
+      "name":"TornadusIncarnate Forme",
+      "type":"Flying "
+   },
+   {
+      "entry":"642",
+      "name":"ThundurusIncarnate Forme",
+      "type":"Electric Flying"
+   },
+   {
+      "entry":"643",
+      "name":"Reshiram",
+      "type":"Dragon Fire"
+   },
+   {
+      "entry":"644",
+      "name":"Zekrom",
+      "type":"Dragon Electric"
+   },
+   {
+      "entry":"645",
+      "name":"LandorusIncarnate Forme",
+      "type":"Ground Flying"
+   },
+   {
+      "entry":"646",
+      "name":"KyuremKyurem",
+      "type":"Dragon Ice"
+   },
+   {
+      "entry":"647",
+      "name":"KeldeoOrdinary Form",
+      "type":"Water Fighting"
+   },
+   {
+      "entry":"648",
+      "name":"MeloettaAria Forme",
+      "type":"Normal Psychic"
+   },
+   {
+      "entry":"649",
+      "name":"GenesectGenesect",
+      "type":"Bug Steel"
+   }
+]

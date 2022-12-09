@@ -1,0 +1,582 @@
+[
+   {
+      "entry":"387",
+      "name":"Turtwig",
+      "type":"Grass "
+   },
+   {
+      "entry":"388",
+      "name":"Grotle",
+      "type":"Grass "
+   },
+   {
+      "entry":"389",
+      "name":"Torterra",
+      "type":"Grass Ground"
+   },
+   {
+      "entry":"390",
+      "name":"Chimchar",
+      "type":"Fire "
+   },
+   {
+      "entry":"391",
+      "name":"Monferno",
+      "type":"Fire Fighting"
+   },
+   {
+      "entry":"392",
+      "name":"Infernape",
+      "type":"Fire Fighting"
+   },
+   {
+      "entry":"393",
+      "name":"Piplup",
+      "type":"Water "
+   },
+   {
+      "entry":"394",
+      "name":"Prinplup",
+      "type":"Water "
+   },
+   {
+      "entry":"395",
+      "name":"Empoleon",
+      "type":"Water Steel"
+   },
+   {
+      "entry":"396",
+      "name":"Starly",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"397",
+      "name":"Staravia",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"398",
+      "name":"Staraptor",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"399",
+      "name":"Bidoof",
+      "type":"Normal "
+   },
+   {
+      "entry":"400",
+      "name":"Bibarel",
+      "type":"Normal Water"
+   },
+   {
+      "entry":"401",
+      "name":"Kricketot",
+      "type":"Bug "
+   },
+   {
+      "entry":"402",
+      "name":"Kricketune",
+      "type":"Bug "
+   },
+   {
+      "entry":"403",
+      "name":"Shinx",
+      "type":"Electric "
+   },
+   {
+      "entry":"404",
+      "name":"Luxio",
+      "type":"Electric "
+   },
+   {
+      "entry":"405",
+      "name":"Luxray",
+      "type":"Electric "
+   },
+   {
+      "entry":"406",
+      "name":"Budew",
+      "type":"Grass Poison"
+   },
+   {
+      "entry":"407",
+      "name":"Roserade",
+      "type":"Grass Poison"
+   },
+   {
+      "entry":"408",
+      "name":"Cranidos",
+      "type":"Rock "
+   },
+   {
+      "entry":"409",
+      "name":"Rampardos",
+      "type":"Rock "
+   },
+   {
+      "entry":"410",
+      "name":"Shieldon",
+      "type":"Rock Steel"
+   },
+   {
+      "entry":"411",
+      "name":"Bastiodon",
+      "type":"Rock Steel"
+   },
+   {
+      "entry":"412.1",
+      "name":"Burmy (Plant Cloak)",
+      "type":"Bug "
+   },
+   {
+      "entry":"412.2",
+      "name":"Burmy (Sandy Cloak)",
+      "type":"Bug "
+   },
+   {
+      "entry":"412.3",
+      "name":"Burmy (Trash Cloak)",
+      "type":"Bug "
+   },
+   {
+      "entry":"413.1",
+      "name":"Wormadam (Plant Cloak)",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"413.2",
+      "name":"Wormadam (Sandy Cloak)",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"413.3",
+      "name":"Wormadam (Trash Cloak)",
+      "type":"Bug Grass"
+   },
+   {
+      "entry":"414",
+      "name":"Mothim",
+      "type":"Bug Flying"
+   },
+   {
+      "entry":"415",
+      "name":"Combee",
+      "type":"Bug Flying"
+   },
+   {
+      "entry":"416",
+      "name":"Vespiquen",
+      "type":"Bug Flying"
+   },
+   {
+      "entry":"417",
+      "name":"Pachirisu",
+      "type":"Electric "
+   },
+   {
+      "entry":"418",
+      "name":"Buizel",
+      "type":"Water "
+   },
+   {
+      "entry":"419",
+      "name":"Floatzel",
+      "type":"Water "
+   },
+   {
+      "entry":"420",
+      "name":"Cherubi",
+      "type":"Grass "
+   },
+   {
+      "entry":"421.1",
+      "name":"Cherrim (Overcast Form)",
+      "type":"Grass "
+   },
+   {
+      "entry":"421.2",
+      "name":"Cherrim (Sunshine Form)",
+      "type":"Grass "
+   },
+   {
+      "entry":"422.1",
+      "name":"Shellos (West Sea)",
+      "type":"Water "
+   },
+   {
+      "entry":"422.2",
+      "name":"Shellos (East Sea)",
+      "type":"Water "
+   },
+   {
+      "entry":"423.1",
+      "name":"Gastrodon (West Sea)",
+      "type":"Water Ground"
+   },
+   {
+      "entry":"423.2",
+      "name":"Gastrodon (East Sea)",
+      "type":"Water Ground"
+   },
+   {
+      "entry":"424",
+      "name":"Ambipom",
+      "type":"Normal "
+   },
+   {
+      "entry":"425",
+      "name":"Drifloon",
+      "type":"Ghost Flying"
+   },
+   {
+      "entry":"426",
+      "name":"Drifblim",
+      "type":"Ghost Flying"
+   },
+   {
+      "entry":"427",
+      "name":"Buneary",
+      "type":"Normal "
+   },
+   {
+      "entry":"428",
+      "name":"Lopunny",
+      "type":"Normal "
+   },
+   {
+      "entry":"429",
+      "name":"Mismagius",
+      "type":"Ghost "
+   },
+   {
+      "entry":"430",
+      "name":"Honchkrow",
+      "type":"Dark Flying"
+   },
+   {
+      "entry":"431",
+      "name":"Glameow",
+      "type":"Normal "
+   },
+   {
+      "entry":"432",
+      "name":"Purugly",
+      "type":"Normal "
+   },
+   {
+      "entry":"433",
+      "name":"Chingling",
+      "type":"Psychic "
+   },
+   {
+      "entry":"434",
+      "name":"Stunky",
+      "type":"Poison Dark"
+   },
+   {
+      "entry":"435",
+      "name":"Skuntank",
+      "type":"Poison Dark"
+   },
+   {
+      "entry":"436",
+      "name":"Bronzor",
+      "type":"Steel Psychic"
+   },
+   {
+      "entry":"437",
+      "name":"Bronzong",
+      "type":"Steel Psychic"
+   },
+   {
+      "entry":"438",
+      "name":"Bonsly",
+      "type":"Rock "
+   },
+   {
+      "entry":"439",
+      "name":"Mime Jr.",
+      "type":"Psychic Fairy"
+   },
+   {
+      "entry":"440",
+      "name":"Happiny",
+      "type":"Normal "
+   },
+   {
+      "entry":"441",
+      "name":"Chatot",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"442",
+      "name":"Spiritomb",
+      "type":"Ghost Dark"
+   },
+   {
+      "entry":"443",
+      "name":"Gible",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"444",
+      "name":"Gabite",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"445",
+      "name":"Garchomp",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"446",
+      "name":"Munchlax",
+      "type":"Normal "
+   },
+   {
+      "entry":"447",
+      "name":"Riolu",
+      "type":"Fighting "
+   },
+   {
+      "entry":"448",
+      "name":"Lucario",
+      "type":"Fighting Steel"
+   },
+   {
+      "entry":"449",
+      "name":"Hippopotas",
+      "type":"Ground "
+   },
+   {
+      "entry":"450",
+      "name":"Hippowdon",
+      "type":"Ground "
+   },
+   {
+      "entry":"451",
+      "name":"Skorupi",
+      "type":"Poison Bug"
+   },
+   {
+      "entry":"452",
+      "name":"Drapion",
+      "type":"Poison Dark"
+   },
+   {
+      "entry":"453",
+      "name":"Croagunk",
+      "type":"Poison Fighting"
+   },
+   {
+      "entry":"454",
+      "name":"Toxicroak",
+      "type":"Poison Fighting"
+   },
+   {
+      "entry":"455",
+      "name":"Carnivine",
+      "type":"Grass "
+   },
+   {
+      "entry":"456",
+      "name":"Finneon",
+      "type":"Water "
+   },
+   {
+      "entry":"457",
+      "name":"Lumineon",
+      "type":"Water "
+   },
+   {
+      "entry":"458",
+      "name":"Mantyke",
+      "type":"Water Flying"
+   },
+   {
+      "entry":"459",
+      "name":"Snover",
+      "type":"Grass Ice"
+   },
+   {
+      "entry":"460",
+      "name":"Abomasnow",
+      "type":"Grass Ice"
+   },
+   {
+      "entry":"461",
+      "name":"Weavile",
+      "type":"Dark Ice"
+   },
+   {
+      "entry":"462",
+      "name":"Magnezone",
+      "type":"Electric Steel"
+   },
+   {
+      "entry":"463",
+      "name":"Lickilicky",
+      "type":"Normal "
+   },
+   {
+      "entry":"464",
+      "name":"Rhyperior",
+      "type":"Ground Rock"
+   },
+   {
+      "entry":"465",
+      "name":"Tangrowth",
+      "type":"Grass "
+   },
+   {
+      "entry":"466",
+      "name":"Electivire",
+      "type":"Electric "
+   },
+   {
+      "entry":"467",
+      "name":"Magmortar",
+      "type":"Fire "
+   },
+   {
+      "entry":"468",
+      "name":"Togekiss",
+      "type":"Fairy Flying"
+   },
+   {
+      "entry":"469",
+      "name":"Yanmega",
+      "type":"Bug Flying"
+   },
+   {
+      "entry":"470",
+      "name":"Leafeon",
+      "type":"Grass "
+   },
+   {
+      "entry":"471",
+      "name":"Glaceon",
+      "type":"Ice "
+   },
+   {
+      "entry":"472",
+      "name":"Gliscor",
+      "type":"Ground Flying"
+   },
+   {
+      "entry":"473",
+      "name":"Mamoswine",
+      "type":"Ice Ground"
+   },
+   {
+      "entry":"474",
+      "name":"Porygon-Z",
+      "type":"Normal "
+   },
+   {
+      "entry":"475",
+      "name":"Gallade",
+      "type":"Psychic Fighting"
+   },
+   {
+      "entry":"476",
+      "name":"Probopass",
+      "type":"Rock Steel"
+   },
+   {
+      "entry":"477",
+      "name":"Dusknoir",
+      "type":"Ghost "
+   },
+   {
+      "entry":"478",
+      "name":"Froslass",
+      "type":"Ice Ghost"
+   },
+   {
+      "entry":"479",
+      "name":"RotomRotom",
+      "type":"Electric Ghost"
+   },
+   {
+      "entry":"480",
+      "name":"Uxie",
+      "type":"Psychic "
+   },
+   {
+      "entry":"481",
+      "name":"Mesprit",
+      "type":"Psychic "
+   },
+   {
+      "entry":"482",
+      "name":"Azelf",
+      "type":"Psychic "
+   },
+   {
+      "entry":"483",
+      "name":"Dialga",
+      "type":"Steel Dragon"
+   },
+   {
+      "entry":"484",
+      "name":"Palkia",
+      "type":"Water Dragon"
+   },
+   {
+      "entry":"485",
+      "name":"Heatran",
+      "type":"Fire Steel"
+   },
+   {
+      "entry":"486",
+      "name":"Regigigas",
+      "type":"Normal "
+   },
+   {
+      "entry":"487.1",
+      "name":"Giratina (Altered Form)",
+      "type":"Ghost Dragon"
+   },
+   {
+      "entry":"487.2",
+      "name":"Giratina (Origin Form)",
+      "type":"Ghost Dragon"
+   },
+   {
+      "entry":"488",
+      "name":"Cresselia",
+      "type":"Psychic "
+   },
+   {
+      "entry":"489",
+      "name":"Phione",
+      "type":"Water "
+   },
+   {
+      "entry":"490",
+      "name":"Manaphy",
+      "type":"Water "
+   },
+   {
+      "entry":"491",
+      "name":"Darkrai",
+      "type":"Dark "
+   },
+   {
+      "entry":"492.1",
+      "name":"Shaymin (Land For)",
+      "type":"Grass "
+   },
+   {
+      "entry":"492.2",
+      "name":"Shaymin (Sky Form)",
+      "type":"Grass "
+   },
+   {
+      "entry":"493",
+      "name":"ArceusArceus",
+      "type":"Normal "
+   }
+]

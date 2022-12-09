@@ -1,0 +1,362 @@
+[
+   {
+      "entry":"650",
+      "name":"Chespin",
+      "type":"Grass "
+   },
+   {
+      "entry":"651",
+      "name":"Quilladin",
+      "type":"Grass "
+   },
+   {
+      "entry":"652",
+      "name":"Chesnaught",
+      "type":"Grass Fighting"
+   },
+   {
+      "entry":"653",
+      "name":"Fennekin",
+      "type":"Fire "
+   },
+   {
+      "entry":"654",
+      "name":"Braixen",
+      "type":"Fire "
+   },
+   {
+      "entry":"655",
+      "name":"Delphox",
+      "type":"Fire Psychic"
+   },
+   {
+      "entry":"656",
+      "name":"Froakie",
+      "type":"Water "
+   },
+   {
+      "entry":"657",
+      "name":"Frogadier",
+      "type":"Water "
+   },
+   {
+      "entry":"658",
+      "name":"Greninja",
+      "type":"Water Dark"
+   },
+   {
+      "entry":"659",
+      "name":"Bunnelby",
+      "type":"Normal "
+   },
+   {
+      "entry":"660",
+      "name":"Diggersby",
+      "type":"Normal Ground"
+   },
+   {
+      "entry":"661",
+      "name":"Fletchling",
+      "type":"Normal Flying"
+   },
+   {
+      "entry":"662",
+      "name":"Fletchinder",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"663",
+      "name":"Talonflame",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"664",
+      "name":"Scatterbug",
+      "type":"Bug "
+   },
+   {
+      "entry":"665",
+      "name":"Spewpa",
+      "type":"Bug "
+   },
+   {
+      "entry":"666",
+      "name":"VivillonMeadow Pattern",
+      "type":"Bug Flying"
+   },
+   {
+      "entry":"667",
+      "name":"Litleo",
+      "type":"Fire Normal"
+   },
+   {
+      "entry":"668",
+      "name":"Pyroar",
+      "type":"Fire Normal"
+   },
+   {
+      "entry":"669",
+      "name":"FlabébéRed Flower",
+      "type":"Fairy "
+   },
+   {
+      "entry":"670",
+      "name":"FloetteRed Flower",
+      "type":"Fairy "
+   },
+   {
+      "entry":"671",
+      "name":"FlorgesRed Flower",
+      "type":"Fairy "
+   },
+   {
+      "entry":"672",
+      "name":"Skiddo",
+      "type":"Grass "
+   },
+   {
+      "entry":"673",
+      "name":"Gogoat",
+      "type":"Grass "
+   },
+   {
+      "entry":"674",
+      "name":"Pancham",
+      "type":"Fighting "
+   },
+   {
+      "entry":"675",
+      "name":"Pangoro",
+      "type":"Fighting Dark"
+   },
+   {
+      "entry":"676",
+      "name":"FurfrouNatural Form",
+      "type":"Normal "
+   },
+   {
+      "entry":"677",
+      "name":"Espurr",
+      "type":"Psychic "
+   },
+   {
+      "entry":"678",
+      "name":"MeowsticMale",
+      "type":"Psychic "
+   },
+   {
+      "entry":"679",
+      "name":"Honedge",
+      "type":"Steel Ghost"
+   },
+   {
+      "entry":"680",
+      "name":"Doublade",
+      "type":"Steel Ghost"
+   },
+   {
+      "entry":"681",
+      "name":"AegislashShield Forme",
+      "type":"Steel Ghost"
+   },
+   {
+      "entry":"682",
+      "name":"Spritzee",
+      "type":"Fairy "
+   },
+   {
+      "entry":"683",
+      "name":"Aromatisse",
+      "type":"Fairy "
+   },
+   {
+      "entry":"684",
+      "name":"Swirlix",
+      "type":"Fairy "
+   },
+   {
+      "entry":"685",
+      "name":"Slurpuff",
+      "type":"Fairy "
+   },
+   {
+      "entry":"686",
+      "name":"Inkay",
+      "type":"Dark Psychic"
+   },
+   {
+      "entry":"687",
+      "name":"Malamar",
+      "type":"Dark Psychic"
+   },
+   {
+      "entry":"688",
+      "name":"Binacle",
+      "type":"Rock Water"
+   },
+   {
+      "entry":"689",
+      "name":"Barbaracle",
+      "type":"Rock Water"
+   },
+   {
+      "entry":"690",
+      "name":"Skrelp",
+      "type":"Poison Water"
+   },
+   {
+      "entry":"691",
+      "name":"Dragalge",
+      "type":"Poison Dragon"
+   },
+   {
+      "entry":"692",
+      "name":"Clauncher",
+      "type":"Water "
+   },
+   {
+      "entry":"693",
+      "name":"Clawitzer",
+      "type":"Water "
+   },
+   {
+      "entry":"694",
+      "name":"Helioptile",
+      "type":"Electric Normal"
+   },
+   {
+      "entry":"695",
+      "name":"Heliolisk",
+      "type":"Electric Normal"
+   },
+   {
+      "entry":"696",
+      "name":"Tyrunt",
+      "type":"Rock Dragon"
+   },
+   {
+      "entry":"697",
+      "name":"Tyrantrum",
+      "type":"Rock Dragon"
+   },
+   {
+      "entry":"698",
+      "name":"Amaura",
+      "type":"Rock Ice"
+   },
+   {
+      "entry":"699",
+      "name":"Aurorus",
+      "type":"Rock Ice"
+   },
+   {
+      "entry":"700",
+      "name":"Sylveon",
+      "type":"Fairy "
+   },
+   {
+      "entry":"701",
+      "name":"Hawlucha",
+      "type":"Fighting Flying"
+   },
+   {
+      "entry":"702",
+      "name":"Dedenne",
+      "type":"Electric Fairy"
+   },
+   {
+      "entry":"703",
+      "name":"Carbink",
+      "type":"Rock Fairy"
+   },
+   {
+      "entry":"704",
+      "name":"Goomy",
+      "type":"Dragon "
+   },
+   {
+      "entry":"705",
+      "name":"Sliggoo",
+      "type":"Dragon "
+   },
+   {
+      "entry":"706",
+      "name":"Goodra",
+      "type":"Dragon "
+   },
+   {
+      "entry":"707",
+      "name":"Klefki",
+      "type":"Steel Fairy"
+   },
+   {
+      "entry":"708",
+      "name":"Phantump",
+      "type":"Ghost Grass"
+   },
+   {
+      "entry":"709",
+      "name":"Trevenant",
+      "type":"Ghost Grass"
+   },
+   {
+      "entry":"710",
+      "name":"Pumpkaboo",
+      "type":"Ghost Grass"
+   },
+   {
+      "entry":"711",
+      "name":"Gourgeist",
+      "type":"Ghost Grass"
+   },
+   {
+      "entry":"712",
+      "name":"Bergmite",
+      "type":"Ice "
+   },
+   {
+      "entry":"713",
+      "name":"Avalugg",
+      "type":"Ice "
+   },
+   {
+      "entry":"714",
+      "name":"Noibat",
+      "type":"Flying Dragon"
+   },
+   {
+      "entry":"715",
+      "name":"Noivern",
+      "type":"Flying Dragon"
+   },
+   {
+      "entry":"716",
+      "name":"XerneasNeutral Mode",
+      "type":"Fairy "
+   },
+   {
+      "entry":"717",
+      "name":"Yveltal",
+      "type":"Dark Flying"
+   },
+   {
+      "entry":"718",
+      "name":"Zygarde50% Forme",
+      "type":"Dragon Ground"
+   },
+   {
+      "entry":"719",
+      "name":"Diancie",
+      "type":"Rock Fairy"
+   },
+   {
+      "entry":"720",
+      "name":"HoopaHoopa Confined",
+      "type":"Psychic Ghost"
+   },
+   {
+      "entry":"721",
+      "name":"Volcanion",
+      "type":"Fire Water"
+   }
+]

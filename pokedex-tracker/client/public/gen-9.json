@@ -2,632 +2,517 @@
     {
        "entry":"906",
        "name":"Sprigatito",
-       "type":"Grass",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/eb/Sprigatito.png"
+       "type":"Grass"
     },
     {
        "entry":"907",
        "name":"Floragato",
-       "type":"Grass",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/16/Floragato.png"
+       "type":"Grass"
     },
     {
        "entry":"908",
        "name":"Meowscarada",
-       "type":"Grass, Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/f6/Meowscarada.png"
+       "type":"Grass, Dark"
     },
     {
        "entry":"909",
        "name":"Fuecoco",
-       "type":"Fire",
-       "sprite":"https://archives.bulbagarden.net/media/upload/c/cb/Fuecoco.png"
+       "type":"Fire"
     },
     {
        "entry":"910",
        "name":"Crocalor",
-       "type":"Fire",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/6a/Crocalor.png"
+       "type":"Fire"
     },
     {
        "entry":"911",
        "name":"Skeledirge",
-       "type":"Fire, Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/d/d5/Skeledirge.png"
+       "type":"Fire, Ghost"
     },
     {
        "entry":"912",
        "name":"Quaxly",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/4/49/Quaxly.png"
+       "type":"Water"
     },
     {
        "entry":"913",
        "name":"Quaxwell",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/c/cf/Quaxwell.png"
+       "type":"Water"
     },
     {
        "entry":"914",
        "name":"Quaquaval",
-       "type":"Water, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/bd/Quaquaval.png"
+       "type":"Water, Fighting"
     },
     {
        "entry":"915",
        "name":"Lechonk",
-       "type":"Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/86/915Lechonk.png"
+       "type":"Normal"
     },
     {
        "entry":"916",
        "name":"Oinkologne",
-       "type":"Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/5/5b/Menu_SV_Oinkologne.png"
+       "type":"Normal"
     },
     {
        "entry":"917",
        "name":"Dudunsparce",
-       "type":"Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/4/4e/Menu_SV_Dudunsparce.png"
+       "type":"Normal"
     },
     {
        "entry":"918",
        "name":"Tarountula",
-       "type":"Bug",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/Tarountula.png"
+       "type":"Bug"
     },
     {
        "entry":"919",
        "name":"Spidops",
-       "type":"Bug",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/b3/Menu_SV_Spidops.png"
+       "type":"Bug"
     },
     {
        "entry":"920",
        "name":"Nymble",
-       "type":"Bug",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/62/Menu_SV_Nymble.png"
+       "type":"Bug"
     },
     {
        "entry":"921",
        "name":"Lokix",
-       "type":"Bug, Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/9a/Menu_SV_Lokix.png"
+       "type":"Bug, Dark"
     },
     {
        "entry":"922",
        "name":"Rellor",
-       "type":"Bug",
-       "sprite":"https://archives.bulbagarden.net/media/upload/0/0c/Menu_SV_Rellor.png"
+       "type":"Bug"
     },
     {
        "entry":"923",
        "name":"Rabsca",
-       "type":"Bug, Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/4/4b/Menu_SV_Rabsca.png"
+       "type":"Bug, Psychic"
     },
     {
        "entry":"924",
        "name":"Greavard",
-       "type":"Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/28/Greavard.png"
+       "type":"Ghost"
     },
     {
        "entry":"925",
        "name":"Houndstone",
-       "type":"Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/ba/Menu_SV_Houndstone.png"
+       "type":"Ghost"
     },
     {
        "entry":"926",
        "name":"Flittle",
-       "type":"Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/0/0c/Menu_SV_Flittle.png"
+       "type":"Psychic"
     },
     {
        "entry":"927",
        "name":"Espathra",
-       "type":"Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/93/Menu_SV_Espathra.png"
+       "type":"Psychic"
     },
     {
        "entry":"928",
        "name":"Farigiraf",
-       "type":"Normal, Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/11/Farigiraf.png"
+       "type":"Normal, Psychic"
     },
     {
        "entry":"929",
        "name":"Wiglett",
-       "type":"Water ",
-       "sprite":"https://archives.bulbagarden.net/media/upload/thumb/6/64/Menu_SV_Wiglett.png/90px-Menu_SV_Wiglett.png"
+       "type":"Water "
     },
     {
        "entry":"930",
        "name":"Wugtrio",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/b2/Wugtrio.png"
+       "type":"Water"
     },
     {
        "entry":"931",
        "name":"Dondozo",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/d/d9/Menu_SV_Dondozo.png"
+       "type":"Water"
     },
     {
        "entry":"932",
        "name":"Veluza",
-       "type":"Water, Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/86/Menu_SV_Veluza.png"
+       "type":"Water, Psychic"
     },
     {
        "entry":"933",
        "name":"Finizen",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/8e/Menu_SV_Finizen.png"
+       "type":"Water"
     },
     {
        "entry":"934",
        "name":"Palafin",
-       "type":"Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/ea/Palafin-Zero.png"
+       "type":"Water"
     },
     {
        "entry":"935",
        "name":"Smoliv",
-       "type":"Grass, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/83/Smoliv.png"
+       "type":"Grass, Normal"
     },
     {
        "entry":"936",
        "name":"Dolliv",
-       "type":"Grass, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/0/0d/Menu_SV_Dolliv.png"
+       "type":"Grass, Normal"
     },
     {
        "entry":"937",
        "name":"Arboliva",
-       "type":"Grass, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/23/Menu_SV_Arboliva.png"
+       "type":"Grass, Normal"
     },
     {
        "entry":"938",
        "name":"Capsakid",
-       "type":"Grass",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/1c/Menu_SV_Capsakid.png"
+       "type":"Grass"
     },
     {
        "entry":"939",
        "name":"Scovillain",
-       "type":"Grass, Fire",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/22/Menu_SV_Scovillain.png"
+       "type":"Grass, Fire"
     },
     {
        "entry":"940",
        "name":"Tadbulb",
-       "type":"Electric",
-       "sprite":"https://archives.bulbagarden.net/media/upload/3/3c/Menu_SV_Tadbulb.png"
+       "type":"Electric"
     },
     {
        "entry":"941",
        "name":"Bellibolt",
-       "type":"Electric",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/6e/Bellibolt.png"
+       "type":"Electric"
     },
     {
        "entry":"942",
        "name":"Varoom",
-       "type":"Steel, Poison",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/9b/Menu_SV_Varoom.png"
+       "type":"Steel, Poison"
     },
     {
        "entry":"943",
        "name":"Revavroom",
-       "type":"Steel, Poison",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/66/Menu_SV_Revavroom.png"
+       "type":"Steel, Poison"
     },
     {
        "entry":"944",
        "name":"Orthworm",
-       "type":"Steel",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/f1/Orthworm.png"
+       "type":"Steel"
     },
     {
        "entry":"945",
        "name":"Tandemaus",
-       "type":"Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/79/Menu_SV_Tandemaus.png"
+       "type":"Normal"
     },
     {
        "entry":"946",
        "name":"Maushold",
-       "type":"Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/90/Menu_SV_Maushold.png"
+       "type":"Normal"
     },
     {
        "entry":"947",
        "name":"Cetoddle",
-       "type":"Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/Cetoddle.png"
+       "type":"Ice"
     },
     {
        "entry":"948",
        "name":"Cetitan",
-       "type":"Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/82/Cetitan.png"
+       "type":"Ice"
     },
     {
        "entry":"949",
        "name":"Frigibax",
-       "type":"Dragon, Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/c/c6/Menu_SV_Frigibax.png"
+       "type":"Dragon, Ice"
     },
     {
        "entry":"950",
        "name":"Arctibax",
-       "type":"Dragon, Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/b3/Menu_SV_Arctibax.png"
+       "type":"Dragon, Ice"
     },
     {
        "entry":"951",
        "name":"Baxcalibur",
-       "type":"Dragon, Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/c/ce/Baxcalibur.png"
+       "type":"Dragon, Ice"
     },
     {
        "entry":"952",
        "name":"Tatsugiri",
-       "type":"Dragon, Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/0/02/Tatsugiri.png"
+       "type":"Dragon, Water"
     },
     {
        "entry":"953",
        "name":"Cyclizar",
-       "type":"Dragon, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/12/Cyclizar.png"
+       "type":"Dragon, Normal"
     },
     {
        "entry":"954",
        "name":"Pawmi",
-       "type":"Electric",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/68/Pawmi.png"
+       "type":"Electric"
     },
     {
        "entry":"955",
        "name":"Pawmo",
-       "type":"Electric, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/63/Menu_SV_Pawmo.png"
+       "type":"Electric, Fighting"
     },
     {
        "entry":"956",
        "name":"Pawmot",
-       "type":"Electric, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/72/Menu_SV_Pawmot.png"
+       "type":"Electric, Fighting"
     },
     {
        "entry":"957",
        "name":"Wattrel",
-       "type":"Electric, Flying",
-       "sprite":"https://archives.bulbagarden.net/media/upload/d/d2/Menu_SV_Wattrel.png"
+       "type":"Electric, Flying"
     },
     {
        "entry":"958",
        "name":"Kilowattrel",
-       "type":"Electric, Flying",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/74/Menu_SV_Kilowattrel.png"
+       "type":"Electric, Flying"
     },
     {
        "entry":"959",
        "name":"Bombirdier",
-       "type":"Flying, Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/5/52/Bombirdier.png"
+       "type":"Flying, Dark"
     },
     {
        "entry":"960",
        "name":"Squawkabilly",
-       "type":"Normal, Flying",
-       "sprite":"https://archives.bulbagarden.net/media/upload/a/a8/Menu_SV_Squawkabilly.png"
+       "type":"Normal, Flying"
     },
     {
        "entry":"961",
        "name":"Flamigo",
-       "type":"Flying, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/be/Menu_SV_Flamigo.png"
+       "type":"Flying, Fighting"
     },
     {
        "entry":"962",
        "name":"Klawf",
-       "type":"Rock",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/96/Klawf.png"
+       "type":"Rock"
     },
     {
        "entry":"963",
        "name":"Nacli",
-       "type":"Rock",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/69/Menu_SV_Nacli.png"
+       "type":"Rock"
     },
     {
        "entry":"964",
        "name":"Naclstack",
-       "type":"Rock",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/e1/Menu_SV_Naclstack.png"
+       "type":"Rock"
     },
     {
        "entry":"965",
        "name":"Garganacl",
-       "type":"Rock",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/ed/Menu_SV_Garganacl.png"
+       "type":"Rock"
     },
     {
        "entry":"966",
        "name":"Glimmet",
-       "type":"Rock, Poison",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/ef/Menu_SV_Glimmet.png"
+       "type":"Rock, Poison"
     },
     {
        "entry":"967",
        "name":"Glimmora",
-       "type":"Rock, Poison",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/e7/Menu_SV_Glimmora.png"
+       "type":"Rock, Poison"
     },
     {
        "entry":"968",
        "name":"Shroodle",
-       "type":"Poison, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/8b/Menu_SV_Shroodle.png"
+       "type":"Poison, Normal"
     },
     {
        "entry":"969",
        "name":"Grafaiai",
-       "type":"Poison, Normal",
-       "sprite":"https://archives.bulbagarden.net/media/upload/9/96/Grafaiai.png"
+       "type":"Poison, Normal"
     },
     {
        "entry":"970",
        "name":"Fidough",
-       "type":"Fairy",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/2d/Fidough.png"
+       "type":"Fairy"
     },
     {
        "entry":"971",
        "name":"Dachsbun",
-       "type":"Fairy",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/e7/Dachsbun.png"
+       "type":"Fairy"
     },
     {
        "entry":"972",
        "name":"Maschiff",
-       "type":"Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/71/Maschiff.png"
+       "type":"Dark"
     },
     {
        "entry":"973",
        "name":"Mabosstiff",
-       "type":"Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/f3/Mabosstiff.png"
+       "type":"Dark"
     },
     {
        "entry":"974",
        "name":"Bramblin",
-       "type":"Grass, Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/22/Menu_SV_Bramblin.png"
+       "type":"Grass, Ghost"
     },
     {
        "entry":"975",
        "name":"Brambleghast",
-       "type":"Grass, Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/a/a8/Menu_SV_Brambleghast.png"
+       "type":"Grass, Ghost"
     },
     {
        "entry":"976",
        "name":"Gimmighoul",
-       "type":"Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/74/Gimmighoul.png"
+       "type":"Ghost"
     },
     {
        "entry":"977",
        "name":"Gholdengo",
-       "type":"Steel, Ghost",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/83/Menu_SV_Gholdengo.png"
+       "type":"Steel, Ghost"
     },
     {
        "entry":"978",
        "name":"Great Tusk",
-       "type":"Ground, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/0/09/Great_Tusk.png"
+       "type":"Ground, Fighting"
     },
     {
        "entry":"979",
        "name":"Brute Bonnet",
-       "type":"Grass, Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/c/c3/Menu_SV_Brute_Bonnet.png"
-    },
-    {
-       "entry":"980",
-       "name":"blahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-       "type":"Steel Dragon",
-       "sprite":"nope nope nope"
+       "type":"Grass, Dark"
     },
     {
        "entry":"981",
        "name":"Sandy Shocks",
-       "type":"Electric, Ground",
-       "sprite":"https://archives.bulbagarden.net/media/upload/8/8c/Menu_SV_Sandy_Shocks.png"
+       "type":"Electric, Ground"
     },
     {
        "entry":"982",
        "name":"Scream Tail",
-       "type":"Fairy, Psychic",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/b7/Menu_SV_Scream_Tail.png"
+       "type":"Fairy, Psychic"
     },
     {
        "entry":"983",
        "name":"Flutter Mane",
-       "type":"Ghost, Fairy",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/f4/Menu_SV_Flutter_Mane.png"
+       "type":"Ghost, Fairy"
     },
     {
        "entry":"984",
        "name":"Slither Wing",
-       "type":"Bug, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/5/5e/Menu_SV_Slither_Wing.png"
+       "type":"Bug, Fighting"
     },
     {
        "entry":"985",
        "name":"Roaring Moon",
-       "type":"Dragon, Dark",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/1c/Menu_SV_Roaring_Moon.png"
+       "type":"Dragon, Dark"
     },
     {
        "entry":"986",
        "name":"Iron Treads",
-       "type":"Ground, Steel",
-       "sprite":"https://archives.bulbagarden.net/media/upload/7/76/Iron_Treads.png"
-    },
-    {
-       "entry":"987",
-       "name":"blahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjhhh",
-       "type":"Fighting ",
-       "sprite":"nope nope nope nope nope"
+       "type":"Ground, Steel"
     },
     {
        "entry":"988",
        "name":"Iron Moth",
-       "type":"Fire, Poison",
-       "sprite":"https://archives.bulbagarden.net/media/upload/3/33/Menu_SV_Iron_Moth.png"
+       "type":"Fire, Poison"
     },
     {
        "entry":"989",
        "name":"Iron Hands",
-       "type":"Fighting, Electric",
-       "sprite":"https://archives.bulbagarden.net/media/upload/e/ed/Menu_SV_Iron_Hands.png"
+       "type":"Fighting, Electric"
     },
     {
        "entry":"990",
        "name":"Iron Jugulis",
-       "type":"Dark, Flying",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/bc/Menu_SV_Iron_Jugulis.png"
+       "type":"Dark, Flying"
     },
     {
        "entry":"991",
        "name":"Iron Thorns",
-       "type":"Rock, Electric",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/1a/Menu_SV_Iron_Thorns.png"
+       "type":"Rock, Electric"
     },
     {
        "entry":"992",
        "name":"Iron Bundle",
-       "type":"Ice, Water",
-       "sprite":"https://archives.bulbagarden.net/media/upload/4/49/Menu_SV_Iron_Bundle.png"
+       "type":"Ice, Water"
     },
     {
        "entry":"993",
        "name":"Iron Valiant",
-       "type":"Fairy, Fighting",
-       "sprite":"https://archives.bulbagarden.net/media/upload/b/bf/Menu_SV_Iron_Valiant.png"
+       "type":"Fairy, Fighting"
     },
     {
        "entry":"994",
        "name":"Ting-Lu",
-       "type":"Dark, Ground",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/68/Menu_SV_Ting-Lu.png"
+       "type":"Dark, Ground"
     },
     {
        "entry":"995",
        "name":"Chien-Pao",
-       "type":"Dark, Ice",
-       "sprite":"https://archives.bulbagarden.net/media/upload/6/61/Menu_SV_Chien-Pao.png"
+       "type":"Dark, Ice"
     },
     {
        "entry":"996",
        "name":"Wo-Chien",
-       "type":"Dark, Grass",
-       "sprite":"https://archives.bulbagarden.net/media/upload/d/d5/Menu_SV_Wo-Chien.png"
+       "type":"Dark, Grass"
     },
     {
        "entry":"997",
        "name":"Chi-Yu",
-       "type":"Dark, Fire",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/16/Menu_SV_Chi-Yu.png"
+       "type":"Dark, Fire"
     },
     {
        "entry":"998",
        "name":"Koraidon",
-       "type":"Fighting, Dragon",
-       "sprite":"https://archives.bulbagarden.net/media/upload/2/24/Koraidon.png"
+       "type":"Fighting, Dragon"
     },
     {
        "entry":"999",
        "name":"Miraidon",
-       "type":"Electric, Dragon",
-       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/Miraidon.png"
+       "type":"Electric, Dragon"
     },
 
     {
        "entry":"1000",
        "name":"Tinkatink",
-       "type":"Fairy, Steel",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/10/Tinkatink.png"
+       "type":"Fairy, Steel"
     },
     {
        "entry":"1001",
        "name":"Tinkatuff",
-       "type":"Fairy, Steel",
-       "sprite":"https://archives.bulbagarden.net/media/upload/1/10/Tinkatink.png"
+       "type":"Fairy, Steel"
     },
     {
       "entry":"1002",
       "name":"Tinkaton",
-      "type":"Fairy, Steel",
-      "sprite":"https://archives.bulbagarden.net/media/upload/9/90/Tinkaton.png"
+      "type":"Fairy, Steel"
    },   
    {
       "entry":"1003",
       "name":"Charcadet",
-      "type":"Fire",
-      "sprite":"https://archives.bulbagarden.net/media/upload/5/53/Charcadet.png"
+      "type":"Fire"
    },    
    {
       "entry":"1004",
       "name":"Armarouge",
-      "type":"Fire, Psychic",
-      "sprite":"https://archives.bulbagarden.net/media/upload/b/b5/Armarouge.png"
+      "type":"Fire, Psychic"
    },
    {
       "entry":"1005",
       "name":"Ceruledge",
-      "type":"Fire, Ghost",
-      "sprite":"https://archives.bulbagarden.net/media/upload/5/52/Ceruledge.png"
+      "type":"Fire, Ghost"
    },    
    {
       "entry":"1006",
       "name":"Toedscool",
-      "type":"Ground, Grass",
-      "sprite":"https://archives.bulbagarden.net/media/upload/b/b8/Menu_SV_Toedscool.png"
+      "type":"Ground, Grass"
    },    
    {
       "entry":"1007",
       "name":"Toedscruel",
-      "type":"Ground, Grass",
-      "sprite":"https://archives.bulbagarden.net/media/upload/4/40/Menu_SV_Toedscruel.png"
+      "type":"Ground, Grass"
    },    
    {
       "entry":"1008",
       "name":"Kingambit",
-      "type":"Dark, Steel",
-      "sprite":"https://archives.bulbagarden.net/media/upload/a/ab/Menu_SV_Kingambit.png"
+      "type":"Dark, Steel"
    },    
    {
       "entry":"1009",
       "name":"Clodsire",
-      "type":"Poison, Ground",
-      "sprite":"https://archives.bulbagarden.net/media/upload/c/c3/Menu_SV_Clodsire.png"
+      "type":"Poison, Ground"
    },    
    {
       "entry":"1010",
       "name":"Annihilape",
-      "type":"Fighting, Ghost",
-      "sprite":"https://archives.bulbagarden.net/media/upload/7/79/Menu_SV_Annihilape.png"
+      "type":"Fighting, Ghost"
    }
  ]
