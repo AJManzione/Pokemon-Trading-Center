@@ -42,7 +42,12 @@ useEffect(()=>{
           <li className="list-group-item-success m-1">
             <ul className='d-flex justify-content-between align-items-center'>
               <div className='d-flex align-items-center justify-content-around'>
-                <li><img width='70px'src={element.sprite}></img></li>
+                <li>
+                  <img 
+                    width='70px'
+                    src={`../../assets/sprites/Gen-8-Sprites/${element.entry}.png`}>
+                  </img>
+                </li>
                 <li className='m-4'>
                   <h4>#{element.entry}</h4>
                 </li>
