@@ -2,55 +2,55 @@
     {
        "entry":"906",
        "name":"Sprigatito",
-       "type":"Grass ",
+       "type":"Grass",
        "sprite":"https://archives.bulbagarden.net/media/upload/e/eb/Sprigatito.png"
     },
     {
        "entry":"907",
        "name":"Floragato",
-       "type":"Grass ",
+       "type":"Grass",
        "sprite":"https://archives.bulbagarden.net/media/upload/1/16/Floragato.png"
     },
     {
        "entry":"908",
        "name":"Meowscarada",
-       "type":"Grass ",
+       "type":"Grass",
        "sprite":"https://archives.bulbagarden.net/media/upload/f/f6/Meowscarada.png"
     },
     {
        "entry":"909",
        "name":"Fuecoco",
-       "type":"Fire ",
+       "type":"Fire",
        "sprite":"https://archives.bulbagarden.net/media/upload/c/cb/Fuecoco.png"
     },
     {
        "entry":"910",
        "name":"Crocalor",
-       "type":"Fire ",
+       "type":"Fire",
        "sprite":"https://archives.bulbagarden.net/media/upload/6/6a/Crocalor.png"
     },
     {
        "entry":"911",
        "name":"Skeledirge",
-       "type":"Fire ",
+       "type":"Fire",
        "sprite":"https://archives.bulbagarden.net/media/upload/d/d5/Skeledirge.png"
     },
     {
        "entry":"912",
        "name":"Quaxly",
-       "type":"Water ",
+       "type":"Water",
        "sprite":"https://archives.bulbagarden.net/media/upload/4/49/Quaxly.png"
     },
     {
        "entry":"913",
        "name":"Quaxwell",
-       "type":"Water ",
+       "type":"Water",
        "sprite":"https://archives.bulbagarden.net/media/upload/c/cf/Quaxwell.png"
     },
     {
        "entry":"914",
        "name":"Quaquaval",
-       "type":"Water ",
+       "type":"Water",
        "sprite":"https://archives.bulbagarden.net/media/upload/b/bd/Quaquaval.png"
     },
     {
@@ -61,195 +61,195 @@
     },
     {
        "entry":"916",
-       "name":"Greedent",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/916.png"
+       "name":"Oinkologne",
+       "type":"Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/5/5b/Menu_SV_Oinkologne.png"
     },
     {
        "entry":"917",
-       "name":"Rookidee",
-       "type":"Flying ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/917.png"
+       "name":"Dudunsparce",
+       "type":"Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/4/4e/Menu_SV_Dudunsparce.png"
     },
     {
        "entry":"918",
-       "name":"Corvisquire",
-       "type":"Flying ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/918.png"
+       "name":"Tarountula",
+       "type":"Bug",
+       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/Tarountula.png"
     },
     {
        "entry":"919",
-       "name":"Corviknight",
-       "type":"Flying Steel",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/919.png"
+       "name":"Spidops",
+       "type":"Bug",
+       "sprite":"https://archives.bulbagarden.net/media/upload/b/b3/Menu_SV_Spidops.png"
     },
     {
        "entry":"920",
-       "name":"Blipbug",
-       "type":"Bug ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/920.png"
+       "name":"Nymble",
+       "type":"Bug",
+       "sprite":"https://archives.bulbagarden.net/media/upload/6/62/Menu_SV_Nymble.png"
     },
     {
        "entry":"921",
-       "name":"Dottler",
-       "type":"Bug Psychic",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/921.png"
+       "name":"Lokix",
+       "type":"Bug, Dark",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/9a/Menu_SV_Lokix.png"
     },
     {
        "entry":"922",
-       "name":"Orbeetle",
-       "type":"Bug Psychic",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/922.png"
+       "name":"Rellor",
+       "type":"Bug",
+       "sprite":"https://archives.bulbagarden.net/media/upload/0/0c/Menu_SV_Rellor.png"
     },
     {
        "entry":"923",
-       "name":"Nickit",
-       "type":"Dark ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/923.png"
+       "name":"Rabsca",
+       "type":"Bug, Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/4/4b/Menu_SV_Rabsca.png"
     },
     {
        "entry":"924",
-       "name":"Thievul",
-       "type":"Dark ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/924.png"
+       "name":"Greavard",
+       "type":"Ghost",
+       "sprite":"https://archives.bulbagarden.net/media/upload/2/28/Greavard.png"
     },
     {
        "entry":"925",
-       "name":"Gossifleur",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/925.png"
+       "name":"Houndstone",
+       "type":"Ghost",
+       "sprite":"https://archives.bulbagarden.net/media/upload/b/ba/Menu_SV_Houndstone.png"
     },
     {
        "entry":"926",
-       "name":"Eldegoss",
-       "type":"Grass ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/926.png"
+       "name":"Flittle",
+       "type":"Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/0/0c/Menu_SV_Flittle.png"
     },
     {
        "entry":"927",
-       "name":"Wooloo",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/927.png"
+       "name":"Espathra",
+       "type":"Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/93/Menu_SV_Espathra.png"
     },
     {
        "entry":"928",
-       "name":"Dubwool",
-       "type":"Normal ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/928.png"
+       "name":"Farigiraf",
+       "type":"Normal, Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/1/11/Farigiraf.png"
     },
     {
        "entry":"929",
-       "name":"Chewtle",
+       "name":"Wiglett",
        "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/929.png"
+       "sprite":"https://archives.bulbagarden.net/media/upload/thumb/6/64/Menu_SV_Wiglett.png/90px-Menu_SV_Wiglett.png"
     },
     {
        "entry":"930",
-       "name":"Drednaw",
-       "type":"Water Rock",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/930.png"
+       "name":"Wugtrio",
+       "type":"Water",
+       "sprite":"https://archives.bulbagarden.net/media/upload/b/b2/Wugtrio.png"
     },
     {
        "entry":"931",
-       "name":"Yamper",
-       "type":"Electric ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/931.png"
+       "name":"Dondozo",
+       "type":"Water",
+       "sprite":"https://archives.bulbagarden.net/media/upload/d/d9/Menu_SV_Dondozo.png"
     },
     {
        "entry":"932",
-       "name":"Boltund",
-       "type":"Electric ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/932.png"
+       "name":"Veluza",
+       "type":"Water, Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/8/86/Menu_SV_Veluza.png"
     },
     {
        "entry":"933",
-       "name":"Rolycoly",
-       "type":"Rock ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/933.png"
+       "name":"Finizen",
+       "type":"Water",
+       "sprite":"https://archives.bulbagarden.net/media/upload/8/8e/Menu_SV_Finizen.png"
     },
     {
        "entry":"934",
-       "name":"Carkol",
-       "type":"Rock Fire",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/934.png"
+       "name":"Palafin",
+       "type":"Water",
+       "sprite":"https://archives.bulbagarden.net/media/upload/e/ea/Palafin-Zero.png"
     },
     {
        "entry":"935",
-       "name":"Coalossal",
-       "type":"Rock Fire",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/935.png"
+       "name":"Smoliv",
+       "type":"Grass, Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/8/83/Smoliv.png"
     },
     {
        "entry":"936",
-       "name":"Applin",
-       "type":"Grass Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/936.png"
+       "name":"Dolliv",
+       "type":"Grass, Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/0/0d/Menu_SV_Dolliv.png"
     },
     {
        "entry":"937",
-       "name":"Flapple",
-       "type":"Grass Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/937.png"
+       "name":"Arboliva",
+       "type":"Grass, Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/2/23/Menu_SV_Arboliva.png"
     },
     {
        "entry":"938",
-       "name":"Appletun",
-       "type":"Grass Dragon",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/938.png"
+       "name":"Capsakid",
+       "type":"Grass",
+       "sprite":"https://archives.bulbagarden.net/media/upload/1/1c/Menu_SV_Capsakid.png"
     },
     {
        "entry":"939",
-       "name":"Silicobra",
-       "type":"Ground ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/939.png"
+       "name":"Scovillain",
+       "type":"Grass, Fire",
+       "sprite":"https://archives.bulbagarden.net/media/upload/2/22/Menu_SV_Scovillain.png"
     },
     {
        "entry":"940",
-       "name":"Sandaconda",
-       "type":"Ground ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/940.png"
+       "name":"Tadbulb",
+       "type":"Electric",
+       "sprite":"https://archives.bulbagarden.net/media/upload/3/3c/Menu_SV_Tadbulb.png"
     },
     {
        "entry":"941",
-       "name":"Cramorant",
-       "type":"Flying Water",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/941.png"
+       "name":"Bellibolt",
+       "type":"Electric",
+       "sprite":"https://archives.bulbagarden.net/media/upload/6/6e/Bellibolt.png"
     },
     {
        "entry":"942",
-       "name":"Arrokuda",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/942.png"
+       "name":"Varoom",
+       "type":"Steel, Poison",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/9b/Menu_SV_Varoom.png"
     },
     {
        "entry":"943",
-       "name":"Barraskewda",
-       "type":"Water ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/943.png"
+       "name":"Revavroom",
+       "type":"Steel, Poison",
+       "sprite":"https://archives.bulbagarden.net/media/upload/6/66/Menu_SV_Revavroom.png"
     },
     {
        "entry":"944",
-       "name":"Toxel",
-       "type":"Electric Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/944.png"
+       "name":"Orthworm",
+       "type":"Steel",
+       "sprite":"https://archives.bulbagarden.net/media/upload/f/f1/Orthworm.png"
     },
     {
        "entry":"945",
-       "name":"ToxtricityAmped Form",
-       "type":"Electric Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/945.png"
+       "name":"Tandemaus",
+       "type":"Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/7/79/Menu_SV_Tandemaus.png"
     },
     {
        "entry":"946",
-       "name":"Sizzlipede",
-       "type":"Fire Bug",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/946.png"
+       "name":"Maushold",
+       "type":"Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/90/Menu_SV_Maushold.png"
     },
     {
        "entry":"947",
-       "name":"Centiskorch",
-       "type":"Fire Bug",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/947.png"
+       "name":"Cetoddle",
+       "type":"Ice",
+       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/Cetoddle.png"
     },
     {
        "entry":"948",
