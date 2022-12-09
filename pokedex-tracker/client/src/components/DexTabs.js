@@ -12,34 +12,31 @@ import genNineTab from '../images/tabs/generations-09.png';
 import login from '../images/tabs-ui/login.png';
 import signup from '../images/tabs-ui/signup.png';
 
-function DexTabs({ currentPage, handlePageChange }) {
+function DexTabs() {
 
   return (
     <ul className="nav d-flex justify-content-between banner-bg" id='pinned-trigger1'>
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${dashboard})`}}
-          href="#dashboard"
-          onClick={() => handlePageChange('Dashboard')}
-          className={currentPage === 'Dashboard' ? 'nav-link active tab-bg-white' : 'nav-link tab-bg-white'}
+          href="/Dashboard"
+          className= 'nav-link tab-bg-white'
           >
         </a>
       </li>
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genOneTab})`}}
-          href="#GenOne"
-          onClick={() => handlePageChange('GenOne')}
-          className={currentPage === 'GenOne' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenOne"
+          className='nav-link tab-bg-black'
         ></a>
       </li>
 
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genTwoTab})`}}
-          href="#GenTwo"
-          onClick={() => handlePageChange('GenTwo')}
-          className={currentPage === 'GenTwo' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenTwo"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
@@ -47,9 +44,8 @@ function DexTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genThreeTab})`}}
-          href="#GenThree"
-          onClick={() => handlePageChange('GenThree')}
-          className={currentPage === 'GenThree' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenThree"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
@@ -57,9 +53,8 @@ function DexTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genFourTab})`}}
-          href="#GenFour"
-          onClick={() => handlePageChange('GenFour')}
-          className={currentPage === 'GenFour' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenFour"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
@@ -67,9 +62,8 @@ function DexTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genFiveTab})`}}
-          href="#GenFive"
-          onClick={() => handlePageChange('GenFive')}
-          className={currentPage === 'GenFive' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenFive"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
@@ -77,54 +71,48 @@ function DexTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genSixTab})`}}
-          href="#GenSix"
-          onClick={() => handlePageChange('GenSix')}
-          className={currentPage === 'GenSix' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenSix"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genSevenTab})`}}
-          href="#GenSeven"
-          onClick={() => handlePageChange('GenSeven')}
-          className={currentPage === 'GenSeven' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenSeven"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genEightTab})`}}
-          href="#GenEight"
-          onClick={() => handlePageChange('GenEight')}
-          className={currentPage === 'GenEight' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenEight"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
       <li className="nav-item">
         <a
           style={{backgroundImage: `url(${genNineTab})`}}
-          href="#GenNine"
-          onClick={() => handlePageChange('GenNine')}
-          className={currentPage === 'GenNine' ? 'nav-link active tab-bg-black' : 'nav-link tab-bg-black'}
+          href="/GenNine"
+          className='nav-link tab-bg-black'
         >
         </a>
       </li>
         <li className="nav-item">
           <a
             style={{backgroundImage: `url(${login})`}}
-            href="#Login"
-            onClick={() => handlePageChange('Login')}
-            className={currentPage === 'Login' ? 'nav-link active tab-bg-white' : 'nav-link tab-bg-white'}
+            href="/Login"
+            className='nav-link tab-bg-white'
           >
           </a>
         </li>
         <li className="nav-item">
           <a
             style={{backgroundImage:`url(${signup})`}}
-            href="#Signup"
-            onClick={() => handlePageChange('Signup')}
-            className={currentPage === 'Signup' ? 'nav-link active tab-bg-white' : 'nav-link tab-bg-white'}
+            href="/Signup"
+            className='nav-link tab-bg-white'
           >
           </a>
         </li>
