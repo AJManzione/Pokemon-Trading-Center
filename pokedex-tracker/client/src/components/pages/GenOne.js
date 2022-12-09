@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import pokeballOpen from '../../images/pokeball-open.png'
-import pokeballClosed from '../../images/pokeball-closed.png'
+import pokeballOpen from '../../images/pokeball-open.png';
+import pokeballClosed from '../../images/pokeball-closed.png';
 
 export default function GenOne() {
 
@@ -21,7 +21,7 @@ const getData=()=>{
       'Accept': 'application/json'
      }
   }
-  )
+)
     .then(function(response){
       return response.json();
     })
@@ -51,8 +51,9 @@ useEffect(()=>{
               <li><h6>{element.type}</h6></li> 
               <li> 
                 <img
+                  key={element.entry}
                   className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
+                  onClick={() => pokemonCaught === 'uncaught' ? setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught')}
                   width='50px'
                   src={renderCaughtStatus()}
                 >
