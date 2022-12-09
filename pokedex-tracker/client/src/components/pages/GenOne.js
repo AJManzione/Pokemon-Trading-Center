@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
 
 export default function GenOne() {
 
 const [pokemonCaught, setPokemonCaughtStatus] = useState('uncaught');
+const [data, setData] = useState([]);
 
 const renderCaughtStatus = () => {
   if (pokemonCaught === 'uncaught') {
@@ -12,20 +13,42 @@ const renderCaughtStatus = () => {
   } return pokeballClosed;
 };
 
+const getData=()=>{
+  fetch('./gen-1.json'
+  ,{
+    headers : { 
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+     }
+  }
+  )
+    .then(function(response){
+      return response.json();
+    })
+    .then(function(myJson) {
+      setData(myJson)
+    })
+}
+useEffect(()=>{
+  getData()
+},[])
+
   return (
     <div className='gen-one-bg'>
       <div className='container pt-3'>
-        <ul className="list-group">
+        <ul className="list-group"> 
+        {data.map((element, i) => {
+          return (
           <li className="list-group-item-success m-1">
             <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/1.png'></img></li>
+              <div className='d-flex align-items-center justify-content-around'>
+                <li><img width='70px'src={element.sprite}></img></li>
                 <li className='m-4'>
-                  <h4>#001</h4>
+                  <h4>#{element.entry}</h4>
                 </li>
               </div>
-              <li><h4>Bulbasaur</h4></li>
-              <li><h6>Grass, Poison</h6></li> 
+              <li><h4>{element.name}</h4></li>
+              <li><h6>{element.type}</h6></li> 
               <li> 
                 <img
                   className='pokeball'
@@ -35,122 +58,11 @@ const renderCaughtStatus = () => {
                 >
                 </img>
               </li>  
-            </ul>     
-          </li>
-          <li className="list-group-item-success m-1">
-            <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/2.png'></img></li>
-                <li className='m-4'>
-                  <h4>#002</h4>
-                </li>
-              </div>
-              <li><h4>Ivysaur</h4></li>
-              <li><h6>Grass, Poison</h6></li> 
-              <li> 
-                <img
-                  className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
-                  src={renderCaughtStatus()}
-                >
-                </img>
-              </li>  
-            </ul>     
-          </li>
-          <li className="list-group-item-success m-1">
-            <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/3.png'></img></li>
-                <li className='m-4'>
-                  <h4>#003</h4>
-                </li>
-              </div>
-              <li><h4>Venusaur</h4></li>
-              <li><h6>Grass, Poison</h6></li> 
-              <li> 
-                <img
-                  className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
-                  src={renderCaughtStatus()}
-                >
-                </img>
-              </li>  
-            </ul>     
-          </li>
-          <li className="list-group-item-success m-1">
-            <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/4.png'></img></li>
-                <li className='m-4'>
-                  <h4>#004</h4>
-                </li>
-              </div>
-              <li><h4>Charmander</h4></li>
-              <li><h6>Fire</h6></li> 
-              <li> 
-                <img
-                  className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
-                  src={renderCaughtStatus()}
-                >
-                </img>
-              </li>  
-            </ul>     
-          </li>
-          <li className="list-group-item-success m-1">
-            <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/5.png'></img></li>
-                <li className='m-4'>
-                  <h4>#005</h4>
-                </li>
-              </div>
-              <li><h4>Charmelien</h4></li>
-              <li><h6>Fire</h6></li> 
-              <li> 
-                <img
-                  className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
-                  src={renderCaughtStatus()}
-                >
-                </img>
-              </li>  
-            </ul>     
-          </li>
-          <li className="list-group-item-success m-1">
-            <ul className='d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center justify-content-around'> 
-                <li><img width='70px'src='https://cdn.traction.one/pokedex/pokemon/6.png'></img></li>
-                <li className='m-4'>
-                  <h4>#006</h4>
-                </li>
-              </div>
-              <li><h4>Charizard</h4></li>
-              <li><h6>Fire</h6></li> 
-              <li> 
-                <img
-                  className='pokeball'
-                  onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
-                  src={renderCaughtStatus()}
-                >
-                </img>
-              </li>  
-            </ul>     
-          </li>
+            </ul>
+          </li>)
+        })}
         </ul>
       </div>
-      <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
     </div>
   );
 }
