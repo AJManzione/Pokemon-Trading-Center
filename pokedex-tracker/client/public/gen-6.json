@@ -404,14 +404,14 @@
     {
        "entry":"717",
        "name":"Yveltal",
-       "type":"Dark Flying",
+       "type":"Dark, Flying",
        "sprite":"https://cdn.traction.one/pokedex/pokemon/717.png"
     },
     {
        "entry":"718",
        "name":"Zygarde50% Forme",
-       "type":"Dragon Ground",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/718.png"
+       "type":"Dragon, Ground",
+       "sprite":"https://archives.bulbagarden.net/media/upload/3/3a/718Zygarde.png"
     },
     {
        "entry":"719",
@@ -421,9 +421,9 @@
     },
     {
        "entry":"720",
-       "name":"HoopaHoopa Confined",
-       "type":"Psychic Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/720.png"
+       "name":"Hoopa Confined",
+       "type":"Psychic, Ghost",
+       "sprite":"https://archives.bulbagarden.net/media/upload/f/fb/720Hoopa.png"
     },
     {
        "entry":"721",

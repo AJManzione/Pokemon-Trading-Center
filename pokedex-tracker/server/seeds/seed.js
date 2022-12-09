@@ -3,15 +3,15 @@ const { Pokemon, User } = require("../models");
 
 // const pokemonData = require("./pokemonData.json");
 
-const gen1 = require('../seeds/json/gen-1.json')
-const gen2 = require('../seeds/json/gen-2.json')
-const gen3 = require('../seeds/json/gen-3.json')
-const gen4 = require('../seeds/json/gen-4.json')
-const gen5 = require('../seeds/json/gen-5.json')
-const gen6 = require('../seeds/json/gen-6.json')
-const gen7 = require('../seeds/json/gen-7.json')
-const gen8 = require('../seeds/json/gen-8.json')
-const gen9 = require('../seeds/json/gen-9.json')
+const gen1 = require('../../client/public/gen-1.json')
+const gen2 = require('../../client/public/gen-2.json')
+const gen3 = require('../../client/public/gen-3.json')
+const gen4 = require('../../client/public/gen-4.json')
+const gen5 = require('../../client/public/gen-5.json')
+const gen6 = require('../../client/public/gen-6.json')
+const gen7 = require('../../client/public/gen-7.json')
+const gen8 = require('../../client/public/gen-8.json')
+const gen9 = require('../../client/public/gen-9.json')
 
 const userData = require("./userData.json")
 

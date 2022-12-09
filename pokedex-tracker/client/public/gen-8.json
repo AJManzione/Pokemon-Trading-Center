@@ -235,9 +235,9 @@
     },
     {
        "entry":"849",
-       "name":"ToxtricityAmped Form",
+       "name":"Toxtricity: Amped Form",
        "type":"Electric Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/849.png"
+       "sprite":"https://archives.bulbagarden.net/media/upload/5/56/849Toxtricity-Amped.png"
     },
     {
        "entry":"850",
@@ -391,9 +391,9 @@
     },
     {
        "entry":"875",
-       "name":"EiscueIce Face",
-       "type":"Ice ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/875.png"
+       "name":"Eiscue:Ice Face",
+       "type":"Ice",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/9b/875Eiscue-Ice.png"
     },
     {
        "entry":"876",
@@ -403,9 +403,9 @@
     },
     {
        "entry":"877",
-       "name":"MorpekoFull Belly Mode",
-       "type":"Electric Dark",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/877.png"
+       "name":"Morpeko: Full Belly Mode",
+       "type":"Electric, Dark",
+       "sprite":"https://archives.bulbagarden.net/media/upload/d/df/877Morpeko-Full.png"
     },
     {
        "entry":"878",
@@ -464,115 +464,115 @@
     {
        "entry":"887",
        "name":"Dragapult",
-       "type":"Dragon Ghost",
+       "type":"Dragon, Ghost",
        "sprite":"https://cdn.traction.one/pokedex/pokemon/887.png"
     },
     {
        "entry":"888",
-       "name":"ZacianHero of Many Battles",
-       "type":"Fairy ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/888.png"
+       "name":"Zacian: Hero of Many Battles",
+       "type":"Fairy",
+       "sprite":"https://archives.bulbagarden.net/media/upload/e/e3/888Zacian-Hero.png"
     },
     {
        "entry":"889",
-       "name":"ZamazentaHero of Many Battles",
-       "type":"Fighting ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/889.png"
+       "name":"Zamazenta: Hero of Many Battles",
+       "type":"Fighting",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/97/889Zamazenta-Hero.png"
     },
     {
        "entry":"890",
        "name":"Eternatus",
-       "type":"Poison Dragon",
+       "type":"Poison, Dragon",
        "sprite":"https://cdn.traction.one/pokedex/pokemon/890.png"
     },
     {
        "entry":"891",
        "name":"Kubfu",
-       "type":"Fighting ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/891.png"
+       "type":"Fighting",
+       "sprite":"https://archives.bulbagarden.net/media/upload/4/47/891Kubfu.png"
     },
     {
        "entry":"892",
-       "name":"UrshifuSingle Strike Style",
-       "type":"Fighting Dark",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/892.png"
+       "name":"Urshifu: Single Strike Style",
+       "type":"Fighting, Dark",
+       "sprite":"https://archives.bulbagarden.net/media/upload/e/e7/892Urshifu-Single_Strike.png"
     },
     {
        "entry":"893",
        "name":"Zarude",
-       "type":"Dark Grass",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/893.png"
+       "type":"Dark, Grass",
+       "sprite":"https://archives.bulbagarden.net/media/upload/a/a5/893Zarude.png"
     },
     {
        "entry":"894",
        "name":"Regieleki",
-       "type":"Electric ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/894.png"
+       "type":"Electric",
+       "sprite":"https://archives.bulbagarden.net/media/upload/9/9b/894Regieleki.png"
     },
     {
        "entry":"895",
        "name":"Regidrago",
-       "type":"Dragon ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/895.png"
+       "type":"Dragon",
+       "sprite":"https://archives.bulbagarden.net/media/upload/e/e8/895Regidrago.png"
     },
     {
        "entry":"896",
        "name":"Glastrier",
-       "type":"Ice ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/896.png"
+       "type":"Ice",
+       "sprite":"https://archives.bulbagarden.net/media/upload/f/ff/896Glastrier.png"
     },
     {
        "entry":"897",
        "name":"Spectrier",
-       "type":"Ghost ",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/897.png"
+       "type":"Ghost",
+       "sprite":"https://archives.bulbagarden.net/media/upload/7/7e/897Spectrier.png"
     },
     {
        "entry":"898",
        "name":"Calyrex",
-       "type":"Psychic Grass",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/898.png"
+       "type":"Psychic, Grass",
+       "sprite":"https://archives.bulbagarden.net/media/upload/3/3c/898Calyrex.png"
     },
     {
        "entry":"899",
        "name":"Wyrdeer",
-       "type":"Normal Psychic",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/899.png"
+       "type":"Normal, Psychic",
+       "sprite":"https://archives.bulbagarden.net/media/upload/7/75/899Wyrdeer.png"
     },
     {
        "entry":"900",
        "name":"Kleavor",
-       "type":"Bug Rock",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/900.png"
+       "type":"Bug, Rock",
+       "sprite":"https://archives.bulbagarden.net/media/upload/3/38/900Kleavor.png"
     },
     {
        "entry":"901",
        "name":"Ursaluna",
-       "type":"Ground Normal",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/901.png"
+       "type":"Ground, Normal",
+       "sprite":"https://archives.bulbagarden.net/media/upload/0/02/901Ursaluna.png"
     },
     {
        "entry":"902",
-       "name":"BasculegionMale",
-       "type":"Water Ghost",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/902.png"
+       "name":"Basculegion: Male",
+       "type":"Water, Ghost",
+       "sprite":"https://archives.bulbagarden.net/media/upload/3/32/902Basculegion.png"
     },
     {
        "entry":"903",
        "name":"Sneasler",
-       "type":"Fighting Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/903.png"
+       "type":"Fighting, Poison",
+       "sprite":"https://archives.bulbagarden.net/media/upload/5/5f/903Sneasler.png"
     },
     {
        "entry":"904",
        "name":"Overqwil",
-       "type":"Dark Poison",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/904.png"
+       "type":"Dark, Poison",
+       "sprite":"https://archives.bulbagarden.net/media/upload/2/26/904Overqwil.png"
     },
     {
        "entry":"905",
-       "name":"EnamorusIncarnate Forme",
-       "type":"Fairy Flying",
-       "sprite":"https://cdn.traction.one/pokedex/pokemon/905.png"
+       "name":"Enamorus: Incarnate Forme",
+       "type":"Fairy, Flying",
+       "sprite":"https://archives.bulbagarden.net/media/upload/b/bf/905Enamorus.png"
     }
  ]
