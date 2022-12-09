@@ -48,9 +48,10 @@ const checkPassword = function(input) {
 const userSchema = new Schema({
     username: {
         type: String,
-        required: 'User name is required',
+        required: true,
         minlength: 1,
         maxlength: 50,
+        unique: true,
         trim: true
     },
 
