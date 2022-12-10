@@ -10,8 +10,13 @@
       "type":"Grass "
    },
    {
-      "entry":"812",
+      "entry":"812.1",
       "name":"Rillaboom",
+      "type":"Grass "
+   },
+   {
+      "entry":"812.2",
+      "name":"Gigantamax Rillaboom",
       "type":"Grass "
    },
    {
@@ -25,8 +30,13 @@
       "type":"Fire "
    },
    {
-      "entry":"815",
+      "entry":"815.1",
       "name":"Cinderace",
+      "type":"Fire "
+   },
+   {
+      "entry":"815.2",
+      "name":"Gigantamax Cinderace",
       "type":"Fire "
    },
    {
@@ -40,8 +50,13 @@
       "type":"Water "
    },
    {
-      "entry":"818",
+      "entry":"818.1",
       "name":"Inteleon",
+      "type":"Water "
+   },
+   {
+      "entry":"818.2",
+      "name":"Gigantamax Inteleon",
       "type":"Water "
    },
    {
@@ -65,8 +80,13 @@
       "type":"Flying "
    },
    {
-      "entry":"823",
+      "entry":"823.1",
       "name":"Corviknight",
+      "type":"Flying Steel"
+   },
+   {
+      "entry":"823.2",
+      "name":"Gigantamax Corviknight",
       "type":"Flying Steel"
    },
    {
@@ -80,8 +100,13 @@
       "type":"Bug Psychic"
    },
    {
-      "entry":"826",
+      "entry":"826.1",
       "name":"Orbeetle",
+      "type":"Bug Psychic"
+   },
+   {
+      "entry":"826.2",
+      "name":"Gigantamax Orbeetle",
       "type":"Bug Psychic"
    },
    {
@@ -120,7 +145,17 @@
       "type":"Water "
    },
    {
-      "entry":"834",
+      "entry":"834.1",
+      "name":"Drednaw",
+      "type":"Water Rock"
+   },
+   {
+      "entry":"834.2",
+      "name":"Gigantamax Drednaw",
+      "type":"Water Rock"
+   },
+   {
+      "entry":"834.1",
       "name":"Drednaw",
       "type":"Water Rock"
    },
@@ -145,8 +180,13 @@
       "type":"Rock Fire"
    },
    {
-      "entry":"839",
+      "entry":"839.1",
       "name":"Coalossal",
+      "type":"Rock Fire"
+   },
+   {
+      "entry":"839.2",
+      "name":"Gigantamax Coalossal",
       "type":"Rock Fire"
    },
    {
@@ -155,8 +195,13 @@
       "type":"Grass Dragon"
    },
    {
-      "entry":"841",
+      "entry":"841.1",
       "name":"Flapple",
+      "type":"Grass Dragon"
+   },
+   {
+      "entry":"841.2",
+      "name":"Gigantamax Flapple",
       "type":"Grass Dragon"
    },
    {
@@ -170,13 +215,28 @@
       "type":"Ground "
    },
    {
-      "entry":"844",
+      "entry":"844.1",
       "name":"Sandaconda",
       "type":"Ground "
    },
    {
-      "entry":"845",
+      "entry":"844.2",
+      "name":"Gigantamax Sandaconda",
+      "type":"Ground "
+   },
+   {
+      "entry":"845.1",
       "name":"Cramorant",
+      "type":"Flying Water"
+   },
+   {
+      "entry":"845.2",
+      "name":"Cramorant (Gulping Form)",
+      "type":"Flying Water"
+   },
+   {
+      "entry":"845.3",
+      "name":"Cramorant (Gorging Form)",
       "type":"Flying Water"
    },
    {
@@ -195,8 +255,18 @@
       "type":"Electric Poison"
    },
    {
-      "entry":"849",
-      "name":"ToxtricityAmped Form",
+      "entry":"849.1",
+      "name":"Toxtricity (Amped Form)",
+      "type":"Electric Poison"
+   },
+   {
+      "entry":"849.2",
+      "name":"Toxtricity (Low Key Form)",
+      "type":"Electric Poison"
+   },
+   {
+      "entry":"849.3",
+      "name":"Gigantamax Toxtricity",
       "type":"Electric Poison"
    },
    {
@@ -205,8 +275,13 @@
       "type":"Fire Bug"
    },
    {
-      "entry":"851",
+      "entry":"851.1",
       "name":"Centiskorch",
+      "type":"Fire Bug"
+   },
+   {
+      "entry":"851.2",
+      "name":"Gigantamax Centiskorch",
       "type":"Fire Bug"
    },
    {
@@ -240,8 +315,13 @@
       "type":"Psychic "
    },
    {
-      "entry":"858",
+      "entry":"858.1",
       "name":"Hatterene",
+      "type":"Psychic Fairy"
+   },
+   {
+      "entry":"858.2",
+      "name":"Gigantamax Hatterene",
       "type":"Psychic Fairy"
    },
    {
@@ -255,8 +335,13 @@
       "type":"Dark Fairy"
    },
    {
-      "entry":"861",
+      "entry":"861.1",
       "name":"Grimmsnarl",
+      "type":"Dark Fairy"
+   },
+   {
+      "entry":"861.2",
+      "name":"Gigantamax Grimmsnarl",
       "type":"Dark Fairy"
    },
    {
@@ -295,8 +380,13 @@
       "type":"Fairy "
    },
    {
-      "entry":"869",
-      "name":"AlcremieVanilla Cream",
+      "entry":"869.1",
+      "name":"Alcremie (Vanilla Cream)",
+      "type":"Fairy "
+   },
+   {
+      "entry":"869.2",
+      "name":"Gigantamax Alcremie",
       "type":"Fairy "
    },
    {
@@ -325,18 +415,28 @@
       "type":"Rock "
    },
    {
-      "entry":"875",
-      "name":"EiscueIce Face",
+      "entry":"875.1",
+      "name":"Eiscue (Ice Face)",
+      "type":"Ice "
+   },
+   {
+      "entry":"875.2",
+      "name":"Eiscue (Noice Face)",
       "type":"Ice "
    },
    {
       "entry":"876",
-      "name":"IndeedeeMale",
+      "name":"Indeedee",
       "type":"Psychic Normal"
    },
    {
-      "entry":"877",
-      "name":"MorpekoFull Belly Mode",
+      "entry":"877.1",
+      "name":"Morpeko (Full Belly Mode)",
+      "type":"Electric Dark"
+   },
+   {
+      "entry":"877.2",
+      "name":"Morpeko (Hangry Mode)",
       "type":"Electric Dark"
    },
    {
@@ -345,8 +445,13 @@
       "type":"Steel "
    },
    {
-      "entry":"879",
+      "entry":"879.1",
       "name":"Copperajah",
+      "type":"Steel "
+   },
+   {
+      "entry":"879.2",
+      "name":"Gigantamax Copperajah",
       "type":"Steel "
    },
    {
@@ -370,8 +475,13 @@
       "type":"Water Ice"
    },
    {
-      "entry":"884",
+      "entry":"884.1",
       "name":"Duraludon",
+      "type":"Steel Dragon"
+   },
+   {
+      "entry":"884.2",
+      "name":"Gigantamax Duraludon",
       "type":"Steel Dragon"
    },
    {
@@ -390,18 +500,33 @@
       "type":"Dragon Ghost"
    },
    {
-      "entry":"888",
-      "name":"ZacianHero of Many Battles",
+      "entry":"888.1",
+      "name":"Zacian (Hero of Many Battles)",
       "type":"Fairy "
    },
    {
-      "entry":"889",
+      "entry":"888.2",
+      "name":"Zacian (Crowned Sword)",
+      "type":"Fairy "
+   },
+   {
+      "entry":"889.1",
+      "name":"Zamazenta (Hero of Many Battles)",
+      "type":"Fighting "
+   },
+   {
+      "entry":"889.2",
       "name":"ZamazentaHero of Many Battles",
       "type":"Fighting "
    },
    {
-      "entry":"890",
+      "entry":"890.1",
       "name":"Eternatus",
+      "type":"Poison Dragon"
+   },
+   {
+      "entry":"890.2",
+      "name":"Eternamax Eternatus",
       "type":"Poison Dragon"
    },
    {
@@ -410,13 +535,33 @@
       "type":"Fighting "
    },
    {
-      "entry":"892",
-      "name":"UrshifuSingle Strike Style",
+      "entry":"892.1",
+      "name":"Urshifu (Single Strike Style)",
       "type":"Fighting Dark"
    },
    {
-      "entry":"893",
+      "entry":"892.2",
+      "name":"Urshifu (Rapid Strike Style)",
+      "type":"Fighting Dark"
+   },
+   {
+      "entry":"892.3",
+      "name":"Gigantamax Urshifu (Single Strike Style)",
+      "type":"Fighting Dark"
+   },
+   {
+      "entry":"892.4",
+      "name":"Gigantamax Urshifu (Rapid Strike Style)",
+      "type":"Fighting Dark"
+   },
+   {
+      "entry":"893.1",
       "name":"Zarude",
+      "type":"Dark Grass"
+   },
+   {
+      "entry":"893.2",
+      "name":"Dada Zarude",
       "type":"Dark Grass"
    },
    {
@@ -440,8 +585,18 @@
       "type":"Ghost "
    },
    {
-      "entry":"898",
+      "entry":"898.1",
       "name":"Calyrex",
+      "type":"Psychic Grass"
+   },
+   {
+      "entry":"898.2",
+      "name":"Calyrex (Ice Rider)",
+      "type":"Psychic Grass"
+   },
+   {
+      "entry":"898.3",
+      "name":"Calyrex (Shadow Rider)",
       "type":"Psychic Grass"
    },
    {
@@ -475,8 +630,13 @@
       "type":"Dark Poison"
    },
    {
-      "entry":"905",
-      "name":"EnamorusIncarnate Forme",
+      "entry":"905.1",
+      "name":"Enamorus (Incarnate Form)",
+      "type":"Fairy Flying"
+   },
+   {
+      "entry":"905.2",
+      "name":"Enamorus (Therian Form)",
       "type":"Fairy Flying"
    }
 ]

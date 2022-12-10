@@ -455,13 +455,43 @@
       "type":"Ice "
    },
    {
-      "entry":"585",
-      "name":"DeerlingSpring Form",
+      "entry":"585.1",
+      "name":"Deerling (Spring Form)",
       "type":"Normal Grass"
    },
    {
-      "entry":"586",
-      "name":"SawsbuckSpring Form",
+      "entry":"585.2",
+      "name":"Deerling (Summer Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"585.3",
+      "name":"Deerling (Autumn Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"585.4",
+      "name":"Deerling (Winter Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"586.1",
+      "name":"Sawsbuck (Spring Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"586.2",
+      "name":"Sawsbuck (Summer Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"586.3",
+      "name":"Sawsbuck (Autumn Form)",
+      "type":"Normal Grass"
+   },
+   {
+      "entry":"586.4",
+      "name":"Sawsbuck (Winter Form)",
       "type":"Normal Grass"
    },
    {
@@ -735,13 +765,23 @@
       "type":"Grass Fighting"
    },
    {
-      "entry":"641",
-      "name":"TornadusIncarnate Forme",
+      "entry":"641.1",
+      "name":"Tornadus (Incarnate Form)",
       "type":"Flying "
    },
    {
-      "entry":"642",
-      "name":"ThundurusIncarnate Forme",
+      "entry":"641.2",
+      "name":"Tornadus (Therian Form)",
+      "type":"Flying "
+   },
+   {
+      "entry":"642.1",
+      "name":"Thundurus (Incarnate Form)",
+      "type":"Electric Flying"
+   },
+   {
+      "entry":"642.2",
+      "name":"Thundurus (Therian Form)",
       "type":"Electric Flying"
    },
    {
@@ -765,13 +805,23 @@
       "type":"Dragon Ice"
    },
    {
-      "entry":"647",
-      "name":"KeldeoOrdinary Form",
+      "entry":"647.1",
+      "name":"Keldeo (Ordinary Form)",
       "type":"Water Fighting"
    },
    {
-      "entry":"648",
-      "name":"MeloettaAria Forme",
+      "entry":"647.2",
+      "name":"Keldeo (Resolute Form)",
+      "type":"Water Fighting"
+   },
+   {
+      "entry":"648.1",
+      "name":"Meloetta (Aria Form)",
+      "type":"Normal Psychic"
+   },
+   {
+      "entry":"648.2",
+      "name":"Meloetta (Pirouette Form)",
       "type":"Normal Psychic"
    },
    {
