@@ -64,7 +64,7 @@ const userSchema = new Schema({
         required: true,
         validate: {
             validator: checkPassword,
-            message: 'choose a more secure password (must be at least 8 characters long and contain at least one letter, one number, and one special character'
+            message: 'choose a more secure password (must be at least 8 characters long, contain at least one lower-case letter, one upper-case letter, and one number or one special character)'
         }
     },
     sprite:{
