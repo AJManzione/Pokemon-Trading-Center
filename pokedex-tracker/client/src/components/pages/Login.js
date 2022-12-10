@@ -37,7 +37,7 @@ const Login = (props) => {
   };
 
   return (
-    <div className="container ">
+    <div className="login-bg">
       <div className="d-flex justify-content-center pokedex-bg">
         <div className="custom-container">
           <h4 
@@ -45,9 +45,14 @@ const Login = (props) => {
             className="text-center welcome-trainer">
               Welcome Trainer!
           </h4>
+          <p 
+            style={{color:'lightblue'}}
+            className="text-center please-login">
+              Please Login
+          </p>
         <form 
           autoComplete="off"
-          className="login-form"
+          className="d-flex flex-column"
           onSubmit={handleFormSubmit}>
                 <input
                   className="inputs mb-2"
@@ -67,16 +72,15 @@ const Login = (props) => {
                   type="password"
                   value={formState.password}
                   onChange={handleChange}
-                  autoFocus
                   autocomplete="false"
                   onFocus={e => e.currentTarget.select()}
                 />
                 <button
-                  className="btn btn-block btn-primary"
-                  style={{ cursor: "pointer" }}
+                  className="submit-login-btn"
+                  style={{ cursor: "pointer", color: 'lightblue', fontSize: '1.3vw' }}
                   type="submit"
                 >
-                  Submit
+                  Login
                 </button>
           </form>
         </div>
