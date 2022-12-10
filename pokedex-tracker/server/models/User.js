@@ -6,7 +6,7 @@ const validateEmail = function(email) {
     return re.test(email)
 };
 const checkPassword = function(input) {
-    const passw = /^[A-Za-z]\w{7,14}$/;
+    const passw = /^(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/;
     if (input.match(passw)) {
       return true;
     }
@@ -64,7 +64,7 @@ const userSchema = new Schema({
         required: true,
         validate: {
             validator: checkPassword,
-            message: 'choose a more secure password (between 7 and 14 characters long'
+            message: 'choose a more secure password (must be at least 8 characters long and contain at least one letter, one number, and one special character'
         }
     },
     sprite:{

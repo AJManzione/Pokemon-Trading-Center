@@ -2,20 +2,20 @@
     {
         "username": "Ash Ketchum",
         "email": "Ash@ketchum.com",
-        "password": "Ash@ketchum.com",
+        "password": "Ashke@tchum",
         "pokemonCaught": []
 
     },
     {
         "username": "Misty",
         "email": "Misty@misty.com",
-        "password": "waterisTheBest",
+        "password": "@waterisTheBest",
         "pokemonCaught": []
     },
     {
         "username": "mike",
         "email": "mike@mike.com",
-        "password": "password",
+        "password": "Pokemon2022",
         "pokemonCaught": []
     }
 ]
