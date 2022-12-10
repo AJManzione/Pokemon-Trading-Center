@@ -21,7 +21,6 @@ const Login = (props) => {
     event.preventDefault();
     try {
       const { data } = await loginUser({ variables: { ...formState } });
-      console.log(data)
       Auth.login(data.loginUser.token);
     } catch (e) {
       console.error(e);
