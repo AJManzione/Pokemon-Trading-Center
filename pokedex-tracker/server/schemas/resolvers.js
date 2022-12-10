@@ -6,7 +6,7 @@ const { signToken } = require('../utils/auth');
 function capFirstLetters(sentance){
   const words = sentance.split(" ");
 
-  //capitolizes first letter of every work
+  //capitalizes first letter of every work
 for (let i = 0; i < words.length; i++) {
   words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase()
 }
@@ -35,6 +35,14 @@ const resolvers = {
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
+      const token = signToken(user);
+      return { token, user };
+    },
+    loginUser: async (parent, { email, password }) => {
+      const user = await User.findOne({ email });
+      if (!user) {
+        throw new AuthenticationError("Not a valid user");
+      }
       const token = signToken(user);
       return { token, user };
     },

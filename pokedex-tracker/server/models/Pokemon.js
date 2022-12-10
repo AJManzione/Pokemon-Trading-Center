@@ -13,11 +13,6 @@ const pokemonSchema = new Schema({
     require: true,
     trim: true,
   },
-  sprite: {
-    type: String,
-    required: true,
-    trim: true,
-  },
   entry: {
     type: String,
     required: true,

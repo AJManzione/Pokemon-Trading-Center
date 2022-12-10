@@ -31,7 +31,6 @@ const httpLink = createHttpLink({
 
 
 const authLink = setContext((_, { headers }) => {
-
   const token = localStorage.getItem("id_token");
   return {
     headers: {
@@ -57,39 +56,39 @@ function App() {
                 element={<Dashboard />}
               />
               <Route
-                path='/GenOne'
+                path='/GenOne-Kanto'
                 element={<GenOne />}
              />
               <Route
-                path='/GenTwo'
+                path='/GenTwo-Johto'
                 element={<GenTwo />}
               />
               <Route
-                path='/GenThree'
+                path='/GenThree-Hoenn'
                 element={<GenThree />}
               />
               <Route
-                path='/GenFour'
+                path='/GenFour-Sinnoh'
                 element={<GenFour />}
               />
               <Route
-                path='/GenFive'
+                path='/GenFive-Unova'
                 element={<GenFive />}
               />
               <Route
-                path='/GenSix'
+                path='/GenSix-Kalos'
                 element={<GenSix />}
               />
               <Route
-                path='/GenSeven'
+                path='/GenSeven-Alola'
                 element={<GenSeven />}
               />
               <Route
-                path='/GenEight'
+                path='/GenEight-Galar'
                 element={<GenEight />}
               />
               <Route
-                path='/GenNine'
+                path='/GenNine-Paldea'
                 element={<GenNine />}
               />
               <Route

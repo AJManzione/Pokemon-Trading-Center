@@ -95,8 +95,23 @@
       "type":"Fighting Ice"
    },
    {
-      "entry":"741",
-      "name":"OricorioBaile Style",
+      "entry":"741.1",
+      "name":"Oricorio (Baile Style)",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"741.2",
+      "name":"Oricorio (Pom-Pom Style)",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"741.3",
+      "name":"Oricorio (Pa'u Style)",
+      "type":"Fire Flying"
+   },
+   {
+      "entry":"741.4",
+      "name":"Oricorio (Sensu Style)",
       "type":"Fire Flying"
    },
    {
@@ -115,13 +130,28 @@
       "type":"Rock "
    },
    {
-      "entry":"745",
-      "name":"LycanrocMidday Form",
+      "entry":"745.1",
+      "name":"Lycanroc (Midday Form)",
       "type":"Rock "
    },
    {
-      "entry":"746",
-      "name":"WishiwashiSolo Form",
+      "entry":"745.2",
+      "name":"Lycanroc (Midnight Form)",
+      "type":"Rock "
+   },
+   {
+      "entry":"745.3",
+      "name":"Lycanroc (Dusk Form)",
+      "type":"Rock "
+   },
+   {
+      "entry":"746.1",
+      "name":"Wishiwashi (Solo Form)",
+      "type":"Water "
+   },
+   {
+      "entry":"746.2",
+      "name":"Wishiwashi (School Form)",
       "type":"Water "
    },
    {
@@ -260,8 +290,13 @@
       "type":"Normal "
    },
    {
-      "entry":"774",
-      "name":"MiniorMeteor Form",
+      "entry":"774.1",
+      "name":"Minior (Meteor Form)",
+      "type":"Rock Flying"
+   },
+   {
+      "entry":"774.2",
+      "name":"Minior (Red Core)",
       "type":"Rock Flying"
    },
    {
@@ -280,8 +315,13 @@
       "type":"Electric Steel"
    },
    {
-      "entry":"778",
-      "name":"MimikyuDisguised Form",
+      "entry":"778.1",
+      "name":"Mimikyu (Disguised Form)",
+      "type":"Ghost Fairy"
+   },
+   {
+      "entry":"778.2",
+      "name":"Mimikyu (Busted Form)",
       "type":"Ghost Fairy"
    },
    {

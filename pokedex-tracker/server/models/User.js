@@ -26,11 +26,6 @@ const checkPassword = function(input) {
       require: true,
       trim: true,
     },
-    sprite: {
-      type: String,
-      required: true,
-      trim: true,
-    },
     entry: {
       type: String,
       required: true,
