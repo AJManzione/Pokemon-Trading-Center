@@ -9,12 +9,18 @@ import genSixTab from "../images/tabs/gen-six-tab.jpg";
 import genSevenTab from "../images/tabs/gen-seven-tab.jpg";
 import genEightTab from "../images/tabs/gen-eight-tab.jpg";
 import genNineTab from "../images/tabs/gen-nine-tab.jpg";
-import login from "../images/tabs-ui/login.jpg";
-import signup from "../images/tabs-ui/signup.jpg";
+import logout from "../images/tabs-ui/logout.jpg";
 
-function DexTabs(props) {
+import Auth from "../utils/auth";
+
+
+function DexTabs( props ) {
+
   return (
-    <ul className="nav d-flex banner-bg flex-nowrap">
+  <div>
+    { props.isLogged ?     
+    <ul 
+      className="nav d-flex banner-bg flex-nowrap">
       <li className="nav-item">
         <a href="/Dashboard">
           <img className="tab-bg-white" src={dashboard}></img>
@@ -70,21 +76,16 @@ function DexTabs(props) {
           <img className="tab-bg-black" src={genNineTab}></img>
         </a>
       </li>
-      {console.log(props.token)}
-      <li
-        style={!props.token ? { display: "content" } : { display: "none" }}
-        className="nav-item"
-      >
-        <a href="/Login">
-          <img className="tab-bg-white" src={login}></img>
-        </a>
-      </li>
       <li className="nav-item">
-        <a href="/Signup">
-          <img className="tab-bg-white" src={signup}></img>
+        <a 
+          href="/Login"
+          onClick={Auth.logout}>
+          <img className="tab-bg-white" src={logout}></img>
         </a>
       </li>
-    </ul>
+
+    </ul>: <p></p> }
+</div>
   );
 }
 

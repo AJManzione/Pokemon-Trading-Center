@@ -25,6 +25,7 @@ import Signup from "./components/pages/SignUp";
 import "./styles/pokedex.css";
 import DexTabs from "./components/DexTabs";
 
+
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
@@ -50,20 +51,17 @@ function App() {
     getLocal();
   }, []);
 
-  const [isToken, getToken] = useState("");
+  const [isLogged, setLogginStatus] = useState("");
+  
   const getLocal = () => {
     const token = localStorage.getItem("id_token");
-    getToken(token);
-    console.log("heres the token " + token);
+    setLogginStatus(token);
   };
 
-  // const token = localStorage.getItem("id_token");
-
-  // getToken(token)
   return (
     <ApolloProvider client={client}>
       <Router>
-        <DexTabs token={isToken} />
+        <DexTabs isLogged={isLogged} />
         <Routes>
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/GenOne" element={<GenOne />} />
