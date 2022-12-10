@@ -12,7 +12,7 @@ import genNineTab from "../images/tabs/gen-nine-tab.jpg";
 import login from "../images/tabs-ui/login.jpg";
 import signup from "../images/tabs-ui/signup.jpg";
 
-function DexTabs({ props }) {
+function DexTabs(props) {
   return (
     <ul className="nav d-flex banner-bg flex-nowrap">
       <li className="nav-item">
@@ -70,8 +70,9 @@ function DexTabs({ props }) {
           <img className="tab-bg-black" src={genNineTab}></img>
         </a>
       </li>
+      {console.log(props.token)}
       <li
-        style={props == !null ? { display: "content" } : { display: "none" }}
+        style={!props.token ? { display: "content" } : { display: "none" }}
         className="nav-item"
       >
         <a href="/Login">
