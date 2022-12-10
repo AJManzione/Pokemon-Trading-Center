@@ -1,0 +1,48 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+
+}
+
+input:-webkit-autofill { 
+    -webkit-box-shadow:200px 200px 100px  inset; 
+    box-shadow:200px 200px 100px  inset; 
+  }
+
+.pokedex-bg {
+    background-image: url(../images/pokedex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    min-width: 100%;
+    min-height: 90vh;
+}
+
+.welcome-trainer {
+    font-size: 2vw;
+}
+.custom-container {
+    margin-top: 7vh;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20vw;
+    max-height: 30vh;
+}
+
+input[type="email"], input[type="password"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: lightblue;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .custom-container {
+        margin-top: 4   vh;
+        max-height: 16vh;
+    }
+}

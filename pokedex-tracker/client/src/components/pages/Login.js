@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { LOGIN_USER } from "../../utils/mutations";
 
+import pokedex from '../../images/pokedex.png'
+
+import '../../styles/login-signup.css'
+
 import Auth from "../../utils/auth";
 
 const Login = (props) => {
@@ -33,11 +37,62 @@ const Login = (props) => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Login</h4>
-          <div className="card-body">
+    <div className="container ">
+      <div className="d-flex justify-content-center pokedex-bg">
+        <div className="custom-container">
+          <h4 
+            style={{color:'lightblue'}}
+            className="text-center welcome-trainer">
+              Welcome Trainer!
+          </h4>
+        <form 
+          autoComplete="off"
+          className="login-form"
+          onSubmit={handleFormSubmit}>
+                <input
+                  className="inputs mb-2"
+                  placeholder="Email"
+                  name="email"
+                  type="email"
+                  value={formState.email}
+                  onChange={handleChange}
+                  autoFocus
+                  autocomplete="false"
+                  onFocus={e => e.currentTarget.select()}
+                />
+                <input
+                  className="inputs"
+                  placeholder="Password"
+                  name="password"
+                  type="password"
+                  value={formState.password}
+                  onChange={handleChange}
+                  autoFocus
+                  autocomplete="false"
+                  onFocus={e => e.currentTarget.select()}
+                />
+                <button
+                  className="btn btn-block btn-primary"
+                  style={{ cursor: "pointer" }}
+                  type="submit"
+                >
+                  Submit
+                </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  );
+};
+
+export default Login;
+
+
+
+  /*   <main 
+      style={{backgroundImage:`url(${pokedex})`}}
+      className="">
             {!data ? (
               <form onSubmit={handleFormSubmit}>
                 <input
@@ -67,11 +122,4 @@ const Login = (props) => {
             ) : (
               <p></p>
             )}
-          </div>
-        </div>
-      </div>
-    </main>
-  );
-};
-
-export default Login;
+    </main> */
