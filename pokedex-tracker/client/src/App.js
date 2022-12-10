@@ -56,39 +56,39 @@ function App() {
                 element={<Dashboard />}
               />
               <Route
-                path='/GenOne-Kanto'
+                path='/GenOne'
                 element={<GenOne />}
              />
               <Route
-                path='/GenTwo-Johto'
+                path='/GenTwo'
                 element={<GenTwo />}
               />
               <Route
-                path='/GenThree-Hoenn'
+                path='/GenThree'
                 element={<GenThree />}
               />
               <Route
-                path='/GenFour-Sinnoh'
+                path='/GenFour'
                 element={<GenFour />}
               />
               <Route
-                path='/GenFive-Unova'
+                path='/GenFive'
                 element={<GenFive />}
               />
               <Route
-                path='/GenSix-Kalos'
+                path='/GenSix'
                 element={<GenSix />}
               />
               <Route
-                path='/GenSeven-Alola'
+                path='/GenSeven'
                 element={<GenSeven />}
               />
               <Route
-                path='/GenEight-Galar'
+                path='/GenEight'
                 element={<GenEight />}
               />
               <Route
-                path='/GenNine-Paldea'
+                path='/GenNine'
                 element={<GenNine />}
               />
               <Route
