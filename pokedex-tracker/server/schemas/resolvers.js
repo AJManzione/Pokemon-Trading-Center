@@ -38,6 +38,14 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
+    loginUser: async (parent, { email, password }) => {
+      const user = await User.findOne({ email });
+      if (!user) {
+        throw new AuthenticationError("Not a valid user");
+      }
+      const token = signToken(user);
+      return { token, user };
+    },
     removeUser: async (parent, args) => {
       
       const user = await User.findOne(
