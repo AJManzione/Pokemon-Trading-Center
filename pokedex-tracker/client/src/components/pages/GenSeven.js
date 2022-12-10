@@ -58,7 +58,6 @@ useEffect(()=>{
                 <img
                   className='pokeball'
                   onClick={() => pokemonCaught === 'uncaught' ?setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught') }
-                  width='50px'
                   src={renderCaughtStatus()}
                 >
                 </img>
