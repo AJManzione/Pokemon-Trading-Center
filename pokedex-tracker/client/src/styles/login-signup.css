@@ -1,0 +1,111 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+
+}
+
+input:-webkit-autofill { 
+    -webkit-box-shadow:200px 200px 100px #376092 inset; 
+    box-shadow:200px 200px 100px #376092 inset; 
+  }
+
+
+.login-bg {
+    padding-top: 2vh;
+    background: rgb(0,58,112);
+    background: linear-gradient(180deg, rgba(0,58,112,1) 0%, rgba(61,125,202,1) 50%, rgba(255,203,5,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+.pokedex-bg {
+    background-image: url(../images/pokedex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    min-width: 100%;
+    min-height: 90vh;
+}
+
+.welcome-trainer {
+    font-size: 2vw;
+}
+.please-login {
+    font-size: 1vw;
+}
+.custom-container {
+    margin-top: 7vh;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20vw;
+    max-height: 30vh;
+}
+
+input[type="email"], input[type="password"]
+{
+    width: 20vw;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: lightblue;
+}
+
+.submit-login-btn {
+    background-color: transparent;
+}
+
+.submit-login-btn:hover {
+    background-color: #173962;
+}
+
+
+@media screen and (max-width: 992px) {
+    .custom-container {
+        margin-top: 10vh;
+        max-height: 16vh;
+    }
+    input[type="email"], input[type="password"]
+    {
+    width: 20vw;
+    height: 2vh;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: lightblue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-container {
+        margin-top: 6vh;
+        max-height: 16vh;
+    }
+    input[type="email"], input[type="password"]
+    {
+    width: 20vw;
+    height: 2vh;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: lightblue;
+    }
+}
+@media screen and (max-width: 575px) {
+    .custom-container {
+        margin-top: 6vh;
+        max-height: 14vh;
+    }
+    input[type="email"], input[type="password"]
+    {
+    width: 20vw;
+    height: 2vh;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: lightblue;
+    }
+}
+
+

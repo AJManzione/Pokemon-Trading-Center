@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { LOGIN_USER } from "../../utils/mutations";
 
+import pokedex from '../../images/pokedex.png'
+
+import '../../styles/login-signup.css'
+
 import Auth from "../../utils/auth";
 
 const Login = (props) => {
@@ -33,11 +37,66 @@ const Login = (props) => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Login</h4>
-          <div className="card-body">
+    <div className="login-bg">
+      <div className="d-flex justify-content-center pokedex-bg">
+        <div className="custom-container">
+          <h4 
+            style={{color:'lightblue'}}
+            className="text-center welcome-trainer">
+              Welcome Trainer!
+          </h4>
+          <p 
+            style={{color:'lightblue'}}
+            className="text-center please-login">
+              Please Login
+          </p>
+        <form 
+          autoComplete="off"
+          className="d-flex flex-column"
+          onSubmit={handleFormSubmit}>
+                <input
+                  className="inputs mb-2"
+                  placeholder="Email"
+                  name="email"
+                  type="email"
+                  value={formState.email}
+                  onChange={handleChange}
+                  autoFocus
+                  autocomplete="false"
+                  onFocus={e => e.currentTarget.select()}
+                />
+                <input
+                  className="inputs"
+                  placeholder="Password"
+                  name="password"
+                  type="password"
+                  value={formState.password}
+                  onChange={handleChange}
+                  autocomplete="false"
+                  onFocus={e => e.currentTarget.select()}
+                />
+                <button
+                  className="submit-login-btn"
+                  style={{ cursor: "pointer", color: 'lightblue', fontSize: '1.3vw' }}
+                  type="submit"
+                >
+                  Login
+                </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  );
+};
+
+export default Login;
+
+
+
+  /*   <main 
+      style={{backgroundImage:`url(${pokedex})`}}
+      className="">
             {!data ? (
               <form onSubmit={handleFormSubmit}>
                 <input
@@ -67,11 +126,4 @@ const Login = (props) => {
             ) : (
               <p></p>
             )}
-          </div>
-        </div>
-      </div>
-    </main>
-  );
-};
-
-export default Login;
+    </main> */
