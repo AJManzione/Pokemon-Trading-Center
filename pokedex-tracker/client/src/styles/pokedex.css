@@ -5,17 +5,35 @@
     list-style: none;
 }
 
+h4 {
+ font-size: 10px;
+}
+
+h6 {
+ font-size: 10%;
+}
+/* nav background color */
+.nav {
+    background-color: #E9FD38 ;
+}
+/* banner background */
 .banner-bg {
     background-image: url('../images/pokemon-banner.jpg');
     padding-top: 25vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    min-width: 100%;
 }
-
+/* nav-tabs-items-padding */
+.nav-item {
+    padding-left: 2.2%;
+}
+/* tab-bg-black-border */
 .tab-bg-black {
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
+    max-width: 6vw;
+    background-repeat: no-repeat;
+    background-position: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-color: black;
@@ -23,11 +41,11 @@
     border-width: 2px;
     border-bottom: none;
 }
-
+/* tab-bg-white-border */
 .tab-bg-white {
-    background-size: cover;
-    min-width: 80px;    
-    min-height: 10vh;
+    max-width: 6vw;
+    background-repeat: no-repeat;
+    background-position: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-color: white;
@@ -35,8 +53,7 @@
     border-width: 2px;
     border-bottom: none;
 }
-
-/* pokemon logo colors */
+/* pokemon logo colors */   
 .dashboard-bg {
     background: rgb(0,58,112);
     background: linear-gradient(180deg, rgba(0,58,112,1) 0%, rgba(61,125,202,1) 50%, rgba(255,203,5,1) 100%);
@@ -79,7 +96,19 @@
     width: 100vw;
 }
 /* gen-6-9 still needed */
-
 .pokeball {
+    width: 6vw;
     cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-item {
+        padding: 0;
+    }
+    .tab-bg-black {
+        max-width: 8.33vw;
+    }
+    .tab-bg-white {
+        max-width: 8.33vw;
+    }
 }

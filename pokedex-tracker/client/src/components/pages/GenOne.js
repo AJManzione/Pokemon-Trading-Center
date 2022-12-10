@@ -49,17 +49,29 @@ useEffect(()=>{
                     </img>
                   </li>
                 <li className='m-4'>
-                  <h4>#{element.entry}</h4>
+                  <h4
+                    style={{fontSize: '2.5vw'}}>
+                      #{element.entry}
+                  </h4>
                 </li>
               </div>
-              <li><h4>{element.name}</h4></li>
-              <li><h6>{element.type}</h6></li> 
+              <li>
+                <h4
+                  style={{fontSize: '2.5vw'}}>
+                  {element.name}
+                </h4>
+              </li>
+              <li>
+                <h6
+                  style={{fontSize: '1.7vw'}}>
+                  {element.type}
+                </h6>
+              </li> 
               <li> 
                 <img
                   key={element.entry}
                   className='pokeball'
                   onClick={() => pokemonCaught === 'uncaught' ? setPokemonCaughtStatus('caught') : setPokemonCaughtStatus('uncaught')}
-                  width='50px'
                   src={renderCaughtStatus()}
                 >
                 </img>

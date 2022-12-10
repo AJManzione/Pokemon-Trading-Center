@@ -15,105 +15,119 @@ import signup from '../images/tabs-ui/signup.jpg';
 function DexTabs() {
 
   return (
-    <ul className="nav d-flex justify-content-between banner-bg" id='pinned-trigger1'>
-      <li className="nav-item">
+    <ul 
+      className="nav d-flex banner-bg flex-nowrap">
+      <li className='nav-item'>
         <a
-          style={{backgroundImage: `url(${dashboard})`}}
           href="/Dashboard"
-          className= 'nav-link tab-bg-white'
-          >
+          ><img 
+            className='tab-bg-white'
+            src={dashboard}>
+          </img>
         </a>
       </li>
-      <li className="nav-item">
+      <li className='nav-item'>
         <a
-          style={{backgroundImage: `url(${genOneTab})`}}
           href="/GenOne"
-          className='nav-link tab-bg-black'
-        ></a>
+        ><img 
+          className='tab-bg-black'
+          src={genOneTab}>
+            </img>          
+        </a>
       </li>
 
-      <li className="nav-item">
+      <li className='nav-item'>
         <a
-          style={{backgroundImage: `url(${genTwoTab})`}}
           href="/GenTwo"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genTwoTab}>
+          </img>
         </a>
       </li>
 
-      <li className="nav-item">
+      <li className='nav-item'>
         <a
-          style={{backgroundImage: `url(${genThreeTab})`}}
           href="/GenThree"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genThreeTab}>
+          </img>
         </a>
       </li>
 
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genFourTab})`}}
           href="/GenFour"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genFourTab}>
+        </img>
         </a>
       </li>
 
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genFiveTab})`}}
           href="/GenFive"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genFiveTab}>
+          </img>
         </a>
       </li>
 
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genSixTab})`}}
           href="/GenSix"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genSixTab}>
+          </img>
         </a>
       </li>
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genSevenTab})`}}
           href="/GenSeven"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genSevenTab}>  
+          </img>
         </a>
       </li>
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genEightTab})`}}
           href="/GenEight"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genEightTab}>
+          </img>
         </a>
       </li>
       <li className="nav-item">
         <a
-          style={{backgroundImage: `url(${genNineTab})`}}
           href="/GenNine"
-          className='nav-link tab-bg-black'
-        >
+        ><img 
+          className='tab-bg-black'
+          src={genNineTab}>
+          </img>
         </a>
       </li>
         <li className="nav-item">
           <a
-            style={{backgroundImage: `url(${login})`}}
             href="/Login"
-            className='nav-link tab-bg-white'
-          >
+          ><img 
+            className='tab-bg-white'
+            src={login}>
+            </img>
           </a>
         </li>
         <li className="nav-item">
           <a
-            style={{backgroundImage:`url(${signup})`}}
             href="/Signup"
-            className='nav-link tab-bg-white'
-          >
+          ><img 
+            className='tab-bg-white'
+            src={signup}>
+          </img>
           </a>
         </li>
     </ul>
