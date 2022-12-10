@@ -3,11 +3,15 @@
 
 }
 
-input:-webkit-autofill { 
+.inputs-login { 
     -webkit-box-shadow:200px 200px 100px #376092 inset; 
     box-shadow:200px 200px 100px #376092 inset; 
   }
 
+.inputs-signup {
+    -webkit-box-shadow:200px 200px 100px #FCD5B5 inset; 
+    box-shadow:200px 200px 100px #FCD5B5 inset;  
+}
 
 .login-bg {
     padding-top: 2vh;
@@ -18,8 +22,9 @@ input:-webkit-autofill {
 }
 
 
+
 .pokedex-bg {
-    background-image: url(../images/pokedex.png);
+    background-image: url('../images/pokedex.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -43,16 +48,34 @@ input:-webkit-autofill {
     max-height: 30vh;
 }
 
-input[type="email"], input[type="password"]
-{
+.custom-signup {
+    margin-top: -35vh;
+}
+
+/* FCD5B5 */
+
+
+.inputs-login {
     width: 20vw;
     background: rgba(0, 0, 0, 0);
     border: none;
     outline: none;
     color: lightblue;
 }
+.inputs-signup {
+    margin-right: 10px;
+    width: 20vw;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: black;
+}
 
 .submit-login-btn {
+    background-color: transparent;
+}
+.submit-signup-btn {
+    max-width: 95%;
     background-color: transparent;
 }
 
@@ -66,14 +89,23 @@ input[type="email"], input[type="password"]
         margin-top: 10vh;
         max-height: 16vh;
     }
-    input[type="email"], input[type="password"]
-    {
-    width: 20vw;
-    height: 2vh;
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    outline: none;
-    color: lightblue;
+    .inputs-login {
+        font-size: 50%;
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
+    }
+    .inputs-signup {
+        font-size: 50%;
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
     }
 }
 
@@ -82,14 +114,21 @@ input[type="email"], input[type="password"]
         margin-top: 6vh;
         max-height: 16vh;
     }
-    input[type="email"], input[type="password"]
-    {
-    width: 20vw;
-    height: 2vh;
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    outline: none;
-    color: lightblue;
+    .inputs-login {
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
+    }
+    .inputs-signup {
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
     }
 }
 @media screen and (max-width: 575px) {
@@ -97,14 +136,21 @@ input[type="email"], input[type="password"]
         margin-top: 6vh;
         max-height: 14vh;
     }
-    input[type="email"], input[type="password"]
-    {
-    width: 20vw;
-    height: 2vh;
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    outline: none;
-    color: lightblue;
+        .inputs-login {
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
+    }
+        .inputs-signup {
+        width: 20vw;
+        height: 2vh;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        color: lightblue;
     }
 }
 
