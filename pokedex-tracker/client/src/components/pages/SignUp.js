@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../utils/mutations';
 
 import Auth from '../../utils/auth';
+
+import Typed from 'react-typed'
 
 const Signup = () => {
   const [formState, setFormState] = useState({
@@ -40,62 +40,65 @@ const Signup = () => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
-          <div className="card-body">
-            {data ? (
-              <p>
-                Success! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
-              </p>
-            ) : (
-              <form onSubmit={handleFormSubmit}>
-                <input
-                  className="form-input"
-                  placeholder="Your username"
-                  name="username"
-                  type="text"
-                  value={formState.name}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="Your email"
-                  name="email"
-                  type="email"
-                  value={formState.email}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="******"
-                  name="password"
-                  type="password"
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-                <button
-                  className="btn btn-block btn-primary"
-                  style={{ cursor: 'pointer' }}
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </form>
-            )}
-
-            {error && (
-              <div className="my-3 p-3 bg-danger text-white">
-                {error.message}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </main>
+    <div className="d-flex justify-content-center">
+    <div className="custom-signup">
+      <h4 
+        style={{color:'black'}}
+        className="text-center ">
+      </h4>
+      <h4 
+        style={{color:'black'}}
+        className="text-center">
+          Signup
+      </h4>
+    <form 
+      autoComplete="off"
+      className="d-flex flex-column"
+      onSubmit={handleFormSubmit}>
+            <input
+              className="inputs-signup mb-2"
+              placeholder="Email"
+              name="email"
+              type="email"
+              value={formState.email}
+              onChange={handleChange}
+              autoFocus
+              autocomplete="false"
+              onFocus={e => e.currentTarget.select()}
+            />
+            <input
+              className="inputs-signup mb-2"
+              placeholder="Username"
+              name="username"
+              type="username"
+              value={formState.username}
+              onChange={handleChange}
+              autoFocus
+              autocomplete="false"
+              onFocus={e => e.currentTarget.select()}
+            />
+            <input
+              className="inputs-signup mb-2"
+              placeholder="Password"
+              name="password"
+              type="password"
+              value={formState.password}
+              onChange={handleChange}
+              autocomplete="false"
+              onFocus={e => e.currentTarget.select()}
+            />
+            <button
+              className="submit-signup-btn"
+              style={{ cursor: "pointer", color: 'black', fontSize: '1.3vw' }}
+              type="submit"
+            >
+              Signup
+            </button>
+      </form>
+    </div>
+  </div>
   );
 };
 
 export default Signup;
+
