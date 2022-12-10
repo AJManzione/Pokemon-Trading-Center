@@ -64,7 +64,7 @@ const userSchema = new Schema({
         required: true,
         validate: {
             validator: checkPassword,
-            message: 'choose a more secure password (must be at least 8 characters long and contain at least one letter, one number, and one special character'
+            message: 'choose a more secure password (must be at least 8 characters long, contain at least one lower-case letter, one upper-case letter, and one number or one special character)'
         }
     },
     sprite:{
@@ -78,6 +78,19 @@ const userSchema = new Schema({
       getters: true
   }
 })
+
+userSchema.pre('save', async function (next) {
+  if (this.isNew || this.isModified('password')) {
+    const saltRounds = 10;
+    this.password = await bcrypt.hash(this.password, saltRounds);
+  }
+
+  next();
+});
+
+userSchema.methods.isCorrectPassword = async function (password) {
+  return bcrypt.compare(password, this.password);
+};
 
 userSchema
   .virtual('pokemonCount')

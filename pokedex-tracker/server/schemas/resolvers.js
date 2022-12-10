@@ -39,9 +39,9 @@ const resolvers = {
       return { token, user };
     },
     loginUser: async (parent, { email, password }) => {
-      const user = await User.findOne({ email });
+      const user = await User.findOne({ email, password });
       if (!user) {
-        throw new AuthenticationError("Not a valid user");
+        throw new AuthenticationError("Incorrect email or password");
       }
       const token = signToken(user);
       return { token, user };
