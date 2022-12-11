@@ -39,7 +39,7 @@ const resolvers = {
       return { token, user };
     },
     loginUser: async (parent, { email, password }) => {
-      const user = await User.findOne({ email, password });
+      const user = await User.findOne({ email, password }, {new: true});
       if (!user) {
         throw new AuthenticationError("Incorrect email or password");
       }
