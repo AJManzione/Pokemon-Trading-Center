@@ -41,6 +41,7 @@ const Login = (props) => {
 
   return (
     <div className="login-bg">
+
       <div className="d-flex justify-content-center pokedex-bg">
         <div className="custom-container">
           <h4 

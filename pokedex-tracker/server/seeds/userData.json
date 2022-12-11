@@ -16,6 +16,6 @@
         "username": "mike",
         "email": "mike@mike.com",
         "password": "Pokemon2022",
-        "pokemonCaught": []
+        "pokemonCaught": ["152", "153","154"]
     }
 ]
