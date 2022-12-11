@@ -2,6 +2,7 @@ const pokemonCaughtArray = []
 import React, { useState, useEffect } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
+import Tada from 'react-reveal/Tada'
 
 export default function GenSix() {
 
@@ -62,14 +63,16 @@ useEffect(()=>{
               </div>
               <li><h4>{element.name}</h4></li>
               <li><h6>{element.type}</h6></li> 
-              <li> 
-              <img
+              <li>
+              <Tada duration={2500}>   
+                <img
                   id={`pokeballImage${element.entry}`}
                   className='pokeball'
                   src={pokemonCaughtArray.includes(element.entry) ? pokeballClosed : pokeballOpen}
                   onClick={() => pokeballClickHandler(element.entry)}
                   >
                 </img>
+              </Tada>
               </li>  
             </ul>
           </li>)
