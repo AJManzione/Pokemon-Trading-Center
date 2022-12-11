@@ -45,7 +45,7 @@ export default function Dashboard() {
                   <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
                     <h2>Unova</h2>
                     <h1>
-                    {info.pokemonCaught[0].entry}
+                    {info.username}
                     </h1>
                   </li>
                 </ul>
