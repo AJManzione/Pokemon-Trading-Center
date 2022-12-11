@@ -21,6 +21,7 @@
     "react-typed": "^1.2.0"
   },
   "dependencies": {
+    "react-blink-text": "^1.0.5",
     "react-reveal": "^1.2.2"
   }
 }
