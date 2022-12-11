@@ -3,7 +3,20 @@ import UserMenu from '../UserMenu';
 import '../../styles/dashboard.css';
 import pokeball from '../../images/badges/pokeball-badge.png'
 
+import { useQuery } from '@apollo/client';
+import { QUERY_USER } from '../../utils/queries';
+
 export default function Dashboard() {
+
+
+  const { loading, data } = useQuery(QUERY_USER, {
+    variables: { username: "Misty" },
+    
+  });
+  
+  const info = data?.user || {};
+
+
   return (
     <div className='dashboard-bg'>
       <div className='container pt-3'>
@@ -31,6 +44,9 @@ export default function Dashboard() {
                   </li>
                   <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
                     <h2>Unova</h2>
+                    <h1>
+                    {info.pokemonCaught[0].entry}
+                    </h1>
                   </li>
                 </ul>
               </div>
