@@ -64,7 +64,7 @@ useEffect(()=>{
               <li><h4>{element.name}</h4></li>
               <li><h6>{element.type}</h6></li> 
               <li>
-              <Tada top duration={2500}> 
+              <Tada duration={2500}> 
                 <img
                   id={`pokeballImage${element.entry}`}
                   className='pokeball'
