@@ -4,7 +4,6 @@ import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
 import Tada from 'react-reveal/Tada'
 
-
 export default function GenEight() {
 
 const [pokemonCaught, setPokemonCaughtStatus] = useState('uncaught');
