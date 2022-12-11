@@ -1,15 +1,14 @@
-const pokemonCaughtArray = ["152", "154"]
+const pokemonCaughtArray = []
 import React, { useState, useEffect, useRef } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
-//test data
+
 
 export default function GenTwo() {
 
 const [pokemonCaught, setPokemonCaughtStatus] = useState('uncaught');
 const [data, setData] = useState([]);
 
-const ref = useRef(null)
 
 function pokeballClickHandler(entry){
   
@@ -46,11 +45,9 @@ useEffect(()=>{
 
   return (
     <div className='gen-two-bg'>
-      {console.log(ref.current)}
       <div className='container pt-3'>
         <ul className="list-group"> 
         {data.map((element, i) => {
-          let isCaught = pokemonCaughtArray.includes(element.entry)
           return (
             
           <li className="list-group-item-success m-1" key={element.entry}>
@@ -90,4 +87,3 @@ useEffect(()=>{
   );
 }
 
-    // isCaught ? document.getElementById(`pokeballImage${element.entry}`).src = pokeballOpen : document.getElementById(`pokeballImage${element.entry}`).src = pokeballClosed
