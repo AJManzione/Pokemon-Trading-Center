@@ -31,7 +31,7 @@ const Signup = () => {
         variables: 
         { ...formState },
       });
-
+      localStorage.setItem('username', data.addUser.user.username)
       Auth.login(data.addUser.token);
     } catch (e) {
       console.error(e);
