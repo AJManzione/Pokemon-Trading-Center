@@ -1,20 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import UserMenu from '../UserMenu';
 import '../../styles/dashboard.css';
 import pokeball from '../../images/badges/pokeball-badge.png'
 
-import { useQuery } from '@apollo/client';
-import { QUERY_USER } from '../../utils/queries';
+import { useQuery} from '@apollo/client';
+import { QUERY_USER} from '../../utils/queries';
 
 export default function Dashboard() {
 
-
-  const { loading, data } = useQuery(QUERY_USER, {
-    variables: { username: "Misty" },
+  /* -------------------------------------------------------------------------- */
+  /*                                    Queries                                 */
+  /* -------------------------------------------------------------------------- */
+  const { loading, data: userValue } = useQuery(QUERY_USER, {
+    variables: { username: "Ash Ketchum" },
     
   });
   
-  const info = data?.user || {};
+  const [userData, setUserData] = useState({
+    _id: "",
+    username: "",
+    pokemonCaught: [],
+  });
+
+  useEffect(() => {
+    if (!loading && userValue ) {
+      setUserData({
+        _id: userValue.user._id,
+        username: userValue.user.username,
+        pokemonCaught: userValue?.user?.pokemonCaught?.map((caught) => caught.entry)
+      });
+    }
+  }, [ loading, userValue ]);
 
 
   return (
@@ -30,7 +46,7 @@ export default function Dashboard() {
                 <ul>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Kanto</h2>
-                    <h5>15 Caught / 151</h5>
+                    <h5></h5>
                     <img width='40px'src={pokeball}></img>
                   </li>
                   <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
@@ -45,7 +61,7 @@ export default function Dashboard() {
                   <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
                     <h2>Unova</h2>
                     <h1>
-                    {info.username}
+                  
                     </h1>
                   </li>
                 </ul>
@@ -73,4 +89,3 @@ export default function Dashboard() {
     </div>
   );
 }
-

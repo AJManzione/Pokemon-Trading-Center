@@ -6,11 +6,10 @@ export const QUERY_USER = gql`
       _id
       username
       pokemonCaught {
-        _id
-        name
         entry
-        type
       }
     }
   }
 `;
+
+

@@ -23,3 +23,16 @@ export const ADD_USER = gql`
     }
   }
 `;
+
+
+export const CATCH_POKEMON = gql`
+  mutation CatchPokemon($username: String!, $entry: Int!) {
+    catchPokemon(username: $username, entry: $entry) {
+      pokemonCaught {
+        entry
+    }
+  }
+}
+`
+
+

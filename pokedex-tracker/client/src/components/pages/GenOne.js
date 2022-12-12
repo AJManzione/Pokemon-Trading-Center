@@ -2,17 +2,76 @@ const pokemonCaughtArray = []
 import React, { useState, useEffect } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png';
 import pokeballClosed from '../../images/pokeball-closed.png';
-import Tada from 'react-reveal/Tada'
+import Tada from 'react-reveal/Tada';
+
+
+import { useQuery, useMutation} from '@apollo/client';
+import { CATCH_POKEMON } from "../../utils/mutations";
+import { QUERY_USER } from "../../utils/queries";
 
 
 export default function GenOne() {
 
-const [pokemonCaught, setPokemonCaughtStatus] = useState('uncaught');
-const [data, setData] = useState([]);
+// allPokemon rendered from JSON data
+  const [pokemonData, setPokemonData] = useState([]);
+
+  const getData=()=>{
+    fetch('./gen-1.json'
+    ,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+  )
+      .then(function(response){
+        return response.json();
+      })
+      .then(function(myJson) {
+        setPokemonData(myJson)
+      })
+  }
+  
+  useEffect(()=>{
+    getData()
+  },[])
+
+//End of Pokemon Rendering
+
+
+
+
+
+// Querying the database for pokemonCaught for the user that is logged in 
+const currentUser = localStorage.getItem('username')
+
+  const { loading, data: userValue } = useQuery(QUERY_USER, {
+    variables: { username: currentUser },
+    
+  });
+
+  const [userData, setUserData] = useState({
+    pokemonCaught: [],
+  });
+
+  useEffect(() => {
+    if (!loading && userValue ) {
+      setUserData({
+        pokemonCaught: userValue?.user?.pokemonCaught?.map((caught) => caught.entry)
+      });
+    }
+  }, [ loading, userValue ]);
+//End of query
+
+// pokemon caught (userData.pokemonCaught)
+
+
+
+let pokemon = ""
 
 function pokeballClickHandler(entry){
   
-  if(pokemonCaughtArray.includes(entry)){
+if(pokemonCaughtArray.includes(entry)){
     const index = pokemonCaughtArray.indexOf(entry)
     pokemonCaughtArray.splice(index, 1)
     document.getElementById(`pokeballImage${entry}`).src = pokeballOpen
@@ -21,33 +80,41 @@ function pokeballClickHandler(entry){
     document.getElementById(`pokeballImage${entry}`).src = pokeballClosed
   }
   console.log(pokemonCaughtArray)
+  pokemon = entry
+  
 }
 
-const getData=()=>{
-  fetch('./gen-1.json'
-  ,{
-    headers : { 
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-     }
-  }
-)
-    .then(function(response){
-      return response.json();
-    })
-    .then(function(myJson) {
-      setData(myJson)
-    })
-}
-useEffect(()=>{
-  getData()
-},[])
+
+/* -------------------------------------------------------------------------- */
+/*                                Catch Pokemon                               */
+/* -------------------------------------------------------------------------- */
+
+const [getPokemon, setPokemon] = useState({
+  username: '',
+  entry: ''
+});
+
+const [addPokemon, { error, data }] = useMutation(CATCH_POKEMON);
+
+
+try {
+  const { data } =  addPokemon({
+    variables: {
+      username: currentUser,
+      entry: pokemon
+    },
+  })
+} catch (e) {
+  console.error(e)
+};
+
+
 
   return (
     <div className='gen-one-bg'>
       <div className='container pt-3'>
         <ul className="list-group"> 
-        {data.map((element, i) => {
+        {pokemonData.map((element, i) => {
           return (
           <li className="list-group-item-success m-1" key={element.entry}>
             <ul className='d-flex justify-content-between align-items-center'>
@@ -85,7 +152,7 @@ useEffect(()=>{
                   src={pokemonCaughtArray.includes(element.entry) ? pokeballClosed : pokeballOpen}
                   onClick={() => pokeballClickHandler(element.entry)}
                   >
-                </img>
+              </img>
               </Tada>
               </li>  
             </ul>
@@ -96,4 +163,5 @@ useEffect(()=>{
     </div>
   );
 }
+
 
