@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
 import Tada from 'react-reveal/Tada'
@@ -73,7 +73,7 @@ function newCatch(entry) {
     }
   });
 
-  window.location.reload(false);
+  // window.location.reload(false);
 };
 
 
@@ -86,8 +86,24 @@ function releaseCatch(entry) {
       }
     });
 
-    window.location.reload(false);
+
 };
+function toggleCatch(entry){
+  
+  if(!userData.pokemonCaught.includes(parseFloat(entry))){
+    newCatch(entry)
+    userData.pokemonCaught = [...userData.pokemonCaught, parseFloat(entry)]
+    document.getElementById(`${entry}`).src = pokeballClosed
+    console.log(userData.pokemonCaught)
+ 
+  }else{
+    releaseCatch(entry)
+    userData.pokemonCaught = userData.pokemonCaught.filter(pokemon => pokemon != parseFloat(entry))
+    document.getElementById(`${entry}`).src = pokeballOpen
+    console.log(userData.pokemonCaught)
+   
+  }
+}
 
   return (
     <div className='gen-four-bg'>
@@ -95,13 +111,13 @@ function releaseCatch(entry) {
         <ul className="list-group"> 
         { JSONdata.map((pokemon, i) => {
           return (  
-          <li className="list-group-item-success m-1" key={pokemon.entry}>
+          <li className="list-group-item-success m-1" key={parseFloat(pokemon.entry)}>
             <ul className='d-flex justify-content-between align-items-center'>
               <div className='d-flex align-items-center justify-content-around'>
                 <li>
                   <img 
                     width='70px'
-                    src={`../../assets/sprites/Gen-4-Sprites/${pokemon.entry}.png`}
+                    src={`../../assets/sprites/Gen-4-Sprites/${parseFloat(pokemon.entry)}.png`}
                     >
                   </img>
                 </li>
@@ -112,29 +128,15 @@ function releaseCatch(entry) {
               <li><h4>{pokemon.name}</h4></li>
               <li><h6>{pokemon.type}</h6></li> 
               <li>
-
-                <Tada duration={2500}> 
-              { !userData.pokemonCaught.includes(parseFloat(pokemon.entry)) 
-
-              ?
+                <Tada duration={2500}>       
                 <img
-                  key={pokemon.entry}
+                  id={parseFloat(pokemon.entry)}
+                  key={parseFloat(pokemon.entry)}
                   className='pokeball'
-                  src={pokeballOpen}
-                  onClick={() => newCatch(pokemon.entry)}
+                  src={!userData.pokemonCaught.includes(parseFloat(pokemon.entry)) ?pokeballOpen : pokeballClosed}
+                  onClick={() => toggleCatch(parseFloat(pokemon.entry))}
                   >
                 </img>
-
-              :
-                <img
-                  key={pokemon.entry}
-                  className='pokeball'
-                  src={pokeballClosed}
-                  onClick={() => releaseCatch(pokemon.entry)}
-                  >
-                </img>
-              }
-
                 </Tada>
               </li>  
             </ul>    
