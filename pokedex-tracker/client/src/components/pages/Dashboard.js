@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import UserMenu from '../UserMenu';
 import '../../styles/dashboard.css';
 import pokeball from '../../images/badges/pokeball-badge.png'
+import greatball from '../../images/badges/greatball-badge.png'
+import ultraball from '../../images/badges/ultraball-badge.png'
+import masterball from '../../images/badges/masterball-badge.png'
 
 import { useQuery} from '@apollo/client';
 import { QUERY_USER} from '../../utils/queries';
@@ -43,6 +46,22 @@ const genSevenTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 72
 const genEightTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 810 && pokemon <= 905);
 const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906 && pokemon <= 1010);
 
+function determineBadge (userTotal, genTotal){
+  if(userTotal/genTotal <= .25){ 
+    return pokeball
+  }else if (userTotal/genTotal <= .5){
+    return greatball
+  }else if (userTotal/genTotal <=.75){
+    return ultraball
+  }else if (userTotal/genTotal == 1){
+    return masterball
+  }
+  
+}
+
+
+
+
 
 
   return (
@@ -59,7 +78,7 @@ const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Kanto</h2>
                     <h5>{genOneTotal.length} / 151</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genOneTotal.length, 151)}></img>
                   </li>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Johto</h2>
@@ -88,7 +107,7 @@ const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906
                 <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Kalos</h2>
                     <h5>{genSixTotal.length} / 72</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genSixTotal.length,72)}></img>
                 </li>
                 <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                   <h2>Alola</h2>
