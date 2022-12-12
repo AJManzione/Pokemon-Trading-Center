@@ -47,11 +47,11 @@ const genEightTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 81
 const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906 && pokemon <= 1010);
 
 function determineBadge (userTotal, genTotal){
-  if(userTotal/genTotal < .25){ 
+  if(userTotal/genTotal < .33){ 
     return pokeball
-  }else if (userTotal/genTotal < .5){
+  }else if (userTotal/genTotal < .66){
     return greatball
-  }else if (userTotal/genTotal <.75){
+  }else if (userTotal/genTotal <.9999){
     return ultraball
   }else if (userTotal/genTotal == 1){
     return masterball
