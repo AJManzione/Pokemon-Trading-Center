@@ -8,12 +8,10 @@ import { QUERY_USER} from '../../utils/queries';
 
 export default function Dashboard() {
 
-  /* -------------------------------------------------------------------------- */
-  /*                                    Queries                                 */
-  /* -------------------------------------------------------------------------- */
+const currentUser = localStorage.getItem('username')
+
   const { loading, data: userValue } = useQuery(QUERY_USER, {
-    variables: { username: "Ash Ketchum" },
-    
+    variables: { username: currentUser },
   });
   
   const [userData, setUserData] = useState({
@@ -32,6 +30,20 @@ export default function Dashboard() {
     }
   }, [ loading, userValue ]);
 
+console.log(userData.pokemonCaught)
+
+
+const genOneTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon <= 151);
+const genTwoTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 152 && pokemon <= 252);
+const genThreeTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 253 && pokemon <= 386);
+const genFourTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 387 && pokemon <= 493);
+const genFiveTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 494 && pokemon <= 649);
+const genSixTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 650 && pokemon <= 721);
+const genSevenTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 722 && pokemon <= 809);
+const genEightTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 810 && pokemon <= 905);
+const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906 && pokemon <= 1010);
+
+
 
   return (
     <div className='dashboard-bg'>
@@ -46,40 +58,53 @@ export default function Dashboard() {
                 <ul>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Kanto</h2>
-                    <h5></h5>
+                    <h5>{genOneTotal.length} / 151</h5>
                     <img width='40px'src={pokeball}></img>
                   </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
+                  <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Johto</h2>
+                    <h5>{genTwoTotal.length} / 100</h5>
+                    <img width='40px'src={pokeball}></img>
                   </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
+                  <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Hoenn</h2>
+                    <h5>{genThreeTotal.length} / 135</h5>
+                    <img width='40px'src={pokeball}></img>
                   </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
+                  <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Sinnoh</h2>
+                    <h5>{genFourTotal.length} / 107</h5>
+                    <img width='40px'src={pokeball}></img>
                   </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
+                  <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Unova</h2>
-                    <h1>
-                  
-                    </h1>
+                    <h5>{genFiveTotal.length} / 156</h5>
+                    <img width='40px'src={pokeball}></img>
                   </li>
                 </ul>
               </div>
               <div className='col-lg-6'>
                 <ul>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
+                <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Kalos</h2>
-                  </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
-                    <h2>Alola</h2>
-                  </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
-                    <h2>Galar</h2>
-                  </li>
-                  <li className='list-group-item-success mt-3' style={{borderRadius:'5px'}}>
-                    <h2>Paldea</h2>
-                  </li>
+                    <h5>{genSixTotal.length} / 72</h5>
+                    <img width='40px'src={pokeball}></img>
+                </li>
+                <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
+                  <h2>Alola</h2>
+                  <h5>{genSevenTotal.length} / 88</h5>
+                  <img width='40px'src={pokeball}></img>
+                </li>
+                  <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
+                  <h2>Galar</h2>
+                  <h5>{genEightTotal.length} / 96</h5>
+                  <img width='40px'src={pokeball}></img>
+                </li>
+                <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style=     {{borderRadius:'5px'}}>
+                  <h2>Paldea</h2>
+                  <h5>{genNineTotal.length} / 105</h5>
+                  <img width='40px'src={pokeball}></img>
+                </li>
                 </ul>
               </div>
             </div>
