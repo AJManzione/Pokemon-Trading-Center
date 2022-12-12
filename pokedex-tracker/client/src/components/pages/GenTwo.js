@@ -1,28 +1,68 @@
-const pokemonCaughtArray = []
+let pokemonCaughtArray =[]
 import React, { useState, useEffect, useRef } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
 import Tada from 'react-reveal/Tada'
+import { useMutation, useQuery } from '@apollo/client';
+import { CATCH_POKEMON, UNCATCH_POKEMON } from '../../utils/mutations';
+import { QUERY_USER } from '../../utils/queries';
 
 
+const username = localStorage.getItem('username')
 
-export default function GenTwo() {
 
-const [pokemonCaught, setPokemonCaughtStatus] = useState('uncaught');
+export default function  GenTwo() {
+
+
+const [catchPokemon, { catchPokemonError, catchPokemonData }] = useMutation(CATCH_POKEMON);
+
+const [unCatchPokemon, { error, datum }] = useMutation(UNCATCH_POKEMON);
+
+
+const { loading, data: userValue } = useQuery(QUERY_USER, {
+  variables: { username: username },
+  
+});
+
+const [userData, setUserData] = useState({
+  pokemonCaught: [],
+});
+
+useEffect(() => {
+  if (!loading && userValue ) {
+    setUserData({
+      pokemonCaught: userValue?.user?.pokemonCaught?.map((caught) => caught.entry)
+    });
+  }
+}, [ loading, userValue ]);
+
 const [data, setData] = useState([]);
 
+console.log(userData.pokemonCaught)
 
-function pokeballClickHandler(entry){
+pokemonCaughtArray = userData.pokemonCaught
+
+async function pokeballClickHandler(entry){
   
-  if(pokemonCaughtArray.includes(entry)){
+  
+  if(userData.pokemonCaught.includes(entry)){
     const index = pokemonCaughtArray.indexOf(entry)
     pokemonCaughtArray.splice(index, 1)
     document.getElementById(`pokeballImage${entry}`).src = pokeballOpen
   }else{
-    pokemonCaughtArray.push(entry)
+    setUserData([...userData.pokemonCaught, entry])
+    try{
+      const {data} = await catchPokemon({
+        variables:
+        {username: username,
+        entry: entry}
+      })
+    }catch(e){
+      console.error(e)
+    }
     document.getElementById(`pokeballImage${entry}`).src = pokeballClosed
   }
-  console.log(pokemonCaughtArray)
+  console.log(userData.pokemonCaught)
 }
 
 const getData=()=>{
