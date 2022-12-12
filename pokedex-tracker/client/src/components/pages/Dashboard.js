@@ -112,17 +112,17 @@ function determineBadge (userTotal, genTotal){
                 <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                   <h2>Alola</h2>
                   <h5>{genSevenTotal.length} / 88</h5>
-                  <img width='40px'src={pokeball}></img>
+                  <img width='40px'src={determineBadge(genSevenTotal.length,88)}></img>
                 </li>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                   <h2>Galar</h2>
-                  <h5>{genEightTotal.length} / 96</h5>
-                  <img width='40px'src={pokeball}></img>
+                  <h5>{genEightTotal.length}/ 96</h5>
+                  <img width='40px'src={determineBadge(genEightTotal.length,96)}></img>
                 </li>
                 <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style=     {{borderRadius:'5px'}}>
                   <h2>Paldea</h2>
                   <h5>{genNineTotal.length} / 105</h5>
-                  <img width='40px'src={pokeball}></img>
+                  <img width='40px'src={determineBadge(genNineTotal.length,105)}></img>
                 </li>
                 </ul>
               </div>
