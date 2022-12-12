@@ -73,7 +73,7 @@ function newCatch(entry) {
     }
   });
 
-  window.location.reload(false);
+  // window.location.reload(false);
 };
 
 
@@ -86,8 +86,24 @@ function releaseCatch(entry) {
       }
     });
 
-    window.location.reload(false);
+
 };
+function toggleCatch(entry){
+  
+  if(!userData.pokemonCaught.includes(parseFloat(entry))){
+    newCatch(entry)
+    userData.pokemonCaught = [...userData.pokemonCaught, parseFloat(entry)]
+    document.getElementById(`${entry}`).src = pokeballClosed
+    console.log(userData.pokemonCaught)
+ 
+  }else{
+    releaseCatch(entry)
+    userData.pokemonCaught = userData.pokemonCaught.filter(pokemon => pokemon != parseFloat(entry))
+    document.getElementById(`${entry}`).src = pokeballOpen
+    console.log(userData.pokemonCaught)
+   
+  }
+}
 
   return (
     <div className='gen-four-bg'>
@@ -114,26 +130,21 @@ function releaseCatch(entry) {
               <li>
 
                 <Tada duration={2500}> 
-              { !userData.pokemonCaught.includes(parseFloat(pokemon.entry)) 
+              
 
-              ?
+              
                 <img
+                  id={pokemon.entry}
                   key={pokemon.entry}
                   className='pokeball'
-                  src={pokeballOpen}
-                  onClick={() => newCatch(pokemon.entry)}
+                  src={!userData.pokemonCaught.includes(parseFloat(pokemon.entry)) ?pokeballOpen : pokeballClosed}
+                  onClick={() => toggleCatch(pokemon.entry)}
                   >
                 </img>
 
-              :
-                <img
-                  key={pokemon.entry}
-                  className='pokeball'
-                  src={pokeballClosed}
-                  onClick={() => releaseCatch(pokemon.entry)}
-                  >
-                </img>
-              }
+              
+             
+              
 
                 </Tada>
               </li>  

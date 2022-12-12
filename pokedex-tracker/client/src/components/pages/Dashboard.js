@@ -47,11 +47,11 @@ const genEightTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 81
 const genNineTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon >= 906 && pokemon <= 1010);
 
 function determineBadge (userTotal, genTotal){
-  if(userTotal/genTotal <= .25){ 
+  if(userTotal/genTotal < .25){ 
     return pokeball
-  }else if (userTotal/genTotal <= .5){
+  }else if (userTotal/genTotal < .5){
     return greatball
-  }else if (userTotal/genTotal <=.75){
+  }else if (userTotal/genTotal <.75){
     return ultraball
   }else if (userTotal/genTotal == 1){
     return masterball
@@ -83,22 +83,22 @@ function determineBadge (userTotal, genTotal){
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Johto</h2>
                     <h5>{genTwoTotal.length} / 100</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genTwoTotal.length, 100)}></img>
                   </li>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Hoenn</h2>
                     <h5>{genThreeTotal.length} / 135</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genThreeTotal.length, 135)}></img>
                   </li>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Sinnoh</h2>
                     <h5>{genFourTotal.length} / 107</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genFourTotal.length, 107)}></img>
                   </li>
                   <li className='list-group-item-success mt-3 d-flex align-items-center justify-content-between p-3' style={{borderRadius:'5px'}}>
                     <h2>Unova</h2>
                     <h5>{genFiveTotal.length} / 156</h5>
-                    <img width='40px'src={pokeball}></img>
+                    <img width='40px'src={determineBadge(genFiveTotal.length, 156)}></img>
                   </li>
                 </ul>
               </div>
