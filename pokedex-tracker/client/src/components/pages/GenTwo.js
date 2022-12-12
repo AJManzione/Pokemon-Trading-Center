@@ -5,6 +5,24 @@ import Tada from 'react-reveal/Tada'
 import { useMutation, useQuery } from '@apollo/client';
 import { CATCH_POKEMON, UNCATCH_POKEMON } from '../../utils/mutations';
 import { QUERY_USER } from '../../utils/queries';
+import bug from '../../images/types/bug.png';
+import dark from '../../images/types/dark.png';
+import dragon from '../../images/types/dragon.png';
+import electric from '../../images/types/electric.png';
+import fairy from '../../images/types/fairy.png';
+import fire from '../../images/types/fire.png';
+import flying from '../../images/types/flying.png';
+import fighting from '../../images/types/fighting.png'
+import ghost from '../../images/types/ghost.png';
+import grass from '../../images/types/grass.png';
+import ground from '../../images/types/ground.png';
+import ice from '../../images/types/ice.png';
+import normal from '../../images/types/normal.png';
+import poison from '../../images/types/poison.png';
+import psychic from '../../images/types/psychic.png';
+import rock from '../../images/types/rock.png';
+import steel from '../../images/types/steel.png';
+import water from '../../images/types/water.png'; 
 
 
 export default function  GenTwo() {
@@ -73,7 +91,6 @@ function newCatch(entry) {
     }
   });
 
-  // window.location.reload(false);
 };
 
 
@@ -105,6 +122,102 @@ function toggleCatch(entry){
   }
 }
 
+
+
+  const getTypeOne = (splitFirst) => {
+
+    let type = splitFirst.trim()
+    let split = type.split(" ")
+
+
+    switch (split[0]) {
+
+      case "Bug":
+        return bug;
+      case "Dark":
+        return dark;
+      case "Dragon":
+        return dragon;
+      case "Electric":
+        return electric;
+      case "Fairy":
+        return fairy;
+      case "Fire":
+        return fire;
+      case "Flying":
+        return flying;
+      case "Fighting":
+        return fighting;
+      case "Ghost":
+        return ghost;
+      case "Ground":
+        return ground;
+      case "Ice":
+        return ice;
+      case "Normal":
+        return normal;
+      case "Poison":
+        return poison;
+      case "Psychic":
+        return psychic;
+      case "Rock":
+        return rock;
+      case "Steel":
+        return steel;
+      case "Water":
+        return water; 
+        case "Grass": 
+        return grass     
+    }
+  }
+
+  const getTypeTwo = (splitSecond) => {
+  
+    let types = splitSecond.trim()
+    let split = types.split(" ")
+
+    switch (split[1]) {
+
+      case "Bug":
+        return bug;
+      case "Dark":
+        return dark;
+      case "Dragon":
+        return dragon;
+      case "Electric":
+        return electric;
+      case "Fairy":
+        return fairy;
+      case "Fire":
+        return fire;
+      case "Flying":
+        return flying;
+      case "Fighting":
+        return fighting;
+      case "Ghost":
+        return ghost;
+      case "Ground":
+        return ground;
+      case "Ice":
+        return ice;
+      case "Normal":
+        return normal;
+      case "Poison":
+        return poison;
+      case "Psychic":
+        return psychic;
+      case "Rock":
+        return rock;
+      case "Steel":
+        return steel;
+      case "Water":
+        return water; 
+      case "Grass": 
+        return grass   
+    }
+  }
+
+
   return (
     <div className='gen-two-bg'>
       <div className='container pt-3'>
@@ -126,7 +239,10 @@ function toggleCatch(entry){
                 </li>
               </div>
               <li><h4>{pokemon.name}</h4></li>
-              <li><h6>{pokemon.type}</h6></li> 
+              <li>
+                <img width='60px' src={getTypeOne(pokemon.type)}></img>
+                <img width='60px' src={getTypeTwo(pokemon.type)}></img>
+              </li> 
               <li>
                 <Tada duration={2500}>       
                 <img
@@ -147,4 +263,6 @@ function toggleCatch(entry){
     </div>
   );
 }
+
+
 
