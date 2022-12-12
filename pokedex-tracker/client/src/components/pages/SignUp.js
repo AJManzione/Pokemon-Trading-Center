@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../utils/mutations';
+import Blink from 'react-blink-text';
 
 import Auth from '../../utils/auth';
-
-import Typed from 'react-typed'
 
 const Signup = () => {
   const [formState, setFormState] = useState({
@@ -46,11 +45,11 @@ const Signup = () => {
         style={{color:'black'}}
         className="text-center ">
       </h4>
-      <h4 
-        style={{color:'black'}}
-        className="text-center">
-          Signup
-      </h4>
+      <div className='text-center'>
+      <Blink color='gray' text='Signup' fontSize='32px' speed='5000'>
+      </Blink>
+      </div>
+
     <form 
       autoComplete="off"
       className="d-flex flex-column"
