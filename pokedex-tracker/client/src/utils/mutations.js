@@ -35,4 +35,15 @@ export const CATCH_POKEMON = gql`
 }
 `
 
+export const UNCATCH_POKEMON = gql`
+  mutation unCatchPokemon($username: String!, $entry: Int!) {
+    unCatchPokemon(username: $username, entry: $entry) {
+      pokemonCaught {
+        entry
+    }
+    
+  }
+}
+`
+
 
