@@ -112,8 +112,7 @@ function releaseCatch(entry) {
               <li><h4>{pokemon.name}</h4></li>
               <li><h6>{pokemon.type}</h6></li> 
               <li>
-
-                <Tada duration={2500}> 
+ 
               { !userData.pokemonCaught.includes(parseFloat(pokemon.entry)) 
 
               ?
@@ -126,6 +125,7 @@ function releaseCatch(entry) {
                 </img>
 
               :
+              <Tada duration={3000}>
                 <img
                   key={pokemon.entry}
                   className='pokeball'
@@ -133,9 +133,9 @@ function releaseCatch(entry) {
                   onClick={() => releaseCatch(pokemon.entry)}
                   >
                 </img>
+              </Tada>
               }
 
-                </Tada>
               </li>  
             </ul>    
           </li>
