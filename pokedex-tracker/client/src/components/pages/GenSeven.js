@@ -73,7 +73,7 @@ function newCatch(entry) {
     }
   });
 
-  window.location.reload(false);
+  // window.location.reload(false);
 };
 
 
@@ -86,8 +86,24 @@ function releaseCatch(entry) {
       }
     });
 
-    window.location.reload(false);
+
 };
+function toggleCatch(entry){
+  
+  if(!userData.pokemonCaught.includes(parseFloat(entry))){
+    newCatch(entry)
+    userData.pokemonCaught = [...userData.pokemonCaught, parseFloat(entry)]
+    document.getElementById(`${entry}`).src = pokeballClosed
+    console.log(userData.pokemonCaught)
+ 
+  }else{
+    releaseCatch(entry)
+    userData.pokemonCaught = userData.pokemonCaught.filter(pokemon => pokemon != parseFloat(entry))
+    document.getElementById(`${entry}`).src = pokeballOpen
+    console.log(userData.pokemonCaught)
+   
+  }
+}
 
   return (
     <div className='gen-seven-bg'>
@@ -101,40 +117,26 @@ function releaseCatch(entry) {
                 <li>
                   <img 
                     width='70px'
-                    src={`../../assets/sprites/Gen-7-Sprites/${pokemon.entry}.png`}
+                    src={`../../assets/sprites/Gen-7-Sprites/${parseFloat(pokemon.entry)}.png`}
                     >
                   </img>
                 </li>
                 <li className='m-4'>
-                  <h4>#{pokemon.entry}</h4>
+                  <h4>#{parseFloat(pokemon.entry)}</h4>
                 </li>
               </div>
               <li><h4>{pokemon.name}</h4></li>
               <li><h6>{pokemon.type}</h6></li> 
               <li>
-
-                <Tada duration={2500}> 
-              { !userData.pokemonCaught.includes(parseFloat(pokemon.entry)) 
-
-              ?
+                <Tada duration={2500}>       
                 <img
-                  key={pokemon.entry}
+                  id={parseFloat(pokemon.entry)}
+                  key={parseFloat(pokemon.entry)}
                   className='pokeball'
-                  src={pokeballOpen}
-                  onClick={() => newCatch(pokemon.entry)}
+                  src={!userData.pokemonCaught.includes(parseFloat(pokemon.entry)) ?pokeballOpen : pokeballClosed}
+                  onClick={() => toggleCatch(parseFloat(pokemon.entry))}
                   >
                 </img>
-
-              :
-                <img
-                  key={pokemon.entry}
-                  className='pokeball'
-                  src={pokeballClosed}
-                  onClick={() => releaseCatch(pokemon.entry)}
-                  >
-                </img>
-              }
-
                 </Tada>
               </li>  
             </ul>    

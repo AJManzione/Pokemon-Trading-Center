@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import pokeballOpen from '../../images/pokeball-open.png'
 import pokeballClosed from '../../images/pokeball-closed.png'
 import Tada from 'react-reveal/Tada'
@@ -111,13 +111,13 @@ function toggleCatch(entry){
         <ul className="list-group"> 
         { JSONdata.map((pokemon, i) => {
           return (  
-          <li className="list-group-item-success m-1" key={pokemon.entry}>
+          <li className="list-group-item-success m-1" key={parseFloat(pokemon.entry)}>
             <ul className='d-flex justify-content-between align-items-center'>
               <div className='d-flex align-items-center justify-content-around'>
                 <li>
                   <img 
                     width='70px'
-                    src={`../../assets/sprites/Gen-4-Sprites/${pokemon.entry}.png`}
+                    src={`../../assets/sprites/Gen-4-Sprites/${parseFloat(pokemon.entry)}.png`}
                     >
                   </img>
                 </li>
@@ -128,24 +128,15 @@ function toggleCatch(entry){
               <li><h4>{pokemon.name}</h4></li>
               <li><h6>{pokemon.type}</h6></li> 
               <li>
-
-                <Tada duration={2500}> 
-              
-
-              
+                <Tada duration={2500}>       
                 <img
-                  id={pokemon.entry}
-                  key={pokemon.entry}
+                  id={parseFloat(pokemon.entry)}
+                  key={parseFloat(pokemon.entry)}
                   className='pokeball'
                   src={!userData.pokemonCaught.includes(parseFloat(pokemon.entry)) ?pokeballOpen : pokeballClosed}
-                  onClick={() => toggleCatch(pokemon.entry)}
+                  onClick={() => toggleCatch(parseFloat(pokemon.entry))}
                   >
                 </img>
-
-              
-             
-              
-
                 </Tada>
               </li>  
             </ul>    
