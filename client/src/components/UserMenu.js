@@ -3,6 +3,7 @@ import BadgeKey from './BadgeKey';
 
 import { useQuery } from '@apollo/client';
 import { QUERY_USER } from '../utils/queries';
+import Trainers from './pages/Trainers';
 
 
 export default function UserMenu() {
@@ -31,7 +32,11 @@ const currentUser = localStorage.getItem('username')
     }
   }, [ loading, userValue ]);
 
+const [getSprites, setSprites] = useState(false)
 
+const handleSprites = () => {
+  setSprites(true)
+}
 
 
   return (
@@ -49,21 +54,15 @@ const currentUser = localStorage.getItem('username')
               {/* <img width='50px'src='https://cdn.traction.one/pokedex/pokemon/25.png'></img> */}
             </span>
             <div className='col-lg-12'>
-              <a 
-              style={{ color:'gray', textDecoration:'none', fontSize:'10px'}}
-              href='#'>change sprite
-              </a>
+            <button onClick={() => handleSprites()}>click</button>
+            {
+              getSprites ? <Trainers/>
+              : <p> no</p>
+            }
             </div>
           </p>
         </div>
       </div>
-      <form className='text-center'>Search for a Pokemon!
-        <input 
-        className='mt-1'
-        style={{backgroundColor: 'ivory', border: 'none'}}
-        >
-        </input>
-      </form>
       <hr></hr>
       <div className='row'>
         <div className='col-lg-12 d-flex justify-content-around'>
