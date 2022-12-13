@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
-import pokeballOpen from "../../images/pokeball-open.png";
-import pokeballClosed from "../../images/pokeball-closed.png";
-import Tada from "react-reveal/Tada";
+import React, { useState, useEffect } from "react";
 import { useMutation, useQuery } from "@apollo/client";
 import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
 import { QUERY_USER } from "../../utils/queries";
+
+import pokeballOpen from "../../images/pokeball-open.png";
+import pokeballClosed from "../../images/pokeball-closed.png";
+import Tada from "react-reveal/Tada";
 import bug from "../../images/types/bug.png";
 import dark from "../../images/types/dark.png";
 import dragon from "../../images/types/dragon.png";
@@ -221,13 +222,19 @@ export default function GenThree() {
                       <h4>#{pokemon.entry}</h4>
                     </li>
                   </div>
-                  <li>
-                    <h4>{pokemon.name}</h4>
-                  </li>
+                  <div className="d-flex align-items-center justify-content-around">
+                    <li>
+                      <h4>{pokemon.name}</h4>
+                    </li>
+                  </div>
+                  <div className="d-flex align-items-center justify-content-between">
                   <li>
                     <img width="50px" src={getTypeOne(pokemon.type)}></img>
+                  </li>
+                  <li>
                     <img width="50px" src={getTypeTwo(pokemon.type)}></img>
                   </li>
+                  </div>
                   <li>
                     <Tada duration={2500}>
                       <img
@@ -254,3 +261,5 @@ export default function GenThree() {
     </div>
   );
 }
+
+

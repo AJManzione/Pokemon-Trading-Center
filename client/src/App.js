@@ -22,6 +22,7 @@ import GenEight from "./components/pages/GenEight";
 import GenNine from "./components/pages/GenNine";
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/SignUp";
+import Trainers from "./components/pages/Trainers";
 import "./styles/pokedex.css";
 import DexTabs from "./components/DexTabs";
 
@@ -75,6 +76,7 @@ function App() {
           <Route path="/GenNine" element={<GenNine />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/SignUp" element={<Signup />} />
+          <Route path="/sprites" element={<Trainers />} />
         </Routes>
       </Router>
     </ApolloProvider>

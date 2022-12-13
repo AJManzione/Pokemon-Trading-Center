@@ -32,12 +32,6 @@ const currentUser = localStorage.getItem('username')
     }
   }, [ loading, userValue ]);
 
-const [getSprites, setSprites] = useState(false)
-
-const handleSprites = () => {
-  setSprites(true)
-}
-
 
   return (
   <div>
@@ -54,11 +48,7 @@ const handleSprites = () => {
               {/* <img width='50px'src='https://cdn.traction.one/pokedex/pokemon/25.png'></img> */}
             </span>
             <div className='col-lg-12'>
-            <button onClick={() => handleSprites()}>click</button>
-            {
-              getSprites ? <Trainers/>
-              : <p> no</p>
-            }
+            <a href='/sprites'>change sprite</a>
             </div>
           </p>
         </div>
