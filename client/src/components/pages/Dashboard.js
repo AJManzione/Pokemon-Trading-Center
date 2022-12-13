@@ -58,9 +58,6 @@ function determineBadge (userTotal, genTotal){
   
 }
 
-
-
-
   return (
     <div className='dashboard-bg'>
       <div className='container pt-3'>

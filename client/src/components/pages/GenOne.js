@@ -201,6 +201,12 @@ export default function GenOne() {
     <div className="gen-one-bg">
       <div className="container pt-3">
         <ul className="list-group">
+          <h1 
+            style={{color: 'white'}}
+            className="text-center">Kanto
+          </h1>
+          <hr
+            style={{borderTop: '2px solid white'}}></hr>
           {JSONdata.map((pokemon, i) => {
             return (
               <li
