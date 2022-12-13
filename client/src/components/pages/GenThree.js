@@ -201,6 +201,12 @@ export default function GenThree() {
   return (
     <div className="gen-three-bg">
       <div className="container pt-3">
+        <h1 
+          style={{color: 'white'}}
+          className="text-center">Hoenn
+        </h1>
+          <hr
+            style={{borderTop: '2px solid white'}}></hr>
         <ul className="list-group">
           {JSONdata.map((pokemon, i) => {
             return (

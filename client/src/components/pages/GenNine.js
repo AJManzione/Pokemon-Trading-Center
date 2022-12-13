@@ -200,6 +200,13 @@ export default function GenNine() {
   return (
     <div className="gen-nine-bg">
       <div className="container pt-3">
+        <h1 
+          style={{color: 'white'}}
+          className="text-center">Paldea
+        </h1>
+        <hr
+            style={{borderTop: '2px solid white'}}>
+        </hr>
         <ul className="list-group">
           {JSONdata.map((pokemon, i) => {
             return (

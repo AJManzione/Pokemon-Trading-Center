@@ -200,6 +200,13 @@ export default function GenEight() {
   return (
     <div className="gen-eight-bg">
       <div className="container pt-3">
+        <h1 
+          style={{color: 'white'}}
+          className="text-center">Galar
+        </h1>
+        <hr
+          style={{borderTop: '2px solid white'}}>
+        </hr>
         <ul className="list-group">
           {JSONdata.map((pokemon, i) => {
             return (
