@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { UPDATE_SPRITE } from "../../utils/mutations";
+import { useMutation, useQuery } from "@apollo/client";
 
 export default function Trainers() {
-
 
     const [JSONdata, setJSONData] = useState([]);
 
@@ -24,7 +24,20 @@ export default function Trainers() {
         getData();
     }, []);
 
-    const [updateSprite, { updateSpriteError, updateSpriteData }] = useMutation(UPDATE_SPRITE);
+
+    const currentUser = localStorage.getItem('username');
+
+    const [newSprite, { newSpriteErr, newSpriteData }] = useMutation(UPDATE_SPRITE);
+
+    function updateSprite(spriteChoice){
+        newSprite({
+        variables: {
+            username: currentUser,
+            sprite: spriteChoice
+        },
+        })
+        
+    }
 
   return (
 
@@ -33,21 +46,21 @@ export default function Trainers() {
             <h4 className='text-center mt-5'>Choose A Sprite!</h4>
             <div className='container m-5'>
         {JSONdata.map((trainers, i) => {
-                    return (               
+                    return (  
+                        <a href='/dashboard'>
                             <img 
                                 style={{cursor: 'pointer'}}
                                 className='m-1'
                                 width='100px'
                                 src={trainers.trainer_sprite}
-                                onClick={() => console.log(`working` + i)}>
+                                onClick={() => updateSprite(trainers.trainer_sprite)}>
                             </img>
+                        </a>             
                     )
                 })}
             </div>
         </div>
     </div>
-
-
   )
 }
 
