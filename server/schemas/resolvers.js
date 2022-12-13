@@ -42,9 +42,15 @@ const resolvers = {
         throw new AuthenticationError('an account with this username already exists')
       }
 
-      const user = await User.create({ username, email, password });
-      const token = signToken(user);
-      return { token, user };
+       
+        try{
+          const user = await User.create({ username, email, password });
+          const token = signToken(user);
+          return { token, user };
+        }catch(e){
+          throw new AuthenticationError(e)
+        }
+      
     },
     updateSprite: async (parent, args) => {
       const user = await User.findOneAndUpdate(
