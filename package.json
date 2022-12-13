@@ -24,5 +24,8 @@
     "react-blink-text": "^1.0.5",
     "react-bootstrap": "^2.7.0",
     "react-reveal": "^1.2.2"
+  },
+  "engines": {
+    "node": "16.18.0"
   }
 }
