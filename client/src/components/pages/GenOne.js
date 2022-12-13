@@ -206,7 +206,8 @@ export default function GenOne() {
             className="text-center">Kanto
           </h1>
           <hr
-            style={{borderTop: '2px solid white'}}></hr>
+            style={{borderTop: '2px solid white'}}>
+          </hr>
           {JSONdata.map((pokemon, i) => {
             return (
               <li
