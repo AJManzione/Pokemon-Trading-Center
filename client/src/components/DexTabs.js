@@ -18,9 +18,11 @@ function DexTabs( props ) {
 
   return (
   <div>
-    { props.isLogged ?     
+    { props.isLogged 
+
+  ?     
     <ul 
-      className="nav d-flex banner-bg flex-nowrap">
+      className="nav d-flex banner-bg flex-nowrap justify-content-around">
       <li className="nav-item">
         <a href="/Dashboard">
           <img className="tab-bg-white" src={dashboard}></img>
@@ -83,8 +85,11 @@ function DexTabs( props ) {
           <img className="tab-bg-white" src={logout}></img>
         </a>
       </li>
-
-    </ul>: <p></p> }
+    </ul>
+  : 
+    <div className="banner-bg">
+      <h1></h1>
+    </div> }
 </div>
   );
 }
