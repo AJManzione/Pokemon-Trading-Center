@@ -1,11 +1,8 @@
-import React, {useState, useEffect} from 'react';
-/* import { useMutation } from "@apollo/client";
-import { CHANGE_SPRITE, UNCATCH_POKEMON } from "../../utils/mutations"; */
-
-
-import '../../styles/pokedex.css'
+import React, {useState, useEffect} from 'react'
+import { UPDATE_SPRITE } from "../../utils/mutations";
 
 export default function Trainers() {
+
 
     const [JSONdata, setJSONData] = useState([]);
 
@@ -26,6 +23,8 @@ export default function Trainers() {
     useEffect(() => {
         getData();
     }, []);
+
+    const [updateSprite, { updateSpriteError, updateSpriteData }] = useMutation(UPDATE_SPRITE);
 
   return (
 

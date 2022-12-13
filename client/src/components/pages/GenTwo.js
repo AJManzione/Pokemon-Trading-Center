@@ -3,7 +3,7 @@ import pokeballOpen from "../../images/pokeball-open.png";
 import pokeballClosed from "../../images/pokeball-closed.png";
 import Tada from "react-reveal/Tada";
 import { useMutation, useQuery } from "@apollo/client";
-import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
+import { CATCH_POKEMON, UNCATCH_POKEMON, UPDATE_SPRITE } from "../../utils/mutations";
 import { QUERY_USER } from "../../utils/queries";
 import bug from "../../images/types/bug.png";
 import dark from "../../images/types/dark.png";
@@ -25,6 +25,9 @@ import steel from "../../images/types/steel.png";
 import water from "../../images/types/water.png";
 
 export default function GenTwo() {
+
+
+
   // fetching all pokemon from JSON Data
   const [JSONdata, setJSONData] = useState([]);
 
@@ -54,6 +57,18 @@ export default function GenTwo() {
   const [catchPokemon, { catchErr, catchData }] = useMutation(CATCH_POKEMON);
   const [unCatchPokemon, { unCatchErr, unCatchData }] =
     useMutation(UNCATCH_POKEMON);
+  
+
+  function updateFrontEndSprite(){
+    updateSprite({
+      variables: {
+        username: "mike",
+        sprite: 60,
+      },
+    });
+  }
+
+  updateFrontEndSprite()
 
   const { loading, data: userValue } = useQuery(QUERY_USER, {
     variables: { username: currentUser },
