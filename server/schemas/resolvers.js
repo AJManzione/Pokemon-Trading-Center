@@ -34,9 +34,23 @@ const resolvers = {
 
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
-      const user = await User.create({ username, email, password });
-      const token = signToken(user);
-      return { token, user };
+      const checkUserEmail = await User.findOne({email})
+      const checkUserUsername = await User.findOne({ username })
+      if(checkUserEmail){
+        throw new AuthenticationError('an account with this email already exists')
+      }else if (checkUserUsername){
+        throw new AuthenticationError('an account with this username already exists')
+      }
+
+       
+        try{
+          const user = await User.create({ username, email, password });
+          const token = signToken(user);
+          return { token, user };
+        }catch(e){
+          throw new AuthenticationError(e)
+        }
+      
     },
     updateSprite: async (parent, args) => {
       const user = await User.findOneAndUpdate(
