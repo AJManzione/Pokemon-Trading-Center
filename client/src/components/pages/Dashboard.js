@@ -7,7 +7,7 @@ import ultraball from '../../images/badges/ultraball-badge.png'
 import masterball from '../../images/badges/masterball-badge.png'
 
 import { useQuery} from '@apollo/client';
-import { QUERY_USER} from '../../utils/queries';
+import { QUERY_USER } from '../../utils/queries';
 
 export default function Dashboard() {
 
@@ -33,7 +33,6 @@ const currentUser = localStorage.getItem('username')
     }
   }, [ loading, userValue ]);
 
-console.log(userData.pokemonCaught)
 
 
 const genOneTotal = userData?.pokemonCaught?.filter((pokemon) => pokemon <= 151);

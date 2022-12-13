@@ -69,7 +69,7 @@ const userSchema = new Schema({
         }
     },
     sprite:{
-        type: Number
+        type: String,
     },
     pokemonCaught:[pokemonSchema]
 },
