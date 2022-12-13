@@ -46,4 +46,11 @@ export const UNCATCH_POKEMON = gql`
 }
 `
 
+export const UPDATE_SPRITE = gql`
+mutation Mutation($username: String!, $sprite: Int!) {
+  updateSprite(username: $username, sprite: $sprite) {
+    sprite
+  }
+}
+`
 

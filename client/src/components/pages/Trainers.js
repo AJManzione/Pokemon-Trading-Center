@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
+import { UPDATE_SPRITE } from "../../utils/mutations";
 
 export default function Trainers() {
+
 
     const [JSONdata, setJSONData] = useState([]);
 
@@ -21,6 +23,8 @@ export default function Trainers() {
     useEffect(() => {
         getData();
     }, []);
+
+    const [updateSprite, { updateSpriteError, updateSpriteData }] = useMutation(UPDATE_SPRITE);
 
   return (
     <div>

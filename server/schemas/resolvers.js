@@ -38,6 +38,13 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
+    updateSprite: async (parent, args) => {
+      const user = await User.findOneAndUpdate(
+        {username: args.username},
+        {$set: {sprite: args.sprite}},
+        {new: true}
+      )
+    },
     loginUser: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
       if (!user) {
