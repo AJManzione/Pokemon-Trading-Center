@@ -5,6 +5,7 @@ const typeDefs = gql`
     _id: ID
     username: String
     pokemonCaught: [Pokemon]
+    sprite: String
   }
 
   type Pokemon {
@@ -32,6 +33,7 @@ const typeDefs = gql`
     removeUser(username: String!): User
     catchPokemon(username: String!, entry: Int!): User
     unCatchPokemon(username: String!, entry: Int!): User
+    updateSprite(username: String!, sprite: String): User
   }
 `;
 module.exports = typeDefs;
