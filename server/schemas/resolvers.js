@@ -34,6 +34,14 @@ const resolvers = {
 
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
+      const checkUserEmail = await User.findOne({email})
+      const checkUserUsername = await User.findOne({ username })
+      if(checkUserEmail){
+        throw new AuthenticationError('an account with this email already exists')
+      }else if (checkUserUsername){
+        throw new AuthenticationError('an account with this username already exists')
+      }
+
       const user = await User.create({ username, email, password });
       const token = signToken(user);
       return { token, user };
