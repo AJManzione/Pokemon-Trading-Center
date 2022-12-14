@@ -14,13 +14,10 @@ import logout from "../images/tabs-ui/logout.jpg";
 import Auth from "../utils/auth";
 
 
-function DexTabs( props ) {
+function DexTabs() {
 
   return (
-  <div>
-    { props.isLogged 
-
-  ?     
+  <div>  
     <ul 
       className="nav d-flex banner-bg flex-nowrap justify-content-around">
       <li className="nav-item">
@@ -86,10 +83,6 @@ function DexTabs( props ) {
         </a>
       </li>
     </ul>
-  : 
-    <div className="banner-bg">
-      <h1></h1>
-    </div> }
 </div>
   );
 }

@@ -83,7 +83,7 @@ const resolvers = {
       const pokemon = await Pokemon.findOne({entry: args.entry})
       User.findOneAndUpdate(
         {username: args.username},
-        { $addToSet: {pokemonCaught: pokemon}},
+        { $addToSet: {pokemonCaught: {entry: args.entry}}},
         {new: true}
       )
       .then((user) => {

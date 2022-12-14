@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import pokeballOpen from "../../images/pokeball-open.png";
 import pokeballClosed from "../../images/pokeball-closed.png";
+import DexTabs from '../DexTabs'
 import Tada from "react-reveal/Tada";
 import { useMutation, useQuery } from "@apollo/client";
 import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
@@ -25,6 +26,7 @@ import steel from "../../images/types/steel.png";
 import water from "../../images/types/water.png";
 
 export default function GenOne() {
+    
   // fetching all pokemon from JSON Data
   const [JSONdata, setJSONData] = useState([]);
 
@@ -197,7 +199,13 @@ export default function GenOne() {
     }
   };
 
+function redirect() {
+  window.location.replace("/login")
+}
+
   return (
+<div>
+  <DexTabs/>
     <div className="gen-one-bg">
       <div className="container pt-3">
         <ul className="list-group">
@@ -262,5 +270,6 @@ export default function GenOne() {
         </ul>
       </div>
     </div>
+  </div>
   );
 }

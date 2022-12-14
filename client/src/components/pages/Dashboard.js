@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DexTabs from '../DexTabs'
 import UserMenu from '../UserMenu';
 import '../../styles/dashboard.css';
 import pokeball from '../../images/badges/pokeball-badge.png'
@@ -59,6 +60,8 @@ function determineBadge (userTotal, genTotal){
 }
 
   return (
+  <div>
+    <DexTabs />
     <div className='dashboard-bg'>
       <div className='container pt-3'>
         <ul className="list-group">
@@ -143,5 +146,6 @@ function determineBadge (userTotal, genTotal){
         </ul>      
       </div>
     </div>
+  </div>
   );
 }

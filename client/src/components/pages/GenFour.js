@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import pokeballOpen from "../../images/pokeball-open.png";
 import pokeballClosed from "../../images/pokeball-closed.png";
 import Tada from "react-reveal/Tada";
+import DexTabs from '../DexTabs'
 import { useMutation, useQuery } from "@apollo/client";
 import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
 import { QUERY_USER } from "../../utils/queries";
@@ -198,11 +199,13 @@ export default function GenFour() {
   };
 
   return (
+  <div>
+    <DexTabs/>
     <div className="gen-four-bg">
       <div className="container pt-3">
         <h1 
           style={{color: 'white'}}
-          className="text-center">Johto
+          className="text-center">Sinnoh
         </h1>
         <hr
           style={{borderTop: '2px solid white'}}>
@@ -262,5 +265,6 @@ export default function GenFour() {
         </ul>
       </div>
     </div>
+  </div>
   );
 }

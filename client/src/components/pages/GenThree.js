@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useMutation, useQuery } from "@apollo/client";
 import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
 import { QUERY_USER } from "../../utils/queries";
+import DexTabs from '../DexTabs'
 
 import pokeballOpen from "../../images/pokeball-open.png";
 import pokeballClosed from "../../images/pokeball-closed.png";
@@ -199,11 +200,13 @@ export default function GenThree() {
   };
 
   return (
+  <div>
+    <DexTabs/>
     <div className="gen-three-bg">
       <div className="container pt-3">
         <h1 
           style={{color: 'white'}}
-          className="text-center">Johto
+          className="text-center">Hoenn
         </h1>
         <hr
           style={{borderTop: '2px solid white'}}>
@@ -263,6 +266,7 @@ export default function GenThree() {
         </ul>
       </div>
     </div>
+  </div>
   );
 }
 
