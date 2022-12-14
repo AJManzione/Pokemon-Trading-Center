@@ -6,6 +6,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.barz {
+    text-decoration: none;
+
+}
+
 .user-menu-bg {
     color: white;
     border-radius: 20px;
