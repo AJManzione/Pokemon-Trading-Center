@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import pokeballOpen from "../../images/pokeball-open.png";
 import pokeballClosed from "../../images/pokeball-closed.png";
+import DexTabs from '../DexTabs'
 import Tada from "react-reveal/Tada";
 import { useMutation, useQuery } from "@apollo/client";
 import { CATCH_POKEMON, UNCATCH_POKEMON } from "../../utils/mutations";
@@ -201,6 +202,8 @@ export default function GenTwo() {
   };
 
   return (
+  <div>
+    <DexTabs/>
     <div className="gen-two-bg">
       <div className="container pt-3">
         <h1 
@@ -265,5 +268,6 @@ export default function GenTwo() {
         </ul>
       </div>
     </div>
+  </div>
   );
 }

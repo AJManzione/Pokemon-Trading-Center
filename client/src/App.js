@@ -21,10 +21,8 @@ import GenSeven from "./components/pages/GenSeven";
 import GenEight from "./components/pages/GenEight";
 import GenNine from "./components/pages/GenNine";
 import Login from "./components/pages/Login";
-import Signup from "./components/pages/SignUp";
 import Trainers from "./components/pages/Trainers";
 import "./styles/pokedex.css";
-import DexTabs from "./components/DexTabs";
 
 
 const httpLink = createHttpLink({
@@ -62,22 +60,21 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <DexTabs isLogged={isLogged} />
-        <Routes>
-          <Route path="/Dashboard" element={<Dashboard />} />
-          <Route path="/GenOne" element={<GenOne />} />
-          <Route path="/GenTwo" element={<GenTwo />} />
-          <Route path="/GenThree" element={<GenThree />} />
-          <Route path="/GenFour" element={<GenFour />} />
-          <Route path="/GenFive" element={<GenFive />} />
-          <Route path="/GenSix" element={<GenSix />} />
-          <Route path="/GenSeven" element={<GenSeven />} />
-          <Route path="/GenEight" element={<GenEight />} />
-          <Route path="/GenNine" element={<GenNine />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/SignUp" element={<Signup />} />
-          <Route path="/sprites" element={<Trainers />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/GenOne" element={<GenOne />} />
+            <Route path="/GenTwo" element={<GenTwo />} />
+            <Route path="/GenThree" element={<GenThree />} />
+            <Route path="/GenFour" element={<GenFour />} />
+            <Route path="/GenFive" element={<GenFive />} />
+            <Route path="/GenSix" element={<GenSix />} />
+            <Route path="/GenSeven" element={<GenSeven />} />
+            <Route path="/GenEight" element={<GenEight />} />
+            <Route path="/GenNine" element={<GenNine />} />
+            <Route path="/Sprites" element={<Trainers />} />
+            <Route path="/Login" element={<Login />} />
+          </Routes>
       </Router>
     </ApolloProvider>
   );
