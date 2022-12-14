@@ -2,501 +2,601 @@
    {
       "entry":"152",
       "name":"Chikorita",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/chikorita.gif"
    },
    {
       "entry":"153",
       "name":"Bayleef",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/bayleef.gif"
    },
    {
       "entry":"154",
       "name":"Meganium",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/meganium.gif"
    },
    {
       "entry":"155",
       "name":"Cyndaquil",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/cyndaquil.gif"
    },
    {
       "entry":"156",
       "name":"Quilava",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/quilava.gif"
    },
    {
       "entry":"157",
       "name":"Typhlosion",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/typhlosion.gif"
    },
    {
       "entry":"158",
       "name":"Totodile",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/totodile.gif"
    },
    {
       "entry":"159",
       "name":"Croconaw",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/croconaw.gif"
    },
    {
       "entry":"160",
       "name":"Feraligatr",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/feraligatr.gif"
    },
    {
       "entry":"161",
       "name":"Sentret",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sentret.gif"
    },
    {
       "entry":"162",
       "name":"Furret",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/furret.gif"
    },
    {
       "entry":"163",
       "name":"Hoothoot",
-      "type":"Normal Flying"
+      "type":"Normal Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hoothoot.gif"
    },
    {
       "entry":"164",
       "name":"Noctowl",
-      "type":"Normal Flying"
+      "type":"Normal Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/noctowl.gif"
    },
    {
       "entry":"165",
       "name":"Ledyba",
-      "type":"Bug Flying"
+      "type":"Bug Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/ledyba.gif"
    },
    {
       "entry":"166",
       "name":"Ledian",
-      "type":"Bug Flying"
+      "type":"Bug Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/ledian.gif"
    },
    {
       "entry":"167",
       "name":"Spinarak",
-      "type":"Bug Poison"
+      "type":"Bug Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/spinarak.gif"
    },
    {
       "entry":"168",
       "name":"Ariados",
-      "type":"Bug Poison"
+      "type":"Bug Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/ariados.gif"
    },
    {
       "entry":"169",
       "name":"Crobat",
-      "type":"Poison Flying"
+      "type":"Poison Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/crobat.gif"
    },
    {
       "entry":"170",
       "name":"Chinchou",
-      "type":"Water Electric"
+      "type":"Water Electric",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/chinchou.gif"
    },
    {
       "entry":"171",
       "name":"Lanturn",
-      "type":"Water Electric"
+      "type":"Water Electric",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/lanturn.gif"
    },
    {
       "entry":"172",
       "name":"Pichu",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pichu.gif"
    },
    {
       "entry":"173",
       "name":"Cleffa",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/cleffa.gif"
    },
    {
       "entry":"174",
       "name":"Igglybuff",
-      "type":"Normal Fairy"
+      "type":"Normal Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/igglybuff.gif"
    },
    {
       "entry":"175",
       "name":"Togepi",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/togepi.gif"
    },
    {
       "entry":"176",
       "name":"Togetic",
-      "type":"Fairy Flying"
+      "type":"Fairy Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/togetic.gif"
    },
    {
       "entry":"177",
       "name":"Natu",
-      "type":"Psychic Flying"
+      "type":"Psychic Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/natu.gif"
    },
    {
       "entry":"178",
       "name":"Xatu",
-      "type":"Psychic Flying"
+      "type":"Psychic Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/xatu.gif"
    },
    {
       "entry":"179",
       "name":"Mareep",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/mareep.gif"
    },
    {
       "entry":"180",
       "name":"Flaaffy",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/flaaffy.gif"
    },
    {
       "entry":"181",
       "name":"Ampharos",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/ampharos.gif"
    },
    {
       "entry":"182",
       "name":"Bellossom",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/bellossom.gif"
    },
    {
       "entry":"183",
       "name":"Marill",
-      "type":"Water Fairy"
+      "type":"Water Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/marill.gif"
    },
    {
       "entry":"184",
       "name":"Azumarill",
-      "type":"Water Fairy"
+      "type":"Water Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/azumarill.gif"
    },
    {
       "entry":"185",
       "name":"Sudowoodo",
-      "type":"Rock "
+      "type":"Rock ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sudowoodo.gif"
    },
    {
       "entry":"186",
       "name":"Politoed",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/politoed.gif"
    },
    {
       "entry":"187",
       "name":"Hoppip",
-      "type":"Grass Flying"
+      "type":"Grass Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hoppip.gif"
    },
    {
       "entry":"188",
       "name":"Skiploom",
-      "type":"Grass Flying"
+      "type":"Grass Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/skiploom.gif"
    },
    {
       "entry":"189",
       "name":"Jumpluff",
-      "type":"Grass Flying"
+      "type":"Grass Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/jumpluff.gif"
    },
    {
       "entry":"190",
       "name":"Aipom",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/aipom.gif"
    },
    {
       "entry":"191",
       "name":"Sunkern",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sunkern.gif"
    },
    {
       "entry":"192",
       "name":"Sunflora",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sunflora.gif"
    },
    {
       "entry":"193",
       "name":"Yanma",
-      "type":"Bug Flying"
+      "type":"Bug Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/yanma.gif"
    },
    {
       "entry":"194",
       "name":"Wooper",
-      "type":"Water Ground"
+      "type":"Water Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/wooper.gif"
    },
    {
       "entry":"195",
       "name":"Quagsire",
-      "type":"Water Ground"
+      "type":"Water Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/quagsire.gif"
    },
    {
       "entry":"196",
       "name":"Espeon",
-      "type":"Psychic "
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/espeon.gif"
    },
    {
       "entry":"197",
       "name":"Umbreon",
-      "type":"Dark "
+      "type":"Dark ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/umbreon.gif"
    },
    {
       "entry":"198",
       "name":"Murkrow",
-      "type":"Dark Flying"
+      "type":"Dark Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/murkrow.gif"
    },
    {
       "entry":"199",
       "name":"Slowking",
-      "type":"Water Psychic"
+      "type":"Water Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/slowking.gif"
    },
    {
       "entry":"200",
       "name":"Misdreavus",
-      "type":"Ghost "
+      "type":"Ghost ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/misdreavus.gif"
    },
    {
       "entry":"201",
-      "name":"UnownOne form",
-      "type":"Psychic "
+      "name":"Unown",
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/unown.gif"
    },
    {
       "entry":"202",
       "name":"Wobbuffet",
-      "type":"Psychic "
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/wobbuffet.gif"
    },
    {
       "entry":"203",
       "name":"Girafarig",
-      "type":"Normal Psychic"
+      "type":"Normal Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/girafarig.gif"
    },
    {
       "entry":"204",
       "name":"Pineco",
-      "type":"Bug "
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pineco.gif"
    },
    {
       "entry":"205",
       "name":"Forretress",
-      "type":"Bug Steel"
+      "type":"Bug Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/forretress.gif"
    },
    {
       "entry":"206",
       "name":"Dunsparce",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/dunsparce.gif"
    },
    {
       "entry":"207",
       "name":"Gligar",
-      "type":"Ground Flying"
+      "type":"Ground Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/gligar.gif"
    },
    {
       "entry":"208",
       "name":"Steelix",
-      "type":"Steel Ground"
+      "type":"Steel Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/steelix.gif"
    },
    {
       "entry":"209",
       "name":"Snubbull",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/snubbull.gif"
    },
    {
       "entry":"210",
       "name":"Granbull",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/granbull.gif"
    },
    {
       "entry":"211",
       "name":"Qwilfish",
-      "type":"Water Poison"
+      "type":"Water Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif"
    },
    {
       "entry":"212",
       "name":"Scizor",
-      "type":"Bug Steel"
+      "type":"Bug Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/scizor.gif"
    },
    {
       "entry":"213",
       "name":"Shuckle",
-      "type":"Bug Rock"
+      "type":"Bug Rock",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/shuckle.gif"
    },
    {
       "entry":"214",
       "name":"Heracross",
-      "type":"Bug Fighting"
+      "type":"Bug Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/heracross.gif"
    },
    {
       "entry":"215",
       "name":"Sneasel",
-      "type":"Dark Ice"
+      "type":"Dark Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sneasel.gif"
    },
    {
       "entry":"216",
       "name":"Teddiursa",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/teddiursa.gif"
    },
    {
       "entry":"217",
       "name":"Ursaring",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/ursaring.gif"
    },
    {
       "entry":"218",
       "name":"Slugma",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/slugma.gif"
    },
    {
       "entry":"219",
       "name":"Magcargo",
-      "type":"Fire Rock"
+      "type":"Fire Rock",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/magcargo.gif"
    },
    {
       "entry":"220",
       "name":"Swinub",
-      "type":"Ice Ground"
+      "type":"Ice Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/swinub.gif"
    },
    {
       "entry":"221",
       "name":"Piloswine",
-      "type":"Ice Ground"
+      "type":"Ice Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/piloswine.gif"
    },
    {
       "entry":"222",
       "name":"Corsola",
-      "type":"Water Rock"
+      "type":"Water Rock",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/corsola.gif"
    },
    {
       "entry":"223",
       "name":"Remoraid",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/remoraid.gif"
    },
    {
       "entry":"224",
       "name":"Octillery",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/octillery.gif"
    },
    {
       "entry":"225",
       "name":"Delibird",
-      "type":"Ice Flying"
+      "type":"Ice Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/delibird.gif"
    },
    {
       "entry":"226",
       "name":"Mantine",
-      "type":"Water Flying"
+      "type":"Water Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/mantine.gif"
    },
    {
       "entry":"227",
       "name":"Skarmory",
-      "type":"Steel Flying"
+      "type":"Steel Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/skarmory.gif"
    },
    {
       "entry":"228",
       "name":"Houndour",
-      "type":"Dark Fire"
+      "type":"Dark Fire",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/houndour.gif"
    },
    {
       "entry":"229",
       "name":"Houndoom",
-      "type":"Dark Fire"
+      "type":"Dark Fire",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/houndoom.gif"
    },
    {
       "entry":"230",
       "name":"Kingdra",
-      "type":"Water Dragon"
+      "type":"Water Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/kingdra.gif"
    },
    {
       "entry":"231",
       "name":"Phanpy",
-      "type":"Ground "
+      "type":"Ground ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/phanpy.gif"
    },
    {
       "entry":"232",
       "name":"Donphan",
-      "type":"Ground "
+      "type":"Ground ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/donphan.gif"
    },
    {
       "entry":"233",
       "name":"Porygon2",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/porygon2.gif"
    },
    {
       "entry":"234",
       "name":"Stantler",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/stantler.gif"
    },
    {
       "entry":"235",
       "name":"Smeargle",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/smeargle.gif"
    },
    {
       "entry":"236",
       "name":"Tyrogue",
-      "type":"Fighting "
+      "type":"Fighting ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/tyrogue.gif"
    },
    {
       "entry":"237",
       "name":"Hitmontop",
-      "type":"Fighting "
+      "type":"Fighting ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hitmontop.gif"
    },
    {
       "entry":"238",
       "name":"Smoochum",
-      "type":"Ice Psychic"
+      "type":"Ice Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/smoochum.gif"
    },
    {
       "entry":"239",
       "name":"Elekid",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/elekid.gif"
    },
    {
       "entry":"240",
       "name":"Magby",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/magby.gif"
    },
    {
       "entry":"241",
       "name":"Miltank",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/miltank.gif"
    },
    {
       "entry":"242",
       "name":"Blissey",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/blissey.gif"
    },
    {
       "entry":"243",
       "name":"Raikou",
-      "type":"Electric "
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/raikou.gif"
    },
    {
       "entry":"244",
       "name":"Entei",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/entei.gif"
    },
    {
       "entry":"245",
       "name":"Suicune",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/suicune.gif"
    },
    {
       "entry":"246",
       "name":"Larvitar",
-      "type":"Rock Ground"
+      "type":"Rock Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/larvitar.gif"
    },
    {
       "entry":"247",
       "name":"Pupitar",
-      "type":"Rock Ground"
+      "type":"Rock Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pupitar.gif"
    },
    {
       "entry":"248",
       "name":"Tyranitar",
-      "type":"Rock Dark"
+      "type":"Rock Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/tyranitar.gif"
    },
    {
       "entry":"249",
       "name":"Lugia",
-      "type":"Psychic Flying"
+      "type":"Psychic Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/lugia.gif"
    },
    {
       "entry":"250",
-      "name":"Ho-Oh",
-      "type":"Fire Flying"
+      "name":"HoOh",
+      "type":"Fire Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hooh.gif"
    },
    {
       "entry":"251",
       "name":"Celebi",
-      "type":"Psychic Grass"
+      "type":"Psychic Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/celebi.gif"
    }
 ]

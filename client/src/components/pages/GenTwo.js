@@ -221,11 +221,9 @@ export default function GenTwo() {
                   <div className="d-flex align-items-center justify-content-around">
                     <li>
                       <img
-                        width="70px"
-                        src={`../../assets/sprites/Gen-2-Sprites/${parseFloat(
-                          pokemon.entry
-                        )}.png`}
-                      ></img>
+                        style={{maxWidth:'6vw'}}
+                        src={pokemon.sprite}>
+                      </img>
                     </li>
                     <li className="m-4">
                       <h4>#{pokemon.entry}</h4>
@@ -235,8 +233,13 @@ export default function GenTwo() {
                     <h4>{pokemon.name}</h4>
                   </li>
                   <li>
-                    <img width="50px" src={getTypeOne(pokemon.type)}></img>
-                    <img width="50px" src={getTypeTwo(pokemon.type)}></img>
+                    <img 
+                      style={{maxWidth:'100%',
+                      maxHeight:'4vh'}} src={getTypeOne(pokemon.type)}></img>
+                    <img 
+                      style={{maxWidth:'100%',
+                      maxHeight:'4vh'}} src={getTypeTwo(pokemon.type)}>
+                    </img>
                   </li>
                   <li>
                     <Tada duration={2500}>

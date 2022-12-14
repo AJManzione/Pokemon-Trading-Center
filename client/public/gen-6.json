@@ -2,376 +2,433 @@
    {
       "entry":"650",
       "name":"Chespin",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/chespin.gif"
    },
    {
       "entry":"651",
       "name":"Quilladin",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/quilladin.gif"
    },
    {
       "entry":"652",
       "name":"Chesnaught",
-      "type":"Grass Fighting"
+      "type":"Grass Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/chesnaught.gif"
    },
    {
       "entry":"653",
       "name":"Fennekin",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/fennekin.gif"
    },
    {
       "entry":"654",
       "name":"Braixen",
-      "type":"Fire "
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/braixen.gif"
    },
    {
       "entry":"655",
       "name":"Delphox",
-      "type":"Fire Psychic"
+      "type":"Fire Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/delphox.gif"
    },
    {
       "entry":"656",
       "name":"Froakie",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/froakie.gif"
    },
    {
       "entry":"657",
       "name":"Frogadier",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/frogadier.gif"
    },
    {
       "entry":"658",
       "name":"Greninja",
-      "type":"Water Dark"
+      "type":"Water Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/greninja.gif"
    },
    {
       "entry":"659",
       "name":"Bunnelby",
-      "type":"Normal "
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/bunnelby.gif"
    },
    {
       "entry":"660",
       "name":"Diggersby",
-      "type":"Normal Ground"
+      "type":"Normal Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/diggersby.gif"
    },
    {
       "entry":"661",
       "name":"Fletchling",
-      "type":"Normal Flying"
+      "type":"Normal Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/fletchling.gif"
    },
    {
       "entry":"662",
       "name":"Fletchinder",
-      "type":"Fire Flying"
+      "type":"Fire Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/fletchinder.gif"
    },
    {
       "entry":"663",
       "name":"Talonflame",
-      "type":"Fire Flying"
+      "type":"Fire Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/talonflame.gif"
    },
    {
       "entry":"664",
       "name":"Scatterbug",
-      "type":"Bug "
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/scatterbug.gif"
    },
    {
       "entry":"665",
       "name":"Spewpa",
-      "type":"Bug "
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/spewpa.gif"
    },
    {
       "entry":"666",
-      "name":"VivillonMeadow Pattern",
-      "type":"Bug Flying"
+      "name":"Vivillon",
+      "type":"Bug Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/vivillon.gif"
    },
    {
       "entry":"667",
       "name":"Litleo",
-      "type":"Fire Normal"
+      "type":"Fire Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/litleo.gif"
    },
    {
       "entry":"668",
       "name":"Pyroar",
-      "type":"Fire Normal"
+      "type":"Fire Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pyroar.gif"
    },
    {
       "entry":"669",
-      "name":"FlabébéRed Flower",
-      "type":"Fairy "
+      "name":"Flabébé",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/flabebe.gif"
    },
    {
       "entry":"670",
-      "name":"FloetteRed Flower",
-      "type":"Fairy "
+      "name":"Floette",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/floette.gif"
    },
    {
       "entry":"671",
-      "name":"FlorgesRed Flower",
-      "type":"Fairy "
+      "name":"Florges",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/florges.gif"
    },
    {
       "entry":"672",
       "name":"Skiddo",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/skiddo.gif"
    },
    {
       "entry":"673",
       "name":"Gogoat",
-      "type":"Grass "
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/gogoat.gif"
    },
    {
       "entry":"674",
       "name":"Pancham",
-      "type":"Fighting "
+      "type":"Fighting ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pancham.gif"
    },
    {
       "entry":"675",
       "name":"Pangoro",
-      "type":"Fighting Dark"
+      "type":"Fighting Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pangoro.gif"
    },
    {
       "entry":"676",
-      "name":"FurfrouNatural Form",
-      "type":"Normal "
+      "name":"Furfrou",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/furfrou.gif"
    },
    {
       "entry":"677",
       "name":"Espurr",
-      "type":"Psychic "
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/espurr.gif"
    },
    {
       "entry":"678",
-      "name":"MeowsticMale",
-      "type":"Psychic "
+      "name":"Meowstic",
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/meowstic.gif"
    },
    {
       "entry":"679",
       "name":"Honedge",
-      "type":"Steel Ghost"
+      "type":"Steel Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/honedge.gif"
    },
    {
       "entry":"680",
       "name":"Doublade",
-      "type":"Steel Ghost"
+      "type":"Steel Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/doublade.gif"
    },
    {
       "entry":"681",
-      "name":"AegislashShield Forme",
-      "type":"Steel Ghost"
+      "name":"Aegislash",
+      "type":"Steel Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/aegislash.gif"
    },
    {
       "entry":"682",
       "name":"Spritzee",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/spritzee.gif"
    },
    {
       "entry":"683",
       "name":"Aromatisse",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/aromatisse.gif"
    },
    {
       "entry":"684",
       "name":"Swirlix",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/swirlix.gif"
    },
    {
       "entry":"685",
       "name":"Slurpuff",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/slurpuff.gif"
    },
    {
       "entry":"686",
       "name":"Inkay",
-      "type":"Dark Psychic"
+      "type":"Dark Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/inkay.gif"
    },
    {
       "entry":"687",
       "name":"Malamar",
-      "type":"Dark Psychic"
+      "type":"Dark Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/malamar.gif"
    },
    {
       "entry":"688",
       "name":"Binacle",
-      "type":"Rock Water"
+      "type":"Rock Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/binacle.gif"
    },
    {
       "entry":"689",
       "name":"Barbaracle",
-      "type":"Rock Water"
+      "type":"Rock Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/barbaracle.gif"
    },
    {
       "entry":"690",
       "name":"Skrelp",
-      "type":"Poison Water"
+      "type":"Poison Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/skrelp.gif"
    },
    {
       "entry":"691",
       "name":"Dragalge",
-      "type":"Poison Dragon"
+      "type":"Poison Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/dragalge.gif"
    },
    {
       "entry":"692",
       "name":"Clauncher",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/clauncher.gif"
    },
    {
       "entry":"693",
       "name":"Clawitzer",
-      "type":"Water "
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/clawitzer.gif"
    },
    {
       "entry":"694",
       "name":"Helioptile",
-      "type":"Electric Normal"
+      "type":"Electric Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/helioptile.gif"
    },
    {
       "entry":"695",
       "name":"Heliolisk",
-      "type":"Electric Normal"
+      "type":"Electric Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/heliolisk.gif"
    },
    {
       "entry":"696",
       "name":"Tyrunt",
-      "type":"Rock Dragon"
+      "type":"Rock Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/tyrunt.gif"
    },
    {
       "entry":"697",
       "name":"Tyrantrum",
-      "type":"Rock Dragon"
+      "type":"Rock Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/tyrantrum.gif"
    },
    {
       "entry":"698",
       "name":"Amaura",
-      "type":"Rock Ice"
+      "type":"Rock Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/amaura.gif"
    },
    {
       "entry":"699",
       "name":"Aurorus",
-      "type":"Rock Ice"
+      "type":"Rock Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/aurorus.gif"
    },
    {
       "entry":"700",
       "name":"Sylveon",
-      "type":"Fairy "
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sylveon.gif"
    },
    {
       "entry":"701",
       "name":"Hawlucha",
-      "type":"Fighting Flying"
+      "type":"Fighting Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hawlucha.gif"
    },
    {
       "entry":"702",
       "name":"Dedenne",
-      "type":"Electric Fairy"
+      "type":"Electric Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/dedenne.gif"
    },
    {
       "entry":"703",
       "name":"Carbink",
-      "type":"Rock Fairy"
+      "type":"Rock Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/carbink.gif"
    },
    {
       "entry":"704",
       "name":"Goomy",
-      "type":"Dragon "
+      "type":"Dragon ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/goomy.gif"
    },
    {
       "entry":"705",
       "name":"Sliggoo",
-      "type":"Dragon "
+      "type":"Dragon ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/sliggoo.gif"
    },
    {
       "entry":"706",
       "name":"Goodra",
-      "type":"Dragon "
+      "type":"Dragon ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/goodra.gif"
    },
    {
       "entry":"707",
       "name":"Klefki",
-      "type":"Steel Fairy"
+      "type":"Steel Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/klefki.gif"
    },
    {
       "entry":"708",
       "name":"Phantump",
-      "type":"Ghost Grass"
+      "type":"Ghost Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/phantump.gif"
    },
    {
       "entry":"709",
       "name":"Trevenant",
-      "type":"Ghost Grass"
+      "type":"Ghost Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/trevenant.gif"
    },
    {
       "entry":"710",
       "name":"Pumpkaboo",
-      "type":"Ghost Grass"
+      "type":"Ghost Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/pumpkaboo.gif"
    },
    {
       "entry":"711",
       "name":"Gourgeist",
-      "type":"Ghost Grass"
+      "type":"Ghost Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/gourgeist.gif"
    },
    {
       "entry":"712",
       "name":"Bergmite",
-      "type":"Ice "
+      "type":"Ice ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/bergmite.gif"
    },
    {
       "entry":"713",
       "name":"Avalugg",
-      "type":"Ice "
+      "type":"Ice ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/avalugg.gif"
    },
    {
       "entry":"714",
       "name":"Noibat",
-      "type":"Flying Dragon"
+      "type":"Flying Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/noibat.gif"
    },
    {
       "entry":"715",
       "name":"Noivern",
-      "type":"Flying Dragon"
+      "type":"Flying Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/noivern.gif"
    },
    {
       "entry":"716",
-      "name":"XerneasNeutral Mode",
-      "type":"Fairy "
+      "name":"Xerneas",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/xerneas.gif"
    },
    {
       "entry":"717",
       "name":"Yveltal",
-      "type":"Dark Flying"
+      "type":"Dark Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/yveltal.gif"
    },
    {
-      "entry":"718.1",
-      "name":"Zygarde (10% Form)",
-      "type":"Dragon Ground"
-   },
-   {
-      "entry":"718.2",
-      "name":"Zygarde (50% Form)",
-      "type":"Dragon Ground"
-   },
-   {
-      "entry":"718.3",
-      "name":"Zygarde (Complete Form)",
-      "type":"Dragon Ground"
+      "entry":"718",
+      "name":"Zygarde",
+      "type":"Dragon Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/zygarde.gif"
    },
    {
       "entry":"719",
       "name":"Diancie",
-      "type":"Rock Fairy"
+      "type":"Rock Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/diancie.gif"
    },
    {
-      "entry":"720.1",
-      "name":"Hoopa (Unbound)",
-      "type":"Psychic Ghost"
-   },
-   {
-      "entry":"720.2",
-      "name":"Hoopa (Confined)",
-      "type":"Psychic Ghost"
+      "entry":"720",
+      "name":"Hoopa",
+      "type":"Psychic Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/hoopa.gif"
    },
    {
       "entry":"721",
       "name":"Volcanion",
-      "type":"Fire Water"
+      "type":"Fire Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/ani/volcanion.gif"
    }
 ]
