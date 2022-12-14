@@ -1,518 +1,620 @@
 [
-    {
-       "entry":"906",
-       "name":"Sprigatito",
-       "type":"Grass"
-    },
-    {
-       "entry":"907",
-       "name":"Floragato",
-       "type":"Grass"
-    },
-    {
-       "entry":"908",
-       "name":"Meowscarada",
-       "type":"Grass, Dark"
-    },
-    {
-       "entry":"909",
-       "name":"Fuecoco",
-       "type":"Fire"
-    },
-    {
-       "entry":"910",
-       "name":"Crocalor",
-       "type":"Fire"
-    },
-    {
-       "entry":"911",
-       "name":"Skeledirge",
-       "type":"Fire, Ghost"
-    },
-    {
-       "entry":"912",
-       "name":"Quaxly",
-       "type":"Water"
-    },
-    {
-       "entry":"913",
-       "name":"Quaxwell",
-       "type":"Water"
-    },
-    {
-       "entry":"914",
-       "name":"Quaquaval",
-       "type":"Water, Fighting"
-    },
-    {
-       "entry":"915",
-       "name":"Lechonk",
-       "type":"Normal"
-    },
-    {
-       "entry":"916",
-       "name":"Oinkologne",
-       "type":"Normal"
-    },
-    {
-       "entry":"917",
-       "name":"Dudunsparce",
-       "type":"Normal"
-    },
-    {
-       "entry":"918",
-       "name":"Tarountula",
-       "type":"Bug"
-    },
-    {
-       "entry":"919",
-       "name":"Spidops",
-       "type":"Bug"
-    },
-    {
-       "entry":"920",
-       "name":"Nymble",
-       "type":"Bug"
-    },
-    {
-       "entry":"921",
-       "name":"Lokix",
-       "type":"Bug, Dark"
-    },
-    {
-       "entry":"922",
-       "name":"Rellor",
-       "type":"Bug"
-    },
-    {
-       "entry":"923",
-       "name":"Rabsca",
-       "type":"Bug, Psychic"
-    },
-    {
-       "entry":"924",
-       "name":"Greavard",
-       "type":"Ghost"
-    },
-    {
-       "entry":"925",
-       "name":"Houndstone",
-       "type":"Ghost"
-    },
-    {
-       "entry":"926",
-       "name":"Flittle",
-       "type":"Psychic"
-    },
-    {
-       "entry":"927",
-       "name":"Espathra",
-       "type":"Psychic"
-    },
-    {
-       "entry":"928",
-       "name":"Farigiraf",
-       "type":"Normal, Psychic"
-    },
-    {
-       "entry":"929",
-       "name":"Wiglett",
-       "type":"Water "
-    },
-    {
-       "entry":"930",
-       "name":"Wugtrio",
-       "type":"Water"
-    },
-    {
-       "entry":"931",
-       "name":"Dondozo",
-       "type":"Water"
-    },
-    {
-       "entry":"932",
-       "name":"Veluza",
-       "type":"Water, Psychic"
-    },
-    {
-       "entry":"933",
-       "name":"Finizen",
-       "type":"Water"
-    },
-    {
-       "entry":"934",
-       "name":"Palafin",
-       "type":"Water"
-    },
-    {
-       "entry":"935",
-       "name":"Smoliv",
-       "type":"Grass, Normal"
-    },
-    {
-       "entry":"936",
-       "name":"Dolliv",
-       "type":"Grass, Normal"
-    },
-    {
-       "entry":"937",
-       "name":"Arboliva",
-       "type":"Grass, Normal"
-    },
-    {
-       "entry":"938",
-       "name":"Capsakid",
-       "type":"Grass"
-    },
-    {
-       "entry":"939",
-       "name":"Scovillain",
-       "type":"Grass, Fire"
-    },
-    {
-       "entry":"940",
-       "name":"Tadbulb",
-       "type":"Electric"
-    },
-    {
-       "entry":"941",
-       "name":"Bellibolt",
-       "type":"Electric"
-    },
-    {
-       "entry":"942",
-       "name":"Varoom",
-       "type":"Steel, Poison"
-    },
-    {
-       "entry":"943",
-       "name":"Revavroom",
-       "type":"Steel, Poison"
-    },
-    {
-       "entry":"944",
-       "name":"Orthworm",
-       "type":"Steel"
-    },
-    {
-       "entry":"945",
-       "name":"Tandemaus",
-       "type":"Normal"
-    },
-    {
-       "entry":"946",
-       "name":"Maushold",
-       "type":"Normal"
-    },
-    {
-       "entry":"947",
-       "name":"Cetoddle",
-       "type":"Ice"
-    },
-    {
-       "entry":"948",
-       "name":"Cetitan",
-       "type":"Ice"
-    },
-    {
-       "entry":"949",
-       "name":"Frigibax",
-       "type":"Dragon, Ice"
-    },
-    {
-       "entry":"950",
-       "name":"Arctibax",
-       "type":"Dragon, Ice"
-    },
-    {
-       "entry":"951",
-       "name":"Baxcalibur",
-       "type":"Dragon, Ice"
-    },
-    {
-       "entry":"952",
-       "name":"Tatsugiri",
-       "type":"Dragon, Water"
-    },
-    {
-       "entry":"953",
-       "name":"Cyclizar",
-       "type":"Dragon, Normal"
-    },
-    {
-       "entry":"954",
-       "name":"Pawmi",
-       "type":"Electric"
-    },
-    {
-       "entry":"955",
-       "name":"Pawmo",
-       "type":"Electric, Fighting"
-    },
-    {
-       "entry":"956",
-       "name":"Pawmot",
-       "type":"Electric, Fighting"
-    },
-    {
-       "entry":"957",
-       "name":"Wattrel",
-       "type":"Electric, Flying"
-    },
-    {
-       "entry":"958",
-       "name":"Kilowattrel",
-       "type":"Electric, Flying"
-    },
-    {
-       "entry":"959",
-       "name":"Bombirdier",
-       "type":"Flying, Dark"
-    },
-    {
-       "entry":"960",
-       "name":"Squawkabilly",
-       "type":"Normal, Flying"
-    },
-    {
-       "entry":"961",
-       "name":"Flamigo",
-       "type":"Flying, Fighting"
-    },
-    {
-       "entry":"962",
-       "name":"Klawf",
-       "type":"Rock"
-    },
-    {
-       "entry":"963",
-       "name":"Nacli",
-       "type":"Rock"
-    },
-    {
-       "entry":"964",
-       "name":"Naclstack",
-       "type":"Rock"
-    },
-    {
-       "entry":"965",
-       "name":"Garganacl",
-       "type":"Rock"
-    },
-    {
-       "entry":"966",
-       "name":"Glimmet",
-       "type":"Rock, Poison"
-    },
-    {
-       "entry":"967",
-       "name":"Glimmora",
-       "type":"Rock, Poison"
-    },
-    {
-       "entry":"968",
-       "name":"Shroodle",
-       "type":"Poison, Normal"
-    },
-    {
-       "entry":"969",
-       "name":"Grafaiai",
-       "type":"Poison, Normal"
-    },
-    {
-       "entry":"970",
-       "name":"Fidough",
-       "type":"Fairy"
-    },
-    {
-       "entry":"971",
-       "name":"Dachsbun",
-       "type":"Fairy"
-    },
-    {
-       "entry":"972",
-       "name":"Maschiff",
-       "type":"Dark"
-    },
-    {
-       "entry":"973",
-       "name":"Mabosstiff",
-       "type":"Dark"
-    },
-    {
-       "entry":"974",
-       "name":"Bramblin",
-       "type":"Grass, Ghost"
-    },
-    {
-       "entry":"975",
-       "name":"Brambleghast",
-       "type":"Grass, Ghost"
-    },
-    {
-       "entry":"976",
-       "name":"Gimmighoul",
-       "type":"Ghost"
-    },
-    {
-       "entry":"977",
-       "name":"Gholdengo",
-       "type":"Steel, Ghost"
-    },
-    {
-       "entry":"978",
-       "name":"Great Tusk",
-       "type":"Ground, Fighting"
-    },
-    {
-       "entry":"979",
-       "name":"Brute Bonnet",
-       "type":"Grass, Dark"
-    },
-    {
-       "entry":"981",
-       "name":"Sandy Shocks",
-       "type":"Electric, Ground"
-    },
-    {
-       "entry":"982",
-       "name":"Scream Tail",
-       "type":"Fairy, Psychic"
-    },
-    {
-       "entry":"983",
-       "name":"Flutter Mane",
-       "type":"Ghost, Fairy"
-    },
-    {
-       "entry":"984",
-       "name":"Slither Wing",
-       "type":"Bug, Fighting"
-    },
-    {
-       "entry":"985",
-       "name":"Roaring Moon",
-       "type":"Dragon, Dark"
-    },
-    {
-       "entry":"986",
-       "name":"Iron Treads",
-       "type":"Ground, Steel"
-    },
-    {
-       "entry":"988",
-       "name":"Iron Moth",
-       "type":"Fire, Poison"
-    },
-    {
-       "entry":"989",
-       "name":"Iron Hands",
-       "type":"Fighting, Electric"
-    },
-    {
-       "entry":"990",
-       "name":"Iron Jugulis",
-       "type":"Dark, Flying"
-    },
-    {
-       "entry":"991",
-       "name":"Iron Thorns",
-       "type":"Rock, Electric"
-    },
-    {
-       "entry":"992",
-       "name":"Iron Bundle",
-       "type":"Ice, Water"
-    },
-    {
-       "entry":"993",
-       "name":"Iron Valiant",
-       "type":"Fairy, Fighting"
-    },
-    {
-       "entry":"994",
-       "name":"Ting-Lu",
-       "type":"Dark, Ground"
-    },
-    {
-       "entry":"995",
-       "name":"Chien-Pao",
-       "type":"Dark, Ice"
-    },
-    {
-       "entry":"996",
-       "name":"Wo-Chien",
-       "type":"Dark, Grass"
-    },
-    {
-       "entry":"997",
-       "name":"Chi-Yu",
-       "type":"Dark, Fire"
-    },
-    {
-       "entry":"998",
-       "name":"Koraidon",
-       "type":"Fighting, Dragon"
-    },
-    {
-       "entry":"999",
-       "name":"Miraidon",
-       "type":"Electric, Dragon"
-    },
-
-    {
-       "entry":"1000",
-       "name":"Tinkatink",
-       "type":"Fairy, Steel"
-    },
-    {
-       "entry":"1001",
-       "name":"Tinkatuff",
-       "type":"Fairy, Steel"
-    },
-    {
-      "entry":"1002",
+   {
+      "entry":"906",
+      "name":"Sprigatito",
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/sprigatito.png"
+   },
+   {
+      "entry":"907",
+      "name":"Floragato",
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/floragato.png"
+   },
+   {
+      "entry":"908",
+      "name":"Meowscarada",
+      "type":"Grass Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/meowscarada.png"
+   },
+   {
+      "entry":"909",
+      "name":"Fuecoco",
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/fuecoco.png"
+   },
+   {
+      "entry":"910",
+      "name":"Crocalor",
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/crocalor.png"
+   },
+   {
+      "entry":"911",
+      "name":"Skeledirge",
+      "type":"Fire Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/skeledirge.png"
+   },
+   {
+      "entry":"912",
+      "name":"Quaxly",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/quaxly.png"
+   },
+   {
+      "entry":"913",
+      "name":"Quaxwell",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/quaxwell.png"
+   },
+   {
+      "entry":"914",
+      "name":"Quaquaval",
+      "type":"Water Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/quaquaval.png"
+   },
+   {
+      "entry":"915",
+      "name":"Lechonk",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/lechonk.png"
+   },
+   {
+      "entry":"916",
+      "name":"Oinkologne",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/oinkologne.png"
+   },
+   {
+      "entry":"917",
+      "name":"Tarountula",
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tarountula.png"
+   },
+   {
+      "entry":"918",
+      "name":"Spidops",
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/spidops.png"
+   },
+   {
+      "entry":"919",
+      "name":"Nymble",
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/nymble.png"
+   },
+   {
+      "entry":"920",
+      "name":"Lokix",
+      "type":"Bug Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/lokix.png"
+   },
+   {
+      "entry":"921",
+      "name":"Pawmi",
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/pawmi.png"
+   },
+   {
+      "entry":"922",
+      "name":"Pawmo",
+      "type":"Electric Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/pawmo.png"
+   },
+   {
+      "entry":"923",
+      "name":"Pawmot",
+      "type":"Electric Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/pawmot.png"
+   },
+   {
+      "entry":"924",
+      "name":"Tandemaus",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tandemaus.png"
+   },
+   {
+      "entry":"925",
+      "name":"Maushold",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/maushold.png"
+   },
+   {
+      "entry":"926",
+      "name":"Fidough",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/fidough.png"
+   },
+   {
+      "entry":"927",
+      "name":"Dachsbun",
+      "type":"Fairy ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/dachsbun.png"
+   },
+   {
+      "entry":"928",
+      "name":"Smoliv",
+      "type":"Grass Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/smoliv.png"
+   },
+   {
+      "entry":"929",
+      "name":"Dolliv",
+      "type":"Grass Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/dolliv.png"
+   },
+   {
+      "entry":"930",
+      "name":"Arboliva",
+      "type":"Grass Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/arboliva.png"
+   },
+   {
+      "entry":"931",
+      "name":"Squawkabilly",
+      "type":"Normal Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/squawkabilly.png"
+   },
+   {
+      "entry":"932",
+      "name":"Nacli",
+      "type":"Rock ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/nacli.png"
+   },
+   {
+      "entry":"933",
+      "name":"Naclstack",
+      "type":"Rock ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/naclstack.png"
+   },
+   {
+      "entry":"934",
+      "name":"Garganacl",
+      "type":"Rock ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/garganacl.png"
+   },
+   {
+      "entry":"935",
+      "name":"Charcadet",
+      "type":"Fire ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/charcadet.png"
+   },
+   {
+      "entry":"936",
+      "name":"Armarouge",
+      "type":"Fire Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/armarouge.png"
+   },
+   {
+      "entry":"937",
+      "name":"Ceruledge",
+      "type":"Fire Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ceruledge.png"
+   },
+   {
+      "entry":"938",
+      "name":"Tadbulb",
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tadbulb.png"
+   },
+   {
+      "entry":"939",
+      "name":"Bellibolt",
+      "type":"Electric ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/bellibolt.png"
+   },
+   {
+      "entry":"940",
+      "name":"Wattrel",
+      "type":"Electric Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/wattrel.png"
+   },
+   {
+      "entry":"941",
+      "name":"Kilowattrel",
+      "type":"Electric Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/kilowattrel.png"
+   },
+   {
+      "entry":"942",
+      "name":"Maschiff",
+      "type":"Dark ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/maschiff.png"
+   },
+   {
+      "entry":"943",
+      "name":"Mabosstiff",
+      "type":"Dark ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/mabosstiff.png"
+   },
+   {
+      "entry":"944",
+      "name":"Shroodle",
+      "type":"Poison Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/shroodle.png"
+   },
+   {
+      "entry":"945",
+      "name":"Grafaiai",
+      "type":"Poison Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/grafaiai.png"
+   },
+   {
+      "entry":"946",
+      "name":"Bramblin",
+      "type":"Grass Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/bramblin.png"
+   },
+   {
+      "entry":"947",
+      "name":"Brambleghast",
+      "type":"Grass Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/brambleghast.png"
+   },
+   {
+      "entry":"948",
+      "name":"Toedscool",
+      "type":"Ground Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/toedscool.png"
+   },
+   {
+      "entry":"949",
+      "name":"Toedscruel",
+      "type":"Ground Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/toedscruel.png"
+   },
+   {
+      "entry":"950",
+      "name":"Klawf",
+      "type":"Rock ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/klawf.png"
+   },
+   {
+      "entry":"951",
+      "name":"Capsakid",
+      "type":"Grass ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/capsakid.png"
+   },
+   {
+      "entry":"952",
+      "name":"Scovillain",
+      "type":"Grass Fire",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/scovillain.png"
+   },
+   {
+      "entry":"953",
+      "name":"Rellor",
+      "type":"Bug ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/rellor.png"
+   },
+   {
+      "entry":"954",
+      "name":"Rabsca",
+      "type":"Bug Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/rabsca.png"
+   },
+   {
+      "entry":"955",
+      "name":"Flittle",
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/flittle.png"
+   },
+   {
+      "entry":"956",
+      "name":"Espathra",
+      "type":"Psychic ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/espathra.png"
+   },
+   {
+      "entry":"957",
+      "name":"Tinkatink",
+      "type":"Fairy Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tinkatink.png"
+   },
+   {
+      "entry":"958",
+      "name":"Tinkatuff",
+      "type":"Fairy Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tinkatuff.png"
+   },
+   {
+      "entry":"959",
       "name":"Tinkaton",
-      "type":"Fairy, Steel"
-   },   
+      "type":"Fairy Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tinkaton.png"
+   },
+   {
+      "entry":"960",
+      "name":"Wiglett",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/wiglett.png"
+   },
+   {
+      "entry":"961",
+      "name":"Wugtrio",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/wugtrio.png"
+   },
+   {
+      "entry":"962",
+      "name":"Bombirdier",
+      "type":"Flying Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/bombirdier.png"
+   },
+   {
+      "entry":"963",
+      "name":"Finizen",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/finizen.png"
+   },
+   {
+      "entry":"964",
+      "name":"Palafin",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/palafin.png"
+   },
+   {
+      "entry":"965",
+      "name":"Varoom",
+      "type":"Steel Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/varoom.png"
+   },
+   {
+      "entry":"966",
+      "name":"Revavroom",
+      "type":"Steel Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/revavroom.png"
+   },
+   {
+      "entry":"967",
+      "name":"Cyclizar",
+      "type":"Dragon Normal",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/cyclizar.png"
+   },
+   {
+      "entry":"968",
+      "name":"Orthworm",
+      "type":"Steel ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/orthworm.png"
+   },
+   {
+      "entry":"969",
+      "name":"Glimmet",
+      "type":"Rock Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/glimmet.png"
+   },
+   {
+      "entry":"970",
+      "name":"Glimmora",
+      "type":"Rock Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/glimmora.png"
+   },
+   {
+      "entry":"971",
+      "name":"Greavard",
+      "type":"Ghost ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/greavard.png"
+   },
+   {
+      "entry":"972",
+      "name":"Houndstone",
+      "type":"Ghost ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/houndstone.png"
+   },
+   {
+      "entry":"973",
+      "name":"Flamigo",
+      "type":"Flying Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/flamigo.png"
+   },
+   {
+      "entry":"974",
+      "name":"Cetoddle",
+      "type":"Ice ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/cetoddle.png"
+   },
+   {
+      "entry":"975",
+      "name":"Cetitan",
+      "type":"Ice ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/cetitan.png"
+   },
+   {
+      "entry":"976",
+      "name":"Veluza",
+      "type":"Water Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/veluza.png"
+   },
+   {
+      "entry":"977",
+      "name":"Dondozo",
+      "type":"Water ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/dondozo.png"
+   },
+   {
+      "entry":"978",
+      "name":"TatsugiriC",
+      "type":"Dragon Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tatsugiri.png"
+   },
+   {
+      "entry":"979",
+      "name":"Annihilape",
+      "type":"Fighting Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/annihilape.png"
+   },
+   {
+      "entry":"980",
+      "name":"Clodsire",
+      "type":"Poison Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/clodsire.png"
+   },
+   {
+      "entry":"981",
+      "name":"Farigiraf",
+      "type":"Normal Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/farigiraf.png"
+   },
+   {
+      "entry":"982",
+      "name":"Dudunsparce",
+      "type":"Normal ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/dudunsparce.png"
+   },
+   {
+      "entry":"983",
+      "name":"Kingambit",
+      "type":"Dark Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/kingambit.png"
+   },
+   {
+      "entry":"984",
+      "name":"Great Tusk",
+      "type":"Ground Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/greattusk.png"
+   },
+   {
+      "entry":"985",
+      "name":"Scream Tail",
+      "type":"Fairy Psychic",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/screamtail.png"
+   },
+   {
+      "entry":"986",
+      "name":"Brute Bonnet",
+      "type":"Grass Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/brutebonnet.png"
+   },
+   {
+      "entry":"987",
+      "name":"Flutter Mane",
+      "type":"Ghost Fairy",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/fluttermane.png"
+   },
+   {
+      "entry":"988",
+      "name":"Slither Wing",
+      "type":"Bug Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/slitherwing.png"
+   },
+   {
+      "entry":"989",
+      "name":"Sandy Shocks",
+      "type":"Electric Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/sandyshocks.png"
+   },
+   {
+      "entry":"990",
+      "name":"Iron Treads",
+      "type":"Ground Steel",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/irontreads.png"
+   },
+   {
+      "entry":"991",
+      "name":"Iron Bundle",
+      "type":"Ice Water",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironbundle.png"
+   },
+   {
+      "entry":"992",
+      "name":"Iron Hands",
+      "type":"Fighting Electric",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironhands.png"
+   },
+   {
+      "entry":"993",
+      "name":"Iron Jugulis",
+      "type":"Dark Flying",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironjugulis.png"
+   },
+   {
+      "entry":"994",
+      "name":"Iron Moth",
+      "type":"Fire Poison",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironmoth.png"
+   },
+   {
+      "entry":"995",
+      "name":"Iron Thorns",
+      "type":"Rock Electric",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironthorns.png"
+   },
+   {
+      "entry":"996",
+      "name":"Frigibax",
+      "type":"Dragon Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/frigibax.png"
+   },
+   {
+      "entry":"997",
+      "name":"Arctibax",
+      "type":"Dragon Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/arctibax.png"
+   },
+   {
+      "entry":"998",
+      "name":"Baxcalibur",
+      "type":"Dragon Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/baxcalibur.png"
+   },
+   {
+      "entry":"999",
+      "name":"GimmighoulC",
+      "type":"Ghost ",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/gimmighoul.png"
+   },
+   {
+      "entry":"1000",
+      "name":"Gholdengo",
+      "type":"Steel Ghost",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/gholdengo.png"
+   },
+   {
+      "entry":"1001",
+      "name":"WoChien",
+      "type":"Dark Grass",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/wochien.png"
+   },
+   {
+      "entry":"1002",
+      "name":"ChienPao",
+      "type":"Dark Ice",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/chienpao.png"
+   },
    {
       "entry":"1003",
-      "name":"Charcadet",
-      "type":"Fire"
-   },    
+      "name":"TingLu",
+      "type":"Dark Ground",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/tinglu.png"
+   },
    {
       "entry":"1004",
-      "name":"Armarouge",
-      "type":"Fire, Psychic"
+      "name":"ChiYu",
+      "type":"Dark Fire",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/chiyu.png"
    },
    {
       "entry":"1005",
-      "name":"Ceruledge",
-      "type":"Fire, Ghost"
-   },    
+      "name":"Roaring Moon",
+      "type":"Dragon Dark",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/roaringmoon.png"
+   },
    {
       "entry":"1006",
-      "name":"Toedscool",
-      "type":"Ground, Grass"
-   },    
+      "name":"Iron Valiant",
+      "type":"Fairy Fighting",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/ironvaliant.png"
+   },
    {
       "entry":"1007",
-      "name":"Toedscruel",
-      "type":"Ground, Grass"
-   },    
+      "name":"Koraidon",
+      "type":"Fighting Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/koraidon.png"
+   },
    {
       "entry":"1008",
-      "name":"Kingambit",
-      "type":"Dark, Steel"
-   },    
-   {
-      "entry":"1009",
-      "name":"Clodsire",
-      "type":"Poison, Ground"
-   },    
-   {
-      "entry":"1010",
-      "name":"Annihilape",
-      "type":"Fighting, Ghost"
+      "name":"Miraidon",
+      "type":"Electric Dragon",
+      "sprite":"https://play.pokemonshowdown.com/sprites/dex/miraidon.png"
    }
- ]
+]

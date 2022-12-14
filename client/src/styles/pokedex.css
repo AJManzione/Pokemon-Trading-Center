@@ -62,15 +62,15 @@ h6 {
 }
 /* red - blue */
 .gen-one-bg {
-    background: rgb(193,30,30);
-    background: linear-gradient(90deg, rgba(193,30,30,1) 0%, #1b19bb 69%);
+    background: rgb(0,0,255);
+    background: linear-gradient(0deg, rgba(0,0,255,1) 0%, rgba(255,0,0,1) 100%);
     min-height: 100vh;
     width: 100vw;
 }
 /* gold - silver */
 .gen-two-bg {
-    background: rgb(212,175,55);
-    background: linear-gradient(180deg, rgba(212,175,55,1) 0%, rgba(170,169,173,1) 100%);
+    background: rgb(192,192,192);
+    background: linear-gradient(0deg, rgba(192,192,192,1) 0%, rgba(255,215,0,1) 100%);  
     min-height: 100vh;
     width: 100vw;
 }
@@ -95,7 +95,32 @@ h6 {
     min-height: 100vh;
     width: 100vw;
 }
-/* gen-6-9 still needed */
+
+.gen-six-bg {
+    background: rgb(233,33,44);
+    background: linear-gradient(0deg, rgba(233,33,44,1) 0%, rgba(19,127,194,1) 100%); 
+    min-height: 100vh;
+    width: 100vw;   
+}
+.gen-seven-bg {
+    background: rgb(94,48,137);
+    background: linear-gradient(0deg, rgba(94,48,137,1) 0%, rgba(200,111,35,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
+}
+.gen-eight-bg {
+    background: rgb(226,15,92);
+    background: linear-gradient(0deg, rgba(226,15,92,1) 0%, rgba(27,160,233,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
+}
+.gen-nine-bg {
+    background: rgb(143,0,255);
+    background: linear-gradient(0deg, rgba(143,0,255,1) 0%, rgba(255,36,0,1) 100%);
+    min-height: 100vh;
+    width: 100vw;
+}
+
 .pokeball {
     width: 5vw;
     cursor: pointer;

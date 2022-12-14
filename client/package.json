@@ -1,12 +1,11 @@
-{
-  
-"engines": {
-    "node": "10.16.0"
-},
+{ 
   "name": "client",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
+  "engines": {
+    "node": "16.18.0"
+},
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@testing-library/jest-dom": "^5.11.4",
@@ -23,7 +22,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

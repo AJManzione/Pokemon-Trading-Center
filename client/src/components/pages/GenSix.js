@@ -202,7 +202,7 @@ export default function GenSix() {
       <div className="container pt-3">
         <h1 
           style={{color: 'white'}}
-          className="text-center">Kalos
+          className="text-center">Johto
         </h1>
         <hr
           style={{borderTop: '2px solid white'}}>
@@ -218,11 +218,9 @@ export default function GenSix() {
                   <div className="d-flex align-items-center justify-content-around">
                     <li>
                       <img
-                        width="70px"
-                        src={`../../assets/sprites/Gen-6-Sprites/${parseFloat(
-                          pokemon.entry
-                        )}.png`}
-                      ></img>
+                        style={{maxWidth:'6vw'}}
+                        src={pokemon.sprite}>
+                      </img>
                     </li>
                     <li className="m-4">
                       <h4>#{pokemon.entry}</h4>
@@ -232,8 +230,13 @@ export default function GenSix() {
                     <h4>{pokemon.name}</h4>
                   </li>
                   <li>
-                    <img width="50px" src={getTypeOne(pokemon.type)}></img>
-                    <img width="50px" src={getTypeTwo(pokemon.type)}></img>
+                    <img 
+                      style={{maxWidth:'100%',
+                      maxHeight:'4vh'}} src={getTypeOne(pokemon.type)}></img>
+                    <img 
+                      style={{maxWidth:'100%',
+                      maxHeight:'4vh'}} src={getTypeTwo(pokemon.type)}>
+                    </img>
                   </li>
                   <li>
                     <Tada duration={2500}>

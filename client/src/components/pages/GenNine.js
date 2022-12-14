@@ -219,9 +219,7 @@ export default function GenNine() {
                     <li>
                       <img
                         width="70px"
-                        src={`../../assets/sprites/Gen-9-Sprites/${parseFloat(
-                          pokemon.entry
-                        )}.png`}
+                        src={pokemon.sprite}
                       ></img>
                     </li>
                     <li className="m-4">
