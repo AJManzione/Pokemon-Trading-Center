@@ -6,7 +6,7 @@ This application serve as a tracker for Pokemon fans to keep track of all of the
 
 [Come vist the Site!](https://pokemon-app.herokuapp.com/)
 
-![screenshot](./readmeAssets/wRnFZzoQtO.png)
+![screenshot](./readmeAssets/Pokedex_Tracker.gif)
 
   ## Table of Contents
   * [Technologies Used](#technologies-used)
