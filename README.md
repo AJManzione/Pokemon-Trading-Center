@@ -1,7 +1,7 @@
 # Pokemon Tracker!
 
 ## A place for Pokemon trainers to keep track your overall pokedex progress, earn badges and customize your account!
-
+This application serve as a tracker for Pokemon fans to keep track of all of the Pokemon that they've caught across all nine generations!  Once the user has signed up or logged in with valid credentials, they can choose an avatar for their account from over 1000 "sprite" images.  After that, they can begin logging Pokemon as "caught" within any of the nine pages representing each generation. As they catch more and more Pokemon, the badges on the dashboard will upgrade next to each box of data, containing their stats for each generation.  If the user catches all 1008 Pokemon, they will have the Master Ball badge next to all nine generations! Gotta catch 'em all!
 
 
 [Come vist the Site!](https://pokemon-app.herokuapp.com/)
@@ -38,7 +38,7 @@
   - Nodemon
 ​
   ## Code Snippets
-Here we have a function that does some work. In this case it takes in some parameters they can be named anything you darn well please- farley, bacon, chicken. 
+Here is a function to determine which Pokeball badge gets rendered in front of a user's scores.  We decided there should be a badge for 0%-33% Pokemon caught, 33%-66%, 66%-99% and 100%.  The Pokeball badge images are stored in the variables that are returned
 ```javascript
 function determineBadge (userTotal, genTotal){
   if(userTotal/genTotal < .33){ 
@@ -52,7 +52,11 @@ function determineBadge (userTotal, genTotal){
   }}
   
 ```
-
+...and here is the function being called within an image tag, being given the appropriate arguments
+```javascript
+<img width='40px'src={determineBadge(genOneTotal.length, 151)}></img>
+```
+Here is the functionality for logging in a user.  It utilizes the "useState" and "useMutation" methods.  It starts the login form off with empty text
 ```javascript
 const Login = (props) => {
   const [formState, setFormState] = useState({
@@ -102,5 +106,3 @@ If you have any questions about this project, feel free to reach out to one of u
 * Senay Gebrat :
     * [Github](https://github.com/senaygebrat)
     * [LinkedIn](https://www.linkedin.com/in/senayg/)
-​
-    
