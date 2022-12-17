@@ -72,13 +72,6 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    removeUser: async (parent, args) => {
-      
-      const user = await User.findOne(
-        {username: args.username}
-      );
-      user.delete({})
-    },
     catchPokemon: async (parent, args) => {
       const pokemon = await Pokemon.findOne({entry: args.entry})
       User.findOneAndUpdate(
